@@ -1,0 +1,46 @@
+#
+# Makefile for lt26i 
+#
+
+# The original zip file, MUST be specified by each product
+local-zip-file     := LT26i_4.0.4_6.1.A.0.452.zip
+
+# The output zip file of MIUI rom, the default is porting_miui.zip if not specified
+#local-out-zip-file := MIUI_lt18i.zip
+
+# All apps from original ZIP, but has smali files chanded
+local-modified-apps := CustomizedSettings 
+
+local-modified-jars := 
+
+local-miui-modified-apps := 
+
+local-miui-removed-apps  := 
+
+# All apps need to be removed from original ZIP file
+local-remove-apps   := 
+
+# To include the local targets before and after zip the final ZIP file, 
+# and the local-targets should:
+# (1) be defined after including porting.mk if using any global variable(see porting.mk)
+# (2) the name should be leaded with local- to prevent any conflict with global targets
+local-pre-zip := local-zip-misc
+local-after-zip:= local-test
+
+# The local targets after the zip file is generated, could include 'zip2sd' to 
+# deliver the zip file to phone, or to customize other actions
+
+include $(PORT_BUILD)/porting.mk
+
+# To define any local-target
+local-zip-misc:
+	@echo Replace build.prop
+	cp other/build-6.1.A.0.452.prop $(ZIP_DIR)/system/build.prop
+
+	@echo update bootanimation
+	rm $(ZIP_DIR)/system/bin/bootanimation
+	cp other/bootanimation $(ZIP_DIR)/system/bin/bootanimation
+
+
+local-test:
+	echo "an example action"
