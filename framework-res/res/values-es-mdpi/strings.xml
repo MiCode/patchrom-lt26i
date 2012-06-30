@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lockscreen_strings_backup_selection_security_question_summary_txt">Desbloq c/preg seguridad</string>
+    <string name="invalidPin">Escriba PIN con 4 a 8 números.</string>
+    <string name="emergency_call_dialog_number_for_display">Número emergencia</string>
+    <string name="dialer_keyboard_hint_txt">Usar teclado p/marcar</string>
+    <string name="general_dialpad_voicemail_txt">Mensaj voz</string>
+    <string name="gui_ok_txt">Acept.</string>
+</resources>

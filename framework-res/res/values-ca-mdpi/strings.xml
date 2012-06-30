@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lockscreen_strings_backup_question_2_txt">On vau nàixer?</string>
+    <string name="lockscreen_strings_backup_question_unlock_button_txt">Desbloquegeu</string>
+    <string name="emergency_call_dialog_number_for_display">Número emergència</string>
+    <string name="lockscreen_pattern_instructions">Dibuixeu patró per desbloquejar</string>
+    <string name="whichApplication">"Completa l'acció utilitzant"</string>
+    <string name="adb_active_notification_message">"Seleccioneu per inhabilitar la depuració d'USB."</string>
+    <string name="sync_binding_label">Sincr.</string>
+    <string name="init_strings_init_mode_title_summary_txt">"Restableix el telèfon a l'estat de fàbrica inicial"</string>
+    <string name="init_strings_init_mode_reset_btn_txt">Restableix el telèfon</string>
+    <string name="dialer_keyboard_hint_txt">Utilitz. teclat per marcar</string>
+    <string name="general_dialpad_voicemail_txt">Corr. de veu</string>
+</resources>

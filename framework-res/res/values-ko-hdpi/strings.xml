@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mmcc_authentication_reject">USIM 카드가 허용되지 않음</string>
+    <string name="unregistered_sim">등록되지 않은 USIM 카드</string>
+    <string name="lockscreen_strings_backup_selection_google_account_txt">Google 계정 세부정보 입력</string>
+    <string name="lockscreen_strings_backup_selection_google_account_summary_txt">Google 계정 세부정보를 입력하여 잠금해제</string>
+    <string name="BaICMmi">수신전화 차단</string>
+    <string name="BaOCMmi">발신전화 차단</string>
+    <string name="BaOICMmi">국제 발신전화 차단</string>
+    <string name="BaOICxHMmi">국제 발신전화 차단(원래 사용 국가 제외)</string>
+    <string name="BaICrMmi">로밍 시 수신전화 차단</string>
+    <string name="BaAllMmi">모든 통화 차단</string>
+    <string name="BaMOMmi">모든 발신전화 차단</string>
+    <string name="BaMTMmi">모든 수신전화 차단</string>
+    <string name="invalidPin">4~8자리 숫자의 PIN을입력하세요.</string>
+    <string name="init_strings_init_mode_reset_msg_txt">시작하면 휴대폰의 모든 정보가 삭제되지만 SD 카드에 저장된 다른 정보, 사진 또는 음악은 삭제되지 않습니다.</string>
+</resources>
