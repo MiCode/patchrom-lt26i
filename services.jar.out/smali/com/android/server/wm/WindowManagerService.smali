@@ -613,6 +613,7 @@
 
 .field mWindowsFreezingScreen:Z
 
+.field mRoundedCorners:Lcom/android/server/wm/RoundedCornersSurface;
 
 # direct methods
 .method static constructor <clinit>()V

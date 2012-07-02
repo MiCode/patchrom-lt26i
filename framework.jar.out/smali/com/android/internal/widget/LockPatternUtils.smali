@@ -645,7 +645,7 @@
     return-object v0
 .end method
 
-.method private static patternToHash(Ljava/util/List;)[B
+.method protected static patternToHash(Ljava/util/List;)[B
     .locals 9
     .parameter
     .annotation system Ldalvik/annotation/Signature;
@@ -2078,21 +2078,21 @@
     return-object v0
 .end method
 
-.method public getPowerButtonInstantlyLocks()Z
-    .locals 2
+#.method public getPowerButtonInstantlyLocks()Z
+#    .locals 2
 
-    .prologue
-    .line 1235
-    const-string v0, "lockscreen.power_button_instantly_locks"
+#    .prologue
+#    .line 1235
+#    const-string v0, "lockscreen.power_button_instantly_locks"
 
-    const/4 v1, 0x1
+#    const/4 v1, 0x1
 
-    invoke-direct {p0, v0, v1}, Lcom/android/internal/widget/LockPatternUtils;->getBoolean(Ljava/lang/String;Z)Z
+#    invoke-direct {p0, v0, v1}, Lcom/android/internal/widget/LockPatternUtils;->getBoolean(Ljava/lang/String;Z)Z
 
-    move-result v0
+#    move-result v0
 
-    return v0
-.end method
+#    return v0
+#.end method
 
 .method public getRequestedMinimumPasswordLength()I
     .locals 2
@@ -4447,19 +4447,19 @@
     return-void
 .end method
 
-.method public setPowerButtonInstantlyLocks(Z)V
-    .locals 1
-    .parameter "enabled"
+#.method public setPowerButtonInstantlyLocks(Z)V
+#    .locals 1
+#    .parameter "enabled"
 
-    .prologue
-    .line 1231
-    const-string v0, "lockscreen.power_button_instantly_locks"
+#    .prologue
+#    .line 1143
+#    const-string v0, "lockscreen.power_button_instantly_locks"
 
-    invoke-direct {p0, v0, p1}, Lcom/android/internal/widget/LockPatternUtils;->setBoolean(Ljava/lang/String;Z)V
+#    invoke-direct {p0, v0, p1}, Lcom/android/internal/widget/LockPatternUtils;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 1232
-    return-void
-.end method
+#    .line 1144
+#    return-void
+#.end method
 
 .method public setTactileFeedbackEnabled(Z)V
     .locals 1
@@ -4619,3 +4619,26 @@
 
     goto :goto_0
 .end method
+
+.method public getPowerButtonInstantlyLocks()Z
+    .locals 1
+
+    .prologue
+
+    const/4 v0, 0x0
+
+    return v0
+
+.end method
+
+.method public setPowerButtonInstantlyLocks(Z)V
+    .locals 0
+    .parameter "value"
+
+    .prologue
+
+    return-void
+
+.end method
+
+

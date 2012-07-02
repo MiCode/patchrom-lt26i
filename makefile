@@ -18,7 +18,8 @@ local-miui-modified-apps :=
 local-miui-removed-apps  := 
 
 # All apps need to be removed from original ZIP file
-local-remove-apps   := 
+local-remove-apps := PinkTheme BlackThemeBlueAccent OrangeTheme GreenTheme \
+	BlackTheme PurpleTheme BlueTheme mcafeesuite EnchantedForest trackid officesuite playnowarvato smartcontacts wisepilot com.sonyericsson.extras.smarttags
 
 # To include the local targets before and after zip the final ZIP file, 
 # and the local-targets should:
@@ -38,8 +39,8 @@ local-zip-misc:
 	cp other/build-6.1.A.0.452.prop $(ZIP_DIR)/system/build.prop
 
 	@echo update bootanimation
-	rm $(ZIP_DIR)/system/bin/bootanimation
-	cp other/bootanimation $(ZIP_DIR)/system/bin/bootanimation
+	#rm $(ZIP_DIR)/system/bin/bootanimation
+	#cp other/bootanimation $(ZIP_DIR)/system/bin/bootanimation
 
 
 local-test:
