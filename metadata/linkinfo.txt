@@ -55,8 +55,6 @@ system/bin/uptime|system/bin/toolbox
 system/bin/vmstat|system/bin/toolbox
 system/bin/watchprops|system/bin/toolbox
 system/bin/wipe|system/bin/toolbox
-system/etc/firmware/wcd9310/wcd9310_anc.bin|data/misc/audio/wcd9310_anc.bin
-system/etc/firmware/wcd9310/wcd9310_mbhc.bin|data/misc/audio/mbhc.bin
 system/fonts/DroidSans-Bold.ttf|system/fonts/Roboto-Bold.ttf
 system/fonts/DroidSans.ttf|system/fonts/Roboto-Regular.ttf
 system/xbin/arp|system/xbin/busybox

@@ -22,10 +22,12 @@ ro.semc.version.cust_revision=R3G
       #########################################################################
       
 
-ro.config.ringtone=xperia.ogg
-ro.config.notification_sound=notification.ogg
-ro.config.alarm_alert=alarm.ogg
+ro.config.ringtone=MI.ogg
+ro.config.notification_sound=FadeIn.ogg
+ro.config.alarm_alert=GoodMorning.ogg
 ro.semc.content.number=PA3
+ro.config.sms_received_sound=FadeIn.ogg
+ro.config.sms_delivered_sound=MessageComplete.ogg
 
 ################# Updating of the SW Version #################
 ro.semc.version.fs_revision=6.1.A.0.452
@@ -51,8 +53,9 @@ ro.product.board=MSM8660_SURF
 ro.product.cpu.abi=armeabi-v7a
 ro.product.cpu.abi2=armeabi
 ro.product.manufacturer=Sony Ericsson
-ro.product.locale.language=en
-ro.product.locale.region=US
+ro.product.locale.language=zh
+ro.product.locale.region=cn
+persist.sys.timezone=Asia/Shanghai
 ro.wifi.channels=
 ro.board.platform=msm8660
 # ro.build.product is obsolete; use ro.product.device

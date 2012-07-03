@@ -1649,26 +1649,6 @@
     .parameter "recycle"
 
     .prologue
-    invoke-direct/range {p0 .. p2}, Landroid/net/NetworkStatsHistory;->getUTCTime(J)J
-
-    move-result-wide p1
-
-    move-object/from16 v0, p0
-
-    move-wide/from16 v1, p3
-
-    invoke-direct {v0, v1, v2}, Landroid/net/NetworkStatsHistory;->getUTCTime(J)J
-
-    move-result-wide p3
-
-    move-object/from16 v0, p0
-
-    move-wide/from16 v1, p5
-
-    invoke-direct {v0, v1, v2}, Landroid/net/NetworkStatsHistory;->getUTCTime(J)J
-
-    move-result-wide p5
-    
     if-eqz p7, :cond_1
 
     move-object/from16 v8, p7
@@ -2422,18 +2402,6 @@
     return-void
 
     :cond_3
-    invoke-direct/range {p0 .. p2}, Landroid/net/NetworkStatsHistory;->getUTCTime(J)J
-
-    move-result-wide p1
-
-    move-object/from16 v0, p0
-
-    move-wide/from16 v1, p3
-
-    invoke-direct {v0, v1, v2}, Landroid/net/NetworkStatsHistory;->getUTCTime(J)J
-
-    move-result-wide p3
-    
     invoke-direct/range {p0 .. p4}, Landroid/net/NetworkStatsHistory;->ensureBuckets(JJ)V
 
     sub-long v8, p3, p1
@@ -3219,27 +3187,4 @@
 
     .line 179
     return-void
-.end method
-
-.method private getUTCTime(J)J
-    .locals 2
-    .parameter "time"
-    .annotation build Landroid/annotation/MiuiHook;
-        value = .enum Landroid/annotation/MiuiHook$MiuiHookType;->NEW_METHOD:Landroid/annotation/MiuiHook$MiuiHookType;
-    .end annotation
-
-    .prologue
-    invoke-static {}, Ljava/util/TimeZone;->getDefault()Ljava/util/TimeZone;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Ljava/util/TimeZone;->getRawOffset()I
-
-    move-result v0
-
-    int-to-long v0, v0
-
-    sub-long v0, p1, v0
-
-    return-wide v0
 .end method

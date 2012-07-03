@@ -13,13 +13,13 @@ local-modified-apps := CustomizedSettings
 
 local-modified-jars := 
 
-local-miui-modified-apps := 
+local-miui-modified-apps := MiuiHome Mms Settings Phone ThemeManager MiuiGallery 
 
-local-miui-removed-apps  := 
+local-miui-removed-apps  := MediaProvider
 
 # All apps need to be removed from original ZIP file
-local-remove-apps := PinkTheme BlackThemeBlueAccent OrangeTheme GreenTheme \
-	BlackTheme PurpleTheme BlueTheme mcafeesuite EnchantedForest trackid officesuite playnowarvato smartcontacts wisepilot com.sonyericsson.extras.smarttags
+
+include phoneapps.mk
 
 # To include the local targets before and after zip the final ZIP file, 
 # and the local-targets should:
@@ -37,10 +37,15 @@ include $(PORT_BUILD)/porting.mk
 local-zip-misc:
 	@echo Replace build.prop
 	cp other/build-6.1.A.0.452.prop $(ZIP_DIR)/system/build.prop
+	rm $(ZIP_DIR)/system/vendor/overlay -rf
+	rm $(ZIP_DIR)/system/etc/customization/content/com/sonyericsson/wallpaperpicker/wallpapers -rf
+	touch $(ZIP_DIR)/system/autorooted
+	rm $(ZIP_DIR)/system/app/Superuser.apk -f
+	touch $(ZIP_DIR)/system/app/Superuser.apk
 
 	@echo update bootanimation
-	#rm $(ZIP_DIR)/system/bin/bootanimation
-	#cp other/bootanimation $(ZIP_DIR)/system/bin/bootanimation
+	rm $(ZIP_DIR)/system/bin/bootanimation
+	cp other/bootanimation $(ZIP_DIR)/system/bin/bootanimation
 
 
 local-test:
