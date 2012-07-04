@@ -5955,9 +5955,9 @@
 
     invoke-virtual {v0}, Landroid/util/LongSparseArray;->clear()V
 
-    sget-object v0, Landroid/content/res/Resources;->mPreloadedColorStateLists:Landroid/util/SparseArray;
+    sget-object v0, Landroid/content/res/Resources;->mPreloadedColorStateLists:Landroid/util/LongSparseArray;
 
-    invoke-virtual {v0}, Landroid/util/SparseArray;->clear()V
+    invoke-virtual {v0}, Landroid/util/LongSparseArray;->clear()V
 
     sget-object v0, Landroid/content/res/Resources;->sPreloadedColorDrawables:Landroid/util/LongSparseArray;
 
