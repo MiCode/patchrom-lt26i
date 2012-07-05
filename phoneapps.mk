@@ -25,7 +25,6 @@ local-phone-apps = AccessoryKeyDispatcher \
                    livewallpaperearth \
                    LiveWallpapers \
                    LiveWallpapersPicker \
-                   livewaremanager \
                    MediaProvider \
                    MemcardTransportService \
                    Nfc \
