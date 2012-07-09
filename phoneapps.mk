@@ -37,7 +37,6 @@ local-phone-apps = AccessoryKeyDispatcher \
                    SemcCamera3D \
                    SemcCameraUI \
                    SemcHdmiControlService \
-                   SemcSettings \
                    SemcSimDetection \
                    SemcTvLauncher \
                    ServiceMenu \

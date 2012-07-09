@@ -1,9 +1,6 @@
 import common
 import edify_generator
 
-def WriteRawImage(info, *args):
-    return True
-
 def AddAssertions(info):
     edify = info.script
     for i in xrange(len(edify.script)):

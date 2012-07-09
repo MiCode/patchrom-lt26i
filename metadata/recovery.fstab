@@ -2,3 +2,5 @@
 /data ext4 /dev/block/mmcblk0p14
 /cache ext4 /dev/block/mmcblk0p13
 /data/idd ext4 /dev/block/mmcblk0p10
+/boot       emmc        /dev/block/mmcblk0p3
+/sdcard     vfat        /dev/block/mmcblk0p15
