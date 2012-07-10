@@ -551,7 +551,7 @@
 
     if-nez v2, :cond_0
 
-    iget-object v5, p0, Landroid/content/res/Configuration;->themeComponent:Landroid/content/ComponentName;
+    iget-object v5, p0, Landroid/content/res/Configuration;->skinPackage:Ljava/lang/String;
 
     if-nez v5, :cond_6
 
