@@ -484,8 +484,8 @@
 
     iget-object v8, p0, Lcom/android/internal/policy/impl/LockPatternKeyguardView$3;->this$0:Lcom/android/internal/policy/impl/LockPatternKeyguardView;
 
-    #calls: Lcom/android/internal/policy/impl/LockPatternKeyguardView;->isFallBackEnabled()Z
-    invoke-static {v8}, Lcom/android/internal/policy/impl/LockPatternKeyguardView;->access$1700(Lcom/android/internal/policy/impl/LockPatternKeyguardView;)Z
+    #getter for: Lcom/android/internal/policy/impl/LockPatternKeyguardView;->mEnableFallback:Z
+    invoke-static {v8}, Lcom/android/internal/policy/impl/LockPatternKeyguardView;->access$2400(Lcom/android/internal/policy/impl/LockPatternKeyguardView;)Z
 
     move-result v8
 
