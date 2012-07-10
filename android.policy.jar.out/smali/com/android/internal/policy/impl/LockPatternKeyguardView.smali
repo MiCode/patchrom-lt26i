@@ -3132,9 +3132,8 @@
 
     .line 1116
     .local v0, view:Lcom/android/internal/policy/impl/PatternUnlockScreen;
-    invoke-direct {p0}, Lcom/android/internal/policy/impl/LockPatternKeyguardView;->isFallBackEnabled()Z
 
-    move-result v3
+    iget-boolean v3, p0, Lcom/android/internal/policy/impl/LockPatternKeyguardView;->mEnableFallback:Z
 
     invoke-virtual {v0, v3}, Lcom/android/internal/policy/impl/PatternUnlockScreen;->setEnableFallback(Z)V
 
