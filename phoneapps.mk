@@ -8,7 +8,6 @@ local-phone-apps = AccessoryKeyDispatcher \
                    bootinfo \
                    CameraExtensionPermission \
                    CertInstaller \
-                   ContactsImport \
                    CredentialManagerService \
                    CustomizationProvider \
                    CustomizedApplicationInstaller \
@@ -20,7 +19,6 @@ local-phone-apps = AccessoryKeyDispatcher \
                    fast-dormancy-incall \
                    fast-dormancy-wakeup \
                    GenericApplicationInstaller \
-                   InfiniteView \
                    Initial-boot-setup \
                    livewallpaperearth \
                    LiveWallpapers \
@@ -41,6 +39,7 @@ local-phone-apps = AccessoryKeyDispatcher \
                    SemcTvLauncher \
                    ServiceMenu \
                    SoundEnhancement \
+                   Tag \
                    usb-mtp-backup-transport \
                    usb-mtp-marlin-wrapper \
                    usb-mtp-update-wrapper \
