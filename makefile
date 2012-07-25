@@ -6,7 +6,7 @@
 local-zip-file     := LT26i_4.0.4_6.1.A.0.452.zip
 
 # The output zip file of MIUI rom, the default is porting_miui.zip if not specified
-#local-out-zip-file := MIUI_lt18i.zip
+local-out-zip-file := MIUI_lt26i.zip
 
 # All apps from original ZIP, but has smali files chanded
 local-modified-apps := CustomizedSettings 
@@ -42,7 +42,7 @@ local-zip-misc:
 	touch $(ZIP_DIR)/system/autorooted
 	rm $(ZIP_DIR)/system/app/Superuser.apk -f
 	touch $(ZIP_DIR)/system/app/Superuser.apk
-	cp other/ics9.elf $(ZIP_DIR)/boot.img
+	cp other/ics11.elf $(ZIP_DIR)/boot.img
 	cp other/Lt26iSettings.apk $(ZIP_DIR)/system/app/Lt26iSettings.apk
 	rm $(ZIP_DIR)/system/etc/product/applications/ -rf
 
