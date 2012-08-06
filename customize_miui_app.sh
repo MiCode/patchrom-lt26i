@@ -23,6 +23,10 @@ if [ $1 = "Settings" ];then
 	$XMLMERGYTOOL $1/res/values $2/res/values
 fi
 
+if [ $1 = "Music" ];then
+	$XMLMERGYTOOL $1/res/values $2/res/values
+fi
+
 if [ $1 = "Phone" ];then
     for file in `find $1/smali -name *.part`
     do
