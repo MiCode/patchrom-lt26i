@@ -5,7 +5,7 @@ def AddAssertions(info):
     edify = info.script
     for i in xrange(len(edify.script)):
         if ");" in edify.script[i] and ("ro.product.device" in edify.script[i] or "ro.build.product" in edify.script[i]):
-            edify.script[i] = ""
+            edify.script[i] = 'assert(getprop("ro.product.device") == "LT26i" || getprop("ro.build.product") == "LT26i");'
             return
     return
 
