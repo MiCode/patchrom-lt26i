@@ -202,7 +202,7 @@
     <string name="lockscreen_strings_backup_selection_next_txt">Next</string>
     <string name="lockscreen_strings_howtounlock_txt">Press %icon to unlock</string>
     <string name="lockscreen_strings_timeout_dialog_header_txt">Incorrect pattern</string>
-    <string name="lockscreen_strings_timeout_dialog_message_txt">Tap Next to unlock with security question or try again in 30 seconds.</string>
+    <string name="lockscreen_strings_timeout_dialog_message_txt">Try again in 30 seconds</string>
     <string name="lockscreen_strings_timeout_dialog_try_again_label_txt">Try again</string>
     <string name="lockscreen_strings_timeout_dialog_next_label_txt">Next</string>
     <string name="lockscreen_strings_timeout_dialog_near_lockout_message_txt">You have 5 tries left</string>

@@ -177,7 +177,7 @@
     <string name="lockscreen_strings_backup_selection_next_txt">下一步</string>
     <string name="lockscreen_strings_howtounlock_txt">按 %icon 可解锁</string>
     <string name="lockscreen_strings_timeout_dialog_header_txt">图案不正确</string>
-    <string name="lockscreen_strings_timeout_dialog_message_txt">点击“下一步”通过安全问题解锁，或者在30秒后重试。</string>
+    <string name="lockscreen_strings_timeout_dialog_message_txt">在30秒后重试</string>
     <string name="lockscreen_strings_timeout_dialog_try_again_label_txt">重试</string>
     <string name="lockscreen_strings_timeout_dialog_next_label_txt">下一步</string>
     <string name="lockscreen_strings_timeout_dialog_near_lockout_message_txt">您还可以尝试5次</string>
