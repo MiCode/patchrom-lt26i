@@ -9,15 +9,10 @@ local-phone-apps = AccessoryKeyDispatcher \
                    CameraExtensionPermission \
                    CertInstaller \
                    CredentialManagerService \
-                   CustomizationProvider \
-                   CustomizedApplicationInstaller \
-                   CustomizedSettings \
                    DefaultCapabilities \
                    DefaultContainerService \
                    enhancedusbux \
                    FaceLock \
-                   fast-dormancy-incall \
-                   fast-dormancy-wakeup \
                    GenericApplicationInstaller \
                    Initial-boot-setup \
                    livewallpaperearth \
@@ -37,10 +32,8 @@ local-phone-apps = AccessoryKeyDispatcher \
                    SemcHdmiControlService \
                    SemcIllumination \
                    SemcSimDetection \
-                   SemcTvLauncher \
                    ServiceMenu \
                    SoundEnhancement \
-                   Tag \
                    usb-mtp-backup-transport \
                    usb-mtp-marlin-wrapper \
                    usb-mtp-update-wrapper \
