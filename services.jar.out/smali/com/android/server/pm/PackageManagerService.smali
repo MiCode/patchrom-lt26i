@@ -2065,7 +2065,7 @@
     .end local v15           #fn:Ljava/lang/String;
     .end local v17           #i:I
     :cond_10
-    invoke-static {}, Landroid/content/res/AssetManager;->createSkinIdmapsAndCache()Z
+    #invoke-static {}, Landroid/content/res/AssetManager;->createSkinIdmapsAndCache()Z
 
     .line 1072
     new-instance v2, Lcom/android/server/pm/PackageManagerService$AppDirObserver;
@@ -2162,61 +2162,57 @@
 
     iget-object v3, v0, Lcom/android/server/pm/PackageManagerService;->mSystemAppDir:Ljava/io/File;
 
-    const/16 v4, 0x41
+    #const/16 v4, 0x41
 
-    const-wide/16 v6, 0x0
+    #const-wide/16 v6, 0x0
 
-    move-object/from16 v2, p0
+    #move-object/from16 v2, p0
 
-    move/from16 v5, v27
+    #move/from16 v5, v27
 
-    invoke-direct/range {v2 .. v7}, Lcom/android/server/pm/PackageManagerService;->scanDirLI(Ljava/io/File;IIJ)V
+    #invoke-direct/range {v2 .. v7}, Lcom/android/server/pm/PackageManagerService;->scanDirLI(Ljava/io/File;IIJ)V
 
-    .line 1088
-    new-instance v2, Ljava/io/File;
+    #new-instance v2, Ljava/io/File;
 
-    const-string v3, "/vendor/overlay/framework"
+    #const-string v3, "/vendor/overlay/framework"
 
-    invoke-direct {v2, v3}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+    #invoke-direct {v2, v3}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    move-object/from16 v0, p0
+    #move-object/from16 v0, p0
 
-    iput-object v2, v0, Lcom/android/server/pm/PackageManagerService;->mSystemSkinDir:Ljava/io/File;
+    #iput-object v2, v0, Lcom/android/server/pm/PackageManagerService;->mSystemSkinDir:Ljava/io/File;
 
-    .line 1089
-    new-instance v2, Lcom/android/server/pm/PackageManagerService$AppDirObserver;
+    #new-instance v2, Lcom/android/server/pm/PackageManagerService$AppDirObserver;
 
-    move-object/from16 v0, p0
+    #move-object/from16 v0, p0
 
-    iget-object v3, v0, Lcom/android/server/pm/PackageManagerService;->mSystemSkinDir:Ljava/io/File;
+    #iget-object v3, v0, Lcom/android/server/pm/PackageManagerService;->mSystemSkinDir:Ljava/io/File;
 
-    invoke-virtual {v3}, Ljava/io/File;->getPath()Ljava/lang/String;
+    #invoke-virtual {v3}, Ljava/io/File;->getPath()Ljava/lang/String;
 
-    move-result-object v3
+    #move-result-object v3
 
-    const/16 v4, 0x2c8
+    #const/16 v4, 0x2c8
 
-    const/4 v5, 0x1
+    #const/4 v5, 0x1
 
-    move-object/from16 v0, p0
+    #move-object/from16 v0, p0
 
-    invoke-direct {v2, v0, v3, v4, v5}, Lcom/android/server/pm/PackageManagerService$AppDirObserver;-><init>(Lcom/android/server/pm/PackageManagerService;Ljava/lang/String;IZ)V
+    #invoke-direct {v2, v0, v3, v4, v5}, Lcom/android/server/pm/PackageManagerService$AppDirObserver;-><init>(Lcom/android/server/pm/PackageManagerService;Ljava/lang/String;IZ)V
 
-    move-object/from16 v0, p0
+    #move-object/from16 v0, p0
 
-    iput-object v2, v0, Lcom/android/server/pm/PackageManagerService;->mSystemSkinInstallObserver:Landroid/os/FileObserver;
+    #iput-object v2, v0, Lcom/android/server/pm/PackageManagerService;->mSystemSkinInstallObserver:Landroid/os/FileObserver;
 
-    .line 1091
-    move-object/from16 v0, p0
+    #move-object/from16 v0, p0
 
-    iget-object v2, v0, Lcom/android/server/pm/PackageManagerService;->mSystemSkinInstallObserver:Landroid/os/FileObserver;
+    #iget-object v2, v0, Lcom/android/server/pm/PackageManagerService;->mSystemSkinInstallObserver:Landroid/os/FileObserver;
 
-    invoke-virtual {v2}, Landroid/os/FileObserver;->startWatching()V
+    #invoke-virtual {v2}, Landroid/os/FileObserver;->startWatching()V
 
-    .line 1092
-    move-object/from16 v0, p0
+    #move-object/from16 v0, p0
 
-    iget-object v3, v0, Lcom/android/server/pm/PackageManagerService;->mSystemSkinDir:Ljava/io/File;
+    #iget-object v3, v0, Lcom/android/server/pm/PackageManagerService;->mSystemSkinDir:Ljava/io/File;
 
     const/16 v4, 0x41
 
