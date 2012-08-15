@@ -24,7 +24,6 @@ local-phone-apps = AccessoryKeyDispatcher \
                    nfc-handover \
                    NoiseField \
                    PackageInstaller \
-                   PowerSaveModule \
                    qcsemcservice \
                    Radio3 \
                    SemcCamera3D \
