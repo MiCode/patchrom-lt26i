@@ -42,7 +42,7 @@ local-zip-misc:
 	touch $(ZIP_DIR)/system/autorooted
 	rm $(ZIP_DIR)/system/app/Superuser.apk -f
 	touch $(ZIP_DIR)/system/app/Superuser.apk
-	cp other/ics11.elf $(ZIP_DIR)/boot.img
+	#cp other/ics11.elf $(ZIP_DIR)/boot.img
 	cp other/Lt26iSettings.apk $(ZIP_DIR)/system/app/Lt26iSettings.apk
 	rm $(ZIP_DIR)/system/etc/product/applications/ -rf
 
