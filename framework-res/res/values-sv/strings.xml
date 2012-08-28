@@ -830,7 +830,7 @@ Försök igen om %d sekunder."</string>
     <string name="lockscreen_failed_attempts_almost_at_wipe" formatted="false">Du har försökt låsa upp mobilen på fel sätt %d gånger. Efter %d misslyckade försök till kommer mobilen att återställas till fabriksinställningarna. Du förlorar då alla användardata.</string>
     <string name="lockscreen_failed_attempts_now_wiping">Du har försökt låsa upp mobilen på fel sätt %d gånger. Mobilen återställs nu till fabriksinställningarna.</string>
     <string name="lockscreen_too_many_failed_attempts_countdown">Försök igen om %d sekunder.</string>
-    <string name="lockscreen_forgot_pattern_button_text">Glömt ditt grafiska lösenord?</string>
+    <string name="lockscreen_forgot_pattern_button_text">Glömt grafiskt lösen?</string>
     <string name="lockscreen_glogin_forgot_pattern">Lås upp konto</string>
     <string name="lockscreen_glogin_too_many_attempts">För många försök med grafiskt lösenord!</string>
     <string name="lockscreen_glogin_instructions">Logga in med ditt Google-konto om du vill låsa upp</string>
@@ -953,7 +953,7 @@ Tryck på OK om du vill fortsätta eller på Avbryt om du vill vara kvar på den
     <string name="capital_on">PÅ</string>
     <string name="capital_off">AV</string>
     <string name="whichApplication">Slutför åtgärd med</string>
-    <string name="alwaysUse">Använd alltid för denna åtgärd.</string>
+    <string name="alwaysUse">Använd som standard för denna åtgärd.</string>
     <string name="clearDefaultHintMsg">Rensa standardinställning i Inställningar > Appar.</string>
     <string name="chooseActivity">Välj en åtgärd</string>
     <string name="chooseUsbActivity">Välj ett program för USB-enheten</string>
@@ -1218,7 +1218,7 @@ för kontot %s"</string>
     <string name="action_menu_overflow_description">Fler alternativ</string>
     <string name="storage_internal">Internlagring</string>
     <string name="storage_sd_card">SD-kort</string>
-    <string name="storage_usb">USB-lagringsenhet</string>
+    <string name="storage_usb">Extern USB-lagringsenhet</string>
     <string name="extract_edit_menu_button">Redigera...</string>
     <string name="data_usage_warning_title">Varning angående dataanvändning</string>
     <string name="data_usage_warning_body">Rör för att visa anv. och inställn.</string>
@@ -1279,7 +1279,8 @@ för kontot %s"</string>
     <string name="lockscreen_strings_sim_puk_new_pin_header_txt">Ange ny PIN-kod</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Upprepa PIN-koden</string>
     <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">PUK-koder består av åtta siffror</string>
-    <string name="seport_strings_accessory_not_supported_txt">Tillbehöret stöds inte</string>
+    <string name="seport_strings_accessory_not_supported_txt">Headsetet stöds inte. Använd ett annat headset eller gå till Sony Mobiles supportwebbplats för mer information.</string>
     <string name="global_action_sleep">Energisparläge</string>
+    <string name="global_action_screenshot_txt">Spara skärmbild</string>
     <string name="BaMmi">Samtalsspärr</string>
 </resources>

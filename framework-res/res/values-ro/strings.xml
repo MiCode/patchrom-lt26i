@@ -958,7 +958,7 @@ Selectaţi OK pentru a continua sau Revocare pentru a rămâne la pagina actual�
     <string name="capital_on">|</string>
     <string name="capital_off">〇</string>
     <string name="whichApplication">Finaliz. acţiune utilizând</string>
-    <string name="alwaysUse">Se utilizează implicit pt. ac. acţiune.</string>
+    <string name="alwaysUse">Se utilizează în mod prestabilit pentru această acţiune.</string>
     <string name="clearDefaultHintMsg">Goliţi setările implicite din Setări > Aplicaţii.</string>
     <string name="chooseActivity">Selectare acţiune</string>
     <string name="chooseUsbActivity">Selectaţi o aplicaţie pentru dispozitivul USB</string>
@@ -1223,7 +1223,7 @@ pentru contul %s"</string>
     <string name="action_menu_overflow_description">Mai multe opţiuni</string>
     <string name="storage_internal">Stocare internă</string>
     <string name="storage_sd_card">Cartelă SD</string>
-    <string name="storage_usb">Dispozitiv de stocare USB</string>
+    <string name="storage_usb">Dispozitiv USB de stocare extern</string>
     <string name="extract_edit_menu_button">Editaţi...</string>
     <string name="data_usage_warning_title">Avertisment de utiliz. a datelor</string>
     <string name="data_usage_warning_body">Ating. pt. a afişa utiliz./set.</string>
@@ -1284,7 +1284,8 @@ pentru contul %s"</string>
     <string name="lockscreen_strings_sim_puk_new_pin_header_txt">Introduceţi cod PIN nou</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Repetaţi cod PIN nou</string>
     <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">Codul PUK trebuie să aibă 8 cifre</string>
-    <string name="seport_strings_accessory_not_supported_txt">Accesoriul nu este acceptat</string>
+    <string name="seport_strings_accessory_not_supported_txt">Set de cască neacceptat. Utilizaţi alt set de cască sau vizitaţi site-ul de asistenţă Sony Mobile pentru informaţii suplimentare.</string>
     <string name="global_action_sleep">Mod de repaus</string>
+    <string name="global_action_screenshot_txt">Efectuare captură de ecran</string>
     <string name="BaMmi">Blocarea apelurilor</string>
 </resources>

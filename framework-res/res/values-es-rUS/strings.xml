@@ -651,10 +651,10 @@
     <string name="eventTypeAnniversary">Aniversario</string>
     <string name="eventTypeOther">Otros</string>
     <string name="emailTypeCustom">Personalizado</string>
-    <string name="emailTypeHome">Email: Casa</string>
-    <string name="emailTypeWork">Email: Trabajo</string>
-    <string name="emailTypeOther">Email: Otro</string>
-    <string name="emailTypeMobile">Móvil</string>
+    <string name="emailTypeHome">Correo electrónico: Casa</string>
+    <string name="emailTypeWork">Correo electrónico: Trabajo</string>
+    <string name="emailTypeOther">Correo electrónico: Otro</string>
+    <string name="emailTypeMobile">Correo electrónico: Móvil</string>
     <string name="postalTypeCustom">Personalizado</string>
     <string name="postalTypeHome">Casa</string>
     <string name="postalTypeWork">Trabajo</string>
@@ -730,11 +730,11 @@
     <string name="lockscreen_transport_pause_description">Botón de pausa</string>
     <string name="lockscreen_transport_play_description">Botón de reproducción</string>
     <string name="lockscreen_transport_stop_description">Botón para detener la reproducción</string>
-    <string name="emergency_calls_only">Sólo llamadas de emergencia</string>
+    <string name="emergency_calls_only">Sólo llamadas emergencia</string>
     <string name="lockscreen_network_locked_message">Red bloqueada</string>
     <string name="lockscreen_sim_puk_locked_message">Tarjeta SIM bloqueada con PUK.</string>
     <string name="lockscreen_sim_puk_locked_instructions">Consulta la guía del usuario o comunícate con el servicio de atención al cliente.</string>
-    <string name="lockscreen_sim_locked_message">La tarjeta SIM está bloqueada.</string>
+    <string name="lockscreen_sim_locked_message">SIM bloqueada</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Desbloqueando tarjeta SIM…</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Has extraído incorrectamente tu patrón de desbloqueo %d veces. 
 
@@ -874,7 +874,7 @@ Selecciona Aceptar para continuar o Cancelar para permanecer en la página actua
     <string name="capital_on">SÍ</string>
     <string name="capital_off">NO</string>
     <string name="whichApplication">Completar acción con</string>
-    <string name="alwaysUse">Usar predetermin en esta acción.</string>
+    <string name="alwaysUse">Usar esta acción como predeterminada</string>
     <string name="clearDefaultHintMsg">Borrar predeterminado en Ajustes > Aplicaciones.</string>
     <string name="chooseActivity">Seleccionar una acción</string>
     <string name="chooseUsbActivity">Seleccione una aplicación para el dispositivo USB</string>
@@ -1139,7 +1139,7 @@ para la cuenta %s"</string>
     <string name="action_menu_overflow_description">Más opciones</string>
     <string name="storage_internal">Almacenamiento interno</string>
     <string name="storage_sd_card">Tarjeta SD</string>
-    <string name="storage_usb">Almacenamiento USB</string>
+    <string name="storage_usb">Almacenamiento USB externo</string>
     <string name="extract_edit_menu_button">Editar...</string>
     <string name="data_usage_warning_title">Advertencia de uso de datos</string>
     <string name="data_usage_warning_body">Toca para ver el uso y ajustes</string>

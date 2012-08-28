@@ -951,7 +951,7 @@
     <string name="capital_on">चालू</string>
     <string name="capital_off">बंद</string>
     <string name="whichApplication">इसका उपयोग करके क्रिया पूर्ण करें</string>
-    <string name="alwaysUse">इस क्रिया हेतु डिफॉल्ट रूप से इसका उपयोग करें।</string>
+    <string name="alwaysUse">इस क्रिया के लिए डिफ़ॉल्‍ट रूप से उपयोग करें.</string>
     <string name="clearDefaultHintMsg">सेटिंग > अनुप्रयोग में डिफ़ॉल्‍ट साफ़ करें।</string>
     <string name="chooseActivity">कोई क्रिया चयनित करें</string>
     <string name="chooseUsbActivity">USB डिवाइस के लिए अनुप्रयोग का चयन करें</string>
@@ -1211,7 +1211,7 @@
     <string name="action_menu_overflow_description">अधिक विकल्प</string>
     <string name="storage_internal">आंतरिक संग्रहण</string>
     <string name="storage_sd_card">SD कार्ड</string>
-    <string name="storage_usb">USB संग्रहण</string>
+    <string name="storage_usb">बाहरी USB संग्रहण</string>
     <string name="extract_edit_menu_button">संपादित करें...</string>
     <string name="data_usage_warning_title">डेटा उपयोग की चेतावनी</string>
     <string name="data_usage_warning_body">उपयोग व सेटिंग देखने हेतु स्‍पर्श करें</string>
@@ -1272,7 +1272,8 @@
     <string name="lockscreen_strings_sim_puk_new_pin_header_txt">नया PIN प्रविष्ट करें</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">नया PIN दोहराएं</string>
     <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">PUK 8 अंकों का होना चाहिए</string>
-    <string name="seport_strings_accessory_not_supported_txt">सहायक उपकरण समर्थित नहीं है</string>
+    <string name="seport_strings_accessory_not_supported_txt">हेडसेट समर्थित नहीं है। किसी अन्य हेडसेट का उपयोग करें या अधिक जानकारी के लिए Sony Mobile समर्थन साइट पर जाएँ।</string>
     <string name="global_action_sleep">स्‍लीप मोड</string>
+    <string name="global_action_screenshot_txt">स्क्रीनशॉट लें</string>
     <string name="BaMmi">कॉल बाधित करना</string>
 </resources>

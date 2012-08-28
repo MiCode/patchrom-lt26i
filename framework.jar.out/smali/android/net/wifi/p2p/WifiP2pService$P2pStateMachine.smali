@@ -3265,7 +3265,7 @@
 
     move-result-object v6
 
-    const v7, 0x1080834
+    const v7, 0x1080838
 
     iput v7, v6, Landroid/app/Notification;->icon:I
 

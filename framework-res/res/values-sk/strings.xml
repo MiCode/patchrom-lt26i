@@ -172,7 +172,7 @@
     <string name="lockscreen_strings_backup_selection_sub_header_txt">Výber spôsobu odomknutia obrazovky v prípade zabudnutia vzoru</string>
     <string name="lockscreen_strings_backup_selection_security_question_txt">Odpovedať na otázku</string>
     <string name="lockscreen_strings_backup_selection_security_question_summary_txt">Od. obraz. zodp. bezpečn. otázky</string>
-    <string name="lockscreen_strings_backup_selection_google_account_txt">Zadať detaily účtu služby Google</string>
+    <string name="lockscreen_strings_backup_selection_google_account_txt">Zadať detaily účtu služ. Google</string>
     <string name="lockscreen_strings_backup_selection_google_account_summary_txt">Odomk. obraz. zadaním detailov účtu Google</string>
     <string name="lockscreen_strings_backup_selection_next_txt">Ďalej</string>
     <string name="lockscreen_strings_howtounlock_txt">Odomknite stlačením %icon</string>
@@ -830,7 +830,7 @@ Skúste to znova o %d s."</string>
     <string name="lockscreen_failed_attempts_almost_at_wipe" formatted="false">Telefón ste sa pokúsili odomknúť nesprávnym spôsobom %d-krát. Po %d ďalších neúspešných pokusoch sa v telefóne obnovia predvolené továrenské nastavenia a všetky používateľské údaje budú stratené.</string>
     <string name="lockscreen_failed_attempts_now_wiping">Telefón ste sa pokúsili odomknúť nesprávnym spôsobom %d-krát. V telefóne sa teraz obnovia predvolené továrenské nastavenia.</string>
     <string name="lockscreen_too_many_failed_attempts_countdown">Skúste to znova o %d s.</string>
-    <string name="lockscreen_forgot_pattern_button_text">Zabudli ste bezpečnostný vzor?</string>
+    <string name="lockscreen_forgot_pattern_button_text">Zabudli ste vzor?</string>
     <string name="lockscreen_glogin_forgot_pattern">Odomknutie konta</string>
     <string name="lockscreen_glogin_too_many_attempts">Príliš veľa pokusov o nakreslenie bezpečnostného vzoru.</string>
     <string name="lockscreen_glogin_instructions">Ak chcete, odblokovať telefón, prihláste sa pomocou účtu Google.</string>
@@ -953,7 +953,7 @@ Ak chcete pokračovať, stlačte tlačidlo OK. Ak chcete ostať na aktuálnej st
     <string name="capital_on">|</string>
     <string name="capital_off">〇</string>
     <string name="whichApplication">Vyk. akcie pomoc. aplik.</string>
-    <string name="alwaysUse">Predvolene použiť na túto akciu.</string>
+    <string name="alwaysUse">Použiť ako predvolené nastavenie pre túto akciu.</string>
     <string name="clearDefaultHintMsg">Zrušiť začiarknutie predvolenia v časti Nastavenia > Aplikácie.</string>
     <string name="chooseActivity">Vybrať akciu</string>
     <string name="chooseUsbActivity">Výber aplikácie pre zariadenie USB</string>
@@ -1218,7 +1218,7 @@ pre konto %s"</string>
     <string name="action_menu_overflow_description">Ďalšie možnosti</string>
     <string name="storage_internal">Interný ukladací priestor</string>
     <string name="storage_sd_card">Karta SD</string>
-    <string name="storage_usb">Ukladací priestor USB</string>
+    <string name="storage_usb">Externý ukladací priestor USB</string>
     <string name="extract_edit_menu_button">Upraviť...</string>
     <string name="data_usage_warning_title">Upozornenie o využívaní dát</string>
     <string name="data_usage_warning_body">Dotykom zobr. využ. dát a nastav.</string>
@@ -1274,12 +1274,13 @@ pre konto %s"</string>
     <string name="lockscreen_strings_sim_locked_out_header_txt">Karta SIM je zablokovaná</string>
     <string name="lockscreen_strings_sim_puk_enter_puk_header_txt">Zadajte kód PUK</string>
     <string name="lockscreen_strings_sim_puk_locked_header_txt">Karta SIM je zablokovaná</string>
-    <string name="lockscreen_strings_sim_puk_locked_message_txt">Zadajte kód PUK od mobilného operátora</string>
-    <string name="lockscreen_strings_sim_puk_locked_out_message_txt">Kontaktujte svojho operátora</string>
+    <string name="lockscreen_strings_sim_puk_locked_message_txt">Zadajte kód PUK od poskytovateľa služieb</string>
+    <string name="lockscreen_strings_sim_puk_locked_out_message_txt">Kontaktujte svojho poskytovateľa služieb</string>
     <string name="lockscreen_strings_sim_puk_new_pin_header_txt">Zadajte nový kód PIN</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Zopakujte nový kód PIN</string>
     <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">Kód PUK musí obsahovať 8 čís.</string>
-    <string name="seport_strings_accessory_not_supported_txt">Príslušenstvo nepodporované</string>
+    <string name="seport_strings_accessory_not_supported_txt">Náhlavná súprava nie je podporovaná. Použite inú náhlavnú súpravu alebo navštívte lokalitu podpory spoločnosti Sony Mobile a získajte ďalšie informácie.</string>
     <string name="global_action_sleep">Režim spánku</string>
+    <string name="global_action_screenshot_txt">Nasnímať obrazovku</string>
     <string name="BaMmi">Blokovanie hovorov</string>
 </resources>

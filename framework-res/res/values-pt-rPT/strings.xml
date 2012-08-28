@@ -172,7 +172,7 @@
     <string name="lockscreen_strings_backup_selection_sub_header_txt">Selecione o método para desbloq. o ecrã se se esquecer do trajeto</string>
     <string name="lockscreen_strings_backup_selection_security_question_txt">Responder à pergunta</string>
     <string name="lockscreen_strings_backup_selection_security_question_summary_txt">Desbloquear c/ perg. segurança</string>
-    <string name="lockscreen_strings_backup_selection_google_account_txt">Introduzir detalhes da conta Google</string>
+    <string name="lockscreen_strings_backup_selection_google_account_txt">Intr. detalhes da conta Google</string>
     <string name="lockscreen_strings_backup_selection_google_account_summary_txt">Desbloquear com detalhes da conta Google</string>
     <string name="lockscreen_strings_backup_selection_next_txt">Seguinte</string>
     <string name="lockscreen_strings_howtounlock_txt">Prima %icon para desbloquear</string>
@@ -825,7 +825,7 @@ Tente novamente dentro de %d segundos."</string>
     <string name="lockscreen_failed_attempts_almost_at_wipe" formatted="false">Tentou desbloquear o telemóvel %d vezes de forma incorreta. Após mais %d tentativa(s) sem êxito, as definições de origem do telemóvel serão repostas e todos os dados de utilizador serão perdidos.</string>
     <string name="lockscreen_failed_attempts_now_wiping">Tentou desbloquear o telemóvel %d vezes de forma incorreta, pelo que serão repostas as respetivas definições de origem.</string>
     <string name="lockscreen_too_many_failed_attempts_countdown">Tente novamente dentro de %d segundos.</string>
-    <string name="lockscreen_forgot_pattern_button_text">Esqueceu-se do padrão?</string>
+    <string name="lockscreen_forgot_pattern_button_text">Esqueceu o padrão?</string>
     <string name="lockscreen_glogin_forgot_pattern">Desbloqueio da conta</string>
     <string name="lockscreen_glogin_too_many_attempts">Demasiadas tentativas de efectuar o padrão!</string>
     <string name="lockscreen_glogin_instructions">Para desbloquear, inicie sessão com a sua Conta Google</string>
@@ -947,7 +947,7 @@ Seleccione OK para continuar ou Cancelar para permanecer na página actual."</st
     <string name="capital_on">|</string>
     <string name="capital_off">〇</string>
     <string name="whichApplication">Concluir acção utilizando</string>
-    <string name="alwaysUse">Utilizar por predef. para esta acção.</string>
+    <string name="alwaysUse">Utilizar por predefinição para esta acção.</string>
     <string name="clearDefaultHintMsg">Apagar predefinição em Definições > Aplicações.</string>
     <string name="chooseActivity">Seleccionar uma acção</string>
     <string name="chooseUsbActivity">Seleccione uma aplicação para o dispositivo USB</string>
@@ -1212,7 +1212,7 @@ para a conta %s"</string>
     <string name="action_menu_overflow_description">Mais opções</string>
     <string name="storage_internal">Armazenamento Interno</string>
     <string name="storage_sd_card">Cartão SD</string>
-    <string name="storage_usb">Armazenamento USB</string>
+    <string name="storage_usb">Armazenamento USB externo</string>
     <string name="extract_edit_menu_button">Editar...</string>
     <string name="data_usage_warning_title">Aviso de utilização de dados</string>
     <string name="data_usage_warning_body">Toque para ver a utiliz. e as def.</string>
@@ -1268,12 +1268,13 @@ para a conta %s"</string>
     <string name="lockscreen_strings_sim_locked_out_header_txt">Cartão SIM bloqueado</string>
     <string name="lockscreen_strings_sim_puk_enter_puk_header_txt">Introduzir o PUK</string>
     <string name="lockscreen_strings_sim_puk_locked_header_txt">Cartão SIM bloqueado</string>
-    <string name="lockscreen_strings_sim_puk_locked_message_txt">Introduza cód. PUK fornecido pelo operador</string>
-    <string name="lockscreen_strings_sim_puk_locked_out_message_txt">Contacte o seu operador</string>
+    <string name="lockscreen_strings_sim_puk_locked_message_txt">Introduza cód. PUK fornecido pelo forn. de serv.</string>
+    <string name="lockscreen_strings_sim_puk_locked_out_message_txt">Contacte o seu fornecedor de serviços</string>
     <string name="lockscreen_strings_sim_puk_new_pin_header_txt">Introduzir novo PIN</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Repetir novo PIN</string>
     <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">O PUK deve conter 8 dígitos</string>
-    <string name="seport_strings_accessory_not_supported_txt">Acessório não suportado</string>
-    <string name="global_action_sleep">Modo suspensão</string>
+    <string name="seport_strings_accessory_not_supported_txt">Auricular não suportado. Utilize outro auricular ou visite o Web site de suporte da Sony Mobile para obter mais informações.</string>
+    <string name="global_action_sleep">Modo de suspensão</string>
+    <string name="global_action_screenshot_txt">Tirar captura de ecrã</string>
     <string name="BaMmi">Barramento de chamadas</string>
 </resources>

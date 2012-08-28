@@ -836,7 +836,7 @@ Lūdzu, mēģiniet vēlreiz pēc %d sekundes(-ēm)."</string>
     <string name="lockscreen_failed_attempts_almost_at_wipe" formatted="false">Jūs nepareizi veicāt tālruņa atbloķēšanu %d reizes. Pēc vēl %d neveiksmīga(-iem) mēģinājuma(-iem) tālrunī tiks atiestatīti rūpnīcas noklusējuma iestatījumi, un lietotāja dati tiks zaudēti.</string>
     <string name="lockscreen_failed_attempts_now_wiping">Jūs nepareizi veicāt tālruņa atbloķēšanu %d reizes. Tālrunī tiks atiestatīti rūpnīcas noklusējuma iestatījumi.</string>
     <string name="lockscreen_too_many_failed_attempts_countdown">Mēģiniet vēlreiz pēc %d sekundēm.</string>
-    <string name="lockscreen_forgot_pattern_button_text">Vai esat aizmirsis shēmu?</string>
+    <string name="lockscreen_forgot_pattern_button_text">Vai aizmirsāt shēmu?</string>
     <string name="lockscreen_glogin_forgot_pattern">Konta atbloķēšana</string>
     <string name="lockscreen_glogin_too_many_attempts">Pārāk daudz shēmu mēģinājumu!</string>
     <string name="lockscreen_glogin_instructions">Lai atslēgtu, pierakstieties, izmantojot savu Google kontu</string>
@@ -959,7 +959,7 @@ Izvēlieties Labi, lai turpinātu, vai Atcelt, lai paliktu pašreizējā lapā."
     <string name="capital_on">|</string>
     <string name="capital_off">〇</string>
     <string name="whichApplication">Darb. pabeigšana, izm.</string>
-    <string name="alwaysUse">Lietot pēc noklus. šai darbībai.</string>
+    <string name="alwaysUse">Pēc noklusējuma izmantot šai darbībai.</string>
     <string name="clearDefaultHintMsg">Notīriet noklusējumu sadaļā Iestatījumi > Lietotnes.</string>
     <string name="chooseActivity">Darbības izvēle</string>
     <string name="chooseUsbActivity">Izvēlieties programmu USB ierīcei</string>
@@ -1224,7 +1224,7 @@ kontam %s"</string>
     <string name="action_menu_overflow_description">Vairāk iespēju</string>
     <string name="storage_internal">Iekšējā atmiņa</string>
     <string name="storage_sd_card">SD karte</string>
-    <string name="storage_usb">USB atmiņa</string>
+    <string name="storage_usb">Ārējā USB atmiņa</string>
     <string name="extract_edit_menu_button">Rediģēt...</string>
     <string name="data_usage_warning_title">Datu lietošanas brīdinājums</string>
     <string name="data_usage_warning_body">Piesk., lai sk. lietoš. un iest.</string>
@@ -1285,7 +1285,8 @@ kontam %s"</string>
     <string name="lockscreen_strings_sim_puk_new_pin_header_txt">Jauna PIN koda ievade</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Jaunā PIN koda atkārtošana</string>
     <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">PUK kodā jābūt 8 cipariem</string>
-    <string name="seport_strings_accessory_not_supported_txt">Papildierīce netiek atbalstīta</string>
+    <string name="seport_strings_accessory_not_supported_txt">Austiņas netiek atbalstītas. Izmantojiet citas austiņas vai apmeklējiet Sony Mobile atbalsta vietni, lai iegūtu papildinformāciju.</string>
     <string name="global_action_sleep">Miega režīms</string>
+    <string name="global_action_screenshot_txt">Uzņemt ekrānuzņēmumu</string>
     <string name="BaMmi">Zvanu aizliegšana</string>
 </resources>

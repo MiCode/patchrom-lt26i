@@ -2254,6 +2254,7 @@
         <item name="alertDialogIcon">@drawable/semc_ic_dialog_alert_holo_dark</item>
         <item name="datePickerStyle">@style/Widget.DeviceDefault.DatePicker</item>
         <item name="calendarViewStyle">@style/Widget.DeviceDefault.CalendarView</item>
+        <item name="actionMenuTextAppearance">@style/TextAppearance.DeviceDefault.Widget.ActionBar.Menu</item>
         <item name="textCursorDrawable">@drawable/text_cursor_holo_light</item>
         <item name="switchPreferenceStyle">@style/Preference.DeviceDefault.SwitchPreference</item>
         <item name="textSuggestionsWindowStyle">@style/Widget.DeviceDefault.TextSuggestionsPopupWindow</item>
@@ -2274,9 +2275,9 @@
         <item name="actionModeWebSearchDrawable">@drawable/semc_ic_menu_search_holo_dark</item>
         <item name="actionModePopupWindowStyle">@style/Widget.DeviceDefault.PopupWindow.ActionMode</item>
         <item name="toastFrameBackground">@drawable/semc_toast_frame_holo</item>
-        <item name="searchViewCloseIcon">@drawable/semc_ic_clear_holo</item>
+        <item name="searchViewCloseIcon">@drawable/semc_ic_clear_holo_dark</item>
         <item name="searchViewGoIcon">@drawable/semc_ic_go_search_api_holo_dark</item>
-        <item name="searchViewSearchIcon">@drawable/semc_ic_search_api_holo_light</item>
+        <item name="searchViewSearchIcon">@drawable/semc_ic_search_api_holo_dark</item>
         <item name="searchViewVoiceIcon">@drawable/semc_ic_voice_search_api_holo_dark</item>
         <item name="searchViewEditQuery">@drawable/semc_ic_commit_search_api_holo_dark</item>
         <item name="searchViewTextField">@drawable/semc_textfield_searchview_holo_dark</item>
@@ -2428,7 +2429,7 @@
         <item name="actionModeWebSearchDrawable">@drawable/semc_ic_menu_search_holo_light</item>
         <item name="actionModePopupWindowStyle">@style/Widget.DeviceDefault.Light.PopupWindow.ActionMode</item>
         <item name="toastFrameBackground">@drawable/semc_toast_frame_holo</item>
-        <item name="searchViewCloseIcon">@drawable/semc_ic_clear_holo</item>
+        <item name="searchViewCloseIcon">@drawable/semc_ic_clear_holo_light</item>
         <item name="searchViewGoIcon">@drawable/semc_ic_go_search_api_holo_light</item>
         <item name="searchViewSearchIcon">@drawable/semc_ic_search_api_holo_light</item>
         <item name="searchViewVoiceIcon">@drawable/semc_ic_voice_search_api_holo_light</item>
@@ -2576,9 +2577,9 @@
         <item name="actionModeFindDrawable">@drawable/semc_ic_menu_find_holo_dark</item>
         <item name="actionModeWebSearchDrawable">@drawable/semc_ic_menu_search_holo_dark</item>
         <item name="actionModePopupWindowStyle">@style/Widget.DeviceDefault.PopupWindow.ActionMode</item>
-        <item name="searchViewCloseIcon">@drawable/semc_ic_clear_holo</item>
+        <item name="searchViewCloseIcon">@drawable/semc_ic_clear_holo_dark</item>
         <item name="searchViewGoIcon">@drawable/semc_ic_go_search_api_holo_dark</item>
-        <item name="searchViewSearchIcon">@drawable/semc_ic_search_api_holo_light</item>
+        <item name="searchViewSearchIcon">@drawable/semc_ic_search_api_holo_dark</item>
         <item name="searchViewVoiceIcon">@drawable/semc_ic_voice_search_api_holo_dark</item>
         <item name="searchViewEditQuery">@drawable/semc_ic_commit_search_api_holo_dark</item>
         <item name="searchViewTextField">@drawable/semc_textfield_searchview_holo_dark</item>

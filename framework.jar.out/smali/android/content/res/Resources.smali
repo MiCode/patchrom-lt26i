@@ -5518,7 +5518,6 @@
 
     move-result v21
 
-    .line 1454
     invoke-static/range {v21 .. v21}, Landroid/content/pm/ActivityInfo;->activityInfoConfigToNative(I)I
 
     move-result v2

@@ -742,6 +742,7 @@
 
     move-object/from16 v26, v0
 
+    .line 961
     move-object/from16 v0, p0
 
     move-object/from16 v1, v25
@@ -782,7 +783,6 @@
 
     invoke-direct {v0, v1, v2}, Landroid/media/MediaScanner$MyMediaScannerClient;->setSettingIfNotSet(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 961
     move-object/from16 v0, p0
 
     iget-object v0, v0, Landroid/media/MediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MediaScanner;

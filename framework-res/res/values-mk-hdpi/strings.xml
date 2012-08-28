@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="carrier_invalid_sim_card">Неважечка SIM-картичка</string>
-    <string name="lockscreen_strings_backup_selection_sub_header_txt">Одберете како да се отклучи екранот ако сте ја заборавиле својата шема</string>
-    <string name="lockscreen_strings_backup_selection_security_question_summary_txt">Отклучете со безбед. прашање</string>
     <string name="lockscreen_strings_timeout_dialog_header_txt">Неисправна шема</string>
     <string name="lockscreen_strings_locked_out_header_txt">Неисправна шема</string>
     <string name="lockscreen_strings_locked_out_message_txt">Неисправно ја нацртавте шемата 20 пати. Отклучете со безбедносно прашање.</string>

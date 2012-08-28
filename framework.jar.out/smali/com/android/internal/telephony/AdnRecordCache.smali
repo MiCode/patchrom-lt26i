@@ -620,13 +620,11 @@
 
     check-cast v7, Ljava/util/ArrayList;
 
-    .line 477
     .local v7, waiters:Ljava/util/ArrayList;,"Ljava/util/ArrayList<Landroid/os/Message;>;"
     iget-object v8, p0, Lcom/android/internal/telephony/AdnRecordCache;->adnLikeWaiters:Landroid/util/SparseArray;
 
     invoke-virtual {v8, v3}, Landroid/util/SparseArray;->delete(I)V
 
-    .line 479
     iget-object v8, v1, Landroid/os/AsyncResult;->exception:Ljava/lang/Throwable;
 
     if-nez v8, :cond_1

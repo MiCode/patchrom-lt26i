@@ -172,7 +172,7 @@
     <string name="lockscreen_strings_backup_selection_sub_header_txt">Изберете как да отключите екрана, ако сте забравили модела за отключване</string>
     <string name="lockscreen_strings_backup_selection_security_question_txt">Отговор на въпроса</string>
     <string name="lockscreen_strings_backup_selection_security_question_summary_txt">Отключв. чрез въпр. за защита</string>
-    <string name="lockscreen_strings_backup_selection_google_account_txt">Въвеждане на данните на Google акаунт</string>
+    <string name="lockscreen_strings_backup_selection_google_account_txt">Въвежд. данни Google акаунт</string>
     <string name="lockscreen_strings_backup_selection_google_account_summary_txt">Отключв. чрез данните на Google акаунта</string>
     <string name="lockscreen_strings_backup_selection_next_txt">Напред</string>
     <string name="lockscreen_strings_howtounlock_txt">Натиснете %icon за отключване</string>
@@ -830,7 +830,7 @@
     <string name="lockscreen_failed_attempts_almost_at_wipe" formatted="false">Направихте опит да отключите телефона неправилно %d пъти. След още %d неуспешни опита ще бъдат възстановени стандартните му фабрични настройки и всички потребителски данни ще бъдат заличени.</string>
     <string name="lockscreen_failed_attempts_now_wiping">Направихте опит да отключите телефона неправилно %d пъти. Сега ще бъдат възстановени стандартните му фабрични настройки.</string>
     <string name="lockscreen_too_many_failed_attempts_countdown">Опитайте отново след %d секунди.</string>
-    <string name="lockscreen_forgot_pattern_button_text">Забравили сте образеца?</string>
+    <string name="lockscreen_forgot_pattern_button_text">Забравена схемата?</string>
     <string name="lockscreen_glogin_forgot_pattern">Профилът е отключен</string>
     <string name="lockscreen_glogin_too_many_attempts">Твърде много опити за въвеждане на образец!</string>
     <string name="lockscreen_glogin_instructions">За да отключите, влезте в профила си в Google</string>
@@ -953,7 +953,7 @@
     <string name="capital_on">|</string>
     <string name="capital_off">〇</string>
     <string name="whichApplication">Изпъл. на действ. чрез</string>
-    <string name="alwaysUse">Изпол. по подраз. за това действ.</string>
+    <string name="alwaysUse">Използване по подразбиране за това действие.</string>
     <string name="clearDefaultHintMsg">Изчистване на стойностите по подразбиране в \"Настройки\" > \"Приложения\".</string>
     <string name="chooseActivity">Изберете действие</string>
     <string name="chooseUsbActivity">Изберете приложение за USB устройството</string>
@@ -1215,7 +1215,7 @@
     <string name="action_menu_overflow_description">Още опции</string>
     <string name="storage_internal">Вътрешна памет</string>
     <string name="storage_sd_card">SD карта</string>
-    <string name="storage_usb">USB хранилище</string>
+    <string name="storage_usb">Външна USB памет</string>
     <string name="extract_edit_menu_button">Редактиране...</string>
     <string name="data_usage_warning_title">Предупреждение за ползване на данни</string>
     <string name="data_usage_warning_body">Докоснете за преглед на използването и настройките</string>
@@ -1276,7 +1276,8 @@
     <string name="lockscreen_strings_sim_puk_new_pin_header_txt">Въведете нов ПИН код</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Повторете новия ПИН код</string>
     <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">PUK кодът трябва да е 8 цифри</string>
-    <string name="seport_strings_accessory_not_supported_txt">Аксесоарът не се поддържа</string>
+    <string name="seport_strings_accessory_not_supported_txt">Слушалките не се поддържат. Използвайте други слушалки или посетете страницата за поддръжка на Sony Mobile за повече информация.</string>
     <string name="global_action_sleep">Спящ режим</string>
+    <string name="global_action_screenshot_txt">Снимка на екрана</string>
     <string name="BaMmi">Забрана за повиквания</string>
 </resources>

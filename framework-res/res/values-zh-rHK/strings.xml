@@ -1207,7 +1207,7 @@
     <string name="action_menu_overflow_description">更多選項</string>
     <string name="storage_internal">內部貯存空間</string>
     <string name="storage_sd_card">SD卡</string>
-    <string name="storage_usb">USB貯存裝置</string>
+    <string name="storage_usb">外部USB儲存裝置</string>
     <string name="extract_edit_menu_button">編輯...</string>
     <string name="data_usage_warning_title">數據使用警告</string>
     <string name="data_usage_warning_body">碰觸即可查看用量和設定</string>
@@ -1268,6 +1268,7 @@
     <string name="lockscreen_strings_sim_puk_new_pin_header_txt">輸入新PIN</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">重複輸入新PIN</string>
     <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">PUK必須為8位數</string>
-    <string name="seport_strings_accessory_not_supported_txt">配件不受支援</string>
+    <string name="seport_strings_accessory_not_supported_txt">耳麥不受支援。使用其他耳麥或造訪Sony Mobile支援網站以取得更多資訊。</string>
     <string name="global_action_sleep">睡眠模式</string>
+    <string name="global_action_screenshot_txt">截圖</string>
 </resources>

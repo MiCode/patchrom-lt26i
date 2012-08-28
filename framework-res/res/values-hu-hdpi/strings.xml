@@ -5,9 +5,9 @@
     <string name="mmcc_authentication_reject">A SIM kártya nincs engedélyezve</string>
     <string name="carrier_invalid_sim_card">Érvénytelen SIM kártya</string>
     <string name="unregistered_sim">Nem regisztrált SIM kártya</string>
-    <string name="lockscreen_strings_backup_selection_security_question_summary_txt">Bizt. kérdéssel végezzen feloldást</string>
     <string name="car_mode_disable_notification_message">Válassza az autós üzemmódból való kilépéshez</string>
     <string name="lockscreen_strings_sim_locked_out_header_txt">A SIM kártya le van tiltva</string>
     <string name="lockscreen_strings_sim_puk_locked_header_txt">A SIM kártya zárolva van</string>
     <string name="global_action_sleep">Alvó állapot</string>
+    <string name="global_action_screenshot_txt">Képernyőfelvétel készítése</string>
 </resources>

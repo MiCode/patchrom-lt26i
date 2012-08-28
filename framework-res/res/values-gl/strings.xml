@@ -170,7 +170,7 @@
     <string name="lockscreen_strings_backup_selection_sub_header_txt">Seleccionar como desbloquear a pantalla se esquece o seu patrón</string>
     <string name="lockscreen_strings_backup_selection_security_question_txt">Contestar á pregunta</string>
     <string name="lockscreen_strings_backup_selection_security_question_summary_txt">Desbl. con pregunta seguridade</string>
-    <string name="lockscreen_strings_backup_selection_google_account_txt">Inserir detalles da conta de Google</string>
+    <string name="lockscreen_strings_backup_selection_google_account_txt">Inserir info. conta de Google</string>
     <string name="lockscreen_strings_backup_selection_google_account_summary_txt">Desbloquear con detalles da conta de Google</string>
     <string name="lockscreen_strings_backup_selection_next_txt">Seguinte</string>
     <string name="lockscreen_strings_howtounlock_txt">Pulse %icon para desbloquear</string>
@@ -956,7 +956,7 @@ Seleccione Aceptar para continuar ou Cancelar para permanecer na páxina actual.
     <string name="capital_on">|</string>
     <string name="capital_off">〇</string>
     <string name="whichApplication">Completar acción usando</string>
-    <string name="alwaysUse">Predeterminado para esta acción.</string>
+    <string name="alwaysUse">Usar de xeito predeterminado para esta acción.</string>
     <string name="clearDefaultHintMsg">Borre os axustes predeterminados en Configuración > Aplicacións.</string>
     <string name="chooseActivity">Seleccionar unha acción</string>
     <string name="chooseUsbActivity">Seleccione unha aplicación para o dispositivo USB</string>
@@ -1218,7 +1218,7 @@ usando %s"</string>
     <string name="action_menu_overflow_description">Máis opcións</string>
     <string name="storage_internal">Almacenamento interno</string>
     <string name="storage_sd_card">Tarxeta SD</string>
-    <string name="storage_usb">Almacenamento USB</string>
+    <string name="storage_usb">Almacenamento USB externo</string>
     <string name="extract_edit_menu_button">Editar…</string>
     <string name="data_usage_warning_title">Advertencia de uso de datos</string>
     <string name="data_usage_warning_body">Toque para ver uso e axustes</string>
@@ -1279,6 +1279,7 @@ usando %s"</string>
     <string name="lockscreen_strings_sim_puk_new_pin_header_txt">Insira o novo PIN</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Repita o novo PIN</string>
     <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">O PUK debe ter 8 díxitos</string>
-    <string name="seport_strings_accessory_not_supported_txt">Accesorio non compatible</string>
+    <string name="seport_strings_accessory_not_supported_txt">Equipo auricular non admitido. Use outro equipo auricular ou visite o sitio de soporte de Sony Mobile para obter máis información.</string>
     <string name="global_action_sleep">Modo de suspensión</string>
+    <string name="global_action_screenshot_txt">Tomar captura de pantalla</string>
 </resources>

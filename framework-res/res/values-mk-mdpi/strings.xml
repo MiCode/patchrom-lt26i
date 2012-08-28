@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="carrier_invalid_sim_card">Невалидна SIM-картичка</string>
-    <string name="lockscreen_strings_backup_selection_sub_header_txt">Одберете како да се отклучи екранот ако сте го заборавиле својот шаблон</string>
-    <string name="lockscreen_strings_backup_selection_security_question_summary_txt">Отклуч. со безбедн. праш.</string>
     <string name="lockscreen_strings_timeout_dialog_header_txt">Неисправен шаблон</string>
     <string name="lockscreen_strings_locked_out_header_txt">Неисправен шаблон</string>
     <string name="lockscreen_strings_locked_out_message_txt">Неисправно го нацртавте шаблонот 20 пати. Отклучете со безбедносно прашање.</string>

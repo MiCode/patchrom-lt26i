@@ -172,7 +172,7 @@
     <string name="lockscreen_strings_backup_selection_sub_header_txt">Επιλέξτε πώς θα ξεκλειδώσετε την οθόνη σε περίπτωση που ξεχάσετε το μοτίβο σας</string>
     <string name="lockscreen_strings_backup_selection_security_question_txt">Απαντήστε στην ερώτηση</string>
     <string name="lockscreen_strings_backup_selection_security_question_summary_txt">Ξεκλειδώστε με ερώτηση ασφαλ.</string>
-    <string name="lockscreen_strings_backup_selection_google_account_txt">Εισαγωγή στοιχείων λογαριασμού Google</string>
+    <string name="lockscreen_strings_backup_selection_google_account_txt">Εισ. στοιχείων λογ. Google</string>
     <string name="lockscreen_strings_backup_selection_google_account_summary_txt">Ξεκλειδ. εισαγ. τα στοιχεία του λογ. Google</string>
     <string name="lockscreen_strings_backup_selection_next_txt">Επόμενο</string>
     <string name="lockscreen_strings_howtounlock_txt">Πιέστε %icon για ξεκλ.</string>
@@ -953,7 +953,7 @@
     <string name="capital_on">|</string>
     <string name="capital_off">〇</string>
     <string name="whichApplication">Ολοκλ. ενέργ. με χρήση</string>
-    <string name="alwaysUse">Χρήση από προεπ. για την ενέρ.</string>
+    <string name="alwaysUse">Χρήση από προεπιλογή για αυτήν την ενέργεια.</string>
     <string name="clearDefaultHintMsg">Εκκαθάριση προεπιλεγμένων σε Ρυθμίσεις > Εφαρμογές.</string>
     <string name="chooseActivity">Επιλέξτε μια ενέργεια</string>
     <string name="chooseUsbActivity">Επιλέξτε μια εφαρμογή για τη συσκευή USB</string>
@@ -1216,7 +1216,7 @@
     <string name="action_menu_overflow_description">Περισσότερες επιλογές</string>
     <string name="storage_internal">Εσωτερικός χώρος αποθήκευσης</string>
     <string name="storage_sd_card">Κάρτα SD</string>
-    <string name="storage_usb">Χώρος αποθήκευσης USB</string>
+    <string name="storage_usb">Εξωτερική μνήμη USB</string>
     <string name="extract_edit_menu_button">Επεξεργασία...</string>
     <string name="data_usage_warning_title">Προειδοποίηση χρήσης δεδομένων</string>
     <string name="data_usage_warning_body">Αγγ.για προβ.της χρ.και των ρυθ.</string>
@@ -1277,7 +1277,8 @@
     <string name="lockscreen_strings_sim_puk_new_pin_header_txt">Εισαγάγετε νέο PIN</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Επαναλάβετε νέο PIN</string>
     <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">Το PUK πρέπει να είναι 8 ψ.</string>
-    <string name="seport_strings_accessory_not_supported_txt">Το αξεσουάρ δεν υποστηρίζεται</string>
+    <string name="seport_strings_accessory_not_supported_txt">Το ακουστικό δεν υποστηρίζεται. Χρησιμοποιήστε διαφορετικό ακουστικό ή επισκεφθείτε την τοποθεσία υποστήριξης της Sony Mobile για περισσότερες πληροφορίες.</string>
     <string name="global_action_sleep">Λειτουργία αναστολής</string>
+    <string name="global_action_screenshot_txt">Λήψη στιγμ. οθόνης</string>
     <string name="BaMmi">Φραγή κλήσεων</string>
 </resources>

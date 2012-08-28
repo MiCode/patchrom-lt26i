@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings version="805">
+   <setting key="min-battery-lvl" runtime="false">45</setting>
+   <setting key="enable-cost-warning" runtime="false">true</setting>
+   <setting key="enable-roaming" runtime="false">false</setting>
+</settings>

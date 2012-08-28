@@ -651,7 +651,9 @@
     <array name="config_autoBrightnessButtonBacklightValues" />
     <array name="config_autoBrightnessKeyboardBacklightValues" />
     <array name="config_twoDigitNumberPattern" />
-    <array name="config_sms_enabled_single_shift_tables" />
+    <integer-array name="config_sms_enabled_single_shift_tables">
+        <item>1</item>
+    </integer-array>
     <array name="config_sms_enabled_locking_shift_tables" />
     <array name="config_oemUsbModeOverride" />
     <integer-array name="config_cdmaDbmThresholds">

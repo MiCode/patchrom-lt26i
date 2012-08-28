@@ -170,7 +170,7 @@
     <string name="lockscreen_strings_backup_selection_sub_header_txt">Hautatu eredua ahaztuz gero pantaila nola desblokeatu nahi duzun</string>
     <string name="lockscreen_strings_backup_selection_security_question_txt">Erantzun galderari</string>
     <string name="lockscreen_strings_backup_selection_security_question_summary_txt">Desblokeatu segurt. galderarekin</string>
-    <string name="lockscreen_strings_backup_selection_google_account_txt">Sartu Google-ko kontuko xehetasunak</string>
+    <string name="lockscreen_strings_backup_selection_google_account_txt">Sartu Google kontuaren datuak</string>
     <string name="lockscreen_strings_backup_selection_google_account_summary_txt">Desblokeatu Google kontuko xehetasunekin</string>
     <string name="lockscreen_strings_backup_selection_next_txt">Hurrengoa</string>
     <string name="lockscreen_strings_howtounlock_txt">Sakatu %icon desblokeatzeko</string>
@@ -957,7 +957,7 @@ Hautatu \"Ados\" jarraitzeko, edo hautatu \"Utzi\" uneko orrian gelditzeko."</st
     <string name="capital_on">|</string>
     <string name="capital_off">〇</string>
     <string name="whichApplication">Osatu hau erabilita:</string>
-    <string name="alwaysUse">Erabili lehenespenez honetarako.</string>
+    <string name="alwaysUse">Erabili lehenespenez ekintza honetarako.</string>
     <string name="clearDefaultHintMsg">Ezabatu lehenetsiak Ezarpenak > Aplikazioak atalean.</string>
     <string name="chooseActivity">Hautatu ekintza</string>
     <string name="chooseUsbActivity">Hautatu USB gailuentzako aplikazioa</string>
@@ -1217,7 +1217,7 @@ Itxi?"</string>
     <string name="action_menu_overflow_description">Aukera gehiago</string>
     <string name="storage_internal">Barneko memoria</string>
     <string name="storage_sd_card">SD txartela</string>
-    <string name="storage_usb">USB memoria</string>
+    <string name="storage_usb">Kanpoko USB biltegia</string>
     <string name="extract_edit_menu_button">Editatu...</string>
     <string name="data_usage_warning_title">Datu erabileraren abisua</string>
     <string name="data_usage_warning_body">Ukitu ezarpenak ikusteko</string>
@@ -1278,6 +1278,7 @@ Itxi?"</string>
     <string name="lockscreen_strings_sim_puk_new_pin_header_txt">Sartu PIN berria</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Errepikatu PIN berria</string>
     <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">PUKak 8 digitu izan behar ditu</string>
-    <string name="seport_strings_accessory_not_supported_txt">Osagarri onartezina</string>
+    <string name="seport_strings_accessory_not_supported_txt">Entzungailua onartezina da. Erabili beste entzungailu batzuk edo, informazio gehiago eskuratzeko, kontsultatu Sony Mobile laguntza gunea.</string>
     <string name="global_action_sleep">Lo modua</string>
+    <string name="global_action_screenshot_txt">Atera argazkia</string>
 </resources>

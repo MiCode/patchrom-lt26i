@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="VideoView_error_title">Въпр. на видеокл. е неус.</string>
-    <string name="lockscreen_strings_backup_selection_security_question_summary_txt">Откл. чрез въпр. за защита</string>
     <string name="badPuk">Въведеният PUK код е неправил.</string>
     <string name="invalidPin">Въвед. ПИН код от 4 до 8 цифри.</string>
     <string name="adb_active_notification_message">Избор на забр. на отстраняв. на USB грешки.</string>

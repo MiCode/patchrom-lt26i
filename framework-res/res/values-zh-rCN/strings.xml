@@ -1019,7 +1019,7 @@
     <string name="wifi_watchdog_network_disabled">无法连接到WLAN</string>
     <string name="wifi_watchdog_network_disabled_detailed">" 互联网连接状况不佳。"</string>
     <string name="wifi_p2p_dialog_title">WLAN Direct</string>
-    <string name="wifi_p2p_turnon_message">启动WLAN Direct操作。此操作将会关闭WLAN客户端/热点操作。</string>
+    <string name="wifi_p2p_turnon_message">启动WLAN Direct操作。此操作将会关闭WLAN客户端/移动热点操作。</string>
     <string name="wifi_p2p_failed_message">无法启动WLAN Direct</string>
     <string name="wifi_p2p_pbc_go_negotiation_request_message">收到来自%1$s的WLAN Direct连接设定请求。点击“确定”即可接受。</string>
     <string name="wifi_p2p_pin_go_negotiation_request_message">收到来自%1$s的WLAN Direct连接设定请求。输入PIN即可继续操作。</string>
@@ -1130,7 +1130,7 @@
     <string name="submit">提交</string>
     <string name="car_mode_disable_notification_title">已启用车载模式</string>
     <string name="car_mode_disable_notification_message">选择退出车载模式</string>
-    <string name="tethered_notification_title">绑定或热点区已启用</string>
+    <string name="tethered_notification_title">绑定或移动热点已启用</string>
     <string name="tethered_notification_message">触摸可进行配置</string>
     <string name="back_button_label">上一步</string>
     <string name="next_button_label">下一步</string>
@@ -1218,7 +1218,7 @@
     <string name="action_menu_overflow_description">更多选项</string>
     <string name="storage_internal">内存空间</string>
     <string name="storage_sd_card">SD卡</string>
-    <string name="storage_usb">USB存储设备</string>
+    <string name="storage_usb">外部USB存储设备</string>
     <string name="extract_edit_menu_button">编辑...</string>
     <string name="data_usage_warning_title">数据使用警告</string>
     <string name="data_usage_warning_body">触摸可查看使用情况和设定</string>
@@ -1279,7 +1279,8 @@
     <string name="lockscreen_strings_sim_puk_new_pin_header_txt">输入新PIN码</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">再次输入新PIN码</string>
     <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">PUK码必须为8位</string>
-    <string name="seport_strings_accessory_not_supported_txt">不支持配件</string>
+    <string name="seport_strings_accessory_not_supported_txt">耳麦不受支持。使用其他耳麦或访问Sony Mobile支持网站了解更多信息。</string>
     <string name="global_action_sleep">睡眠模式</string>
+    <string name="global_action_screenshot_txt">获取屏幕截图</string>
     <string name="BaMmi">呼叫限制</string>
 </resources>

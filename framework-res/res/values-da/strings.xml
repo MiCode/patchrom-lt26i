@@ -172,7 +172,7 @@
     <string name="lockscreen_strings_backup_selection_sub_header_txt">Vælg, hvordan du vil låse skærmen op, hvis du har glemt mønstret</string>
     <string name="lockscreen_strings_backup_selection_security_question_txt">Besvar spørgsmål</string>
     <string name="lockscreen_strings_backup_selection_security_question_summary_txt">Lås op med sikkerhedsspørgsmål</string>
-    <string name="lockscreen_strings_backup_selection_google_account_txt">Indtast Google-kontooplysninger</string>
+    <string name="lockscreen_strings_backup_selection_google_account_txt">Indtast Google-kontoopl.</string>
     <string name="lockscreen_strings_backup_selection_google_account_summary_txt">Lås op med Google-kontooplysninger</string>
     <string name="lockscreen_strings_backup_selection_next_txt">Næste</string>
     <string name="lockscreen_strings_howtounlock_txt">Tryk på %icon for at låse op</string>
@@ -953,7 +953,7 @@ Besøg "<b>google.com/accounts/recovery</b></string>
     <string name="capital_on">TIL</string>
     <string name="capital_off">FRA</string>
     <string name="whichApplication">Fuldfør handling vha.</string>
-    <string name="alwaysUse">Brug som stand. til denne handling.</string>
+    <string name="alwaysUse">Brug som standard til denne handling.</string>
     <string name="clearDefaultHintMsg">Ryd standard i Startindstillinger > Applikationer > Administrer applikationer.</string>
     <string name="chooseActivity">Vælg en handling</string>
     <string name="chooseUsbActivity">Vælg et program for USB-enheden</string>
@@ -1218,7 +1218,7 @@ til kontoen %s"</string>
     <string name="action_menu_overflow_description">Flere indstillinger</string>
     <string name="storage_internal">Internt lager</string>
     <string name="storage_sd_card">SD-kort</string>
-    <string name="storage_usb">USB-lager</string>
+    <string name="storage_usb">Eksternt USB-lager</string>
     <string name="extract_edit_menu_button">Rediger...</string>
     <string name="data_usage_warning_title">Advarsel om dataforbrug</string>
     <string name="data_usage_warning_body">Tryk for at få vist brug og indstillinger</string>
@@ -1279,7 +1279,8 @@ til kontoen %s"</string>
     <string name="lockscreen_strings_sim_puk_new_pin_header_txt">Indtast ny PIN-kode</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Gentag ny PIN-kode</string>
     <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">PUK-koden skal være mindst 8 tal</string>
-    <string name="seport_strings_accessory_not_supported_txt">Tilbehør ikke understøttet</string>
+    <string name="seport_strings_accessory_not_supported_txt">Headset understøttes ikke. Brug et andet headset eller besøg Sony Mobile supportwebstedet for yderligere oplysninger.</string>
     <string name="global_action_sleep">Slumretilstand</string>
+    <string name="global_action_screenshot_txt">Gem skærmbillede</string>
     <string name="BaMmi">Opkaldsspærring</string>
 </resources>

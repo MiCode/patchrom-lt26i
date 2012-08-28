@@ -34,7 +34,7 @@
     <string name="lockscreen_strings_backup_selection_sub_header_txt">Selecione um método de desbloqueio de tela caso tenha esquecido seu padrão</string>
     <string name="lockscreen_strings_backup_selection_security_question_txt">Responder pergunta</string>
     <string name="lockscreen_strings_backup_selection_security_question_summary_txt">Desbloq. com perg. de segurança</string>
-    <string name="lockscreen_strings_backup_selection_google_account_txt">Inserir dados da Conta do Google</string>
+    <string name="lockscreen_strings_backup_selection_google_account_txt">Inserir dados da Conta Google</string>
     <string name="lockscreen_strings_backup_selection_google_account_summary_txt">Desbloqueie com detalhes da conta Google</string>
     <string name="lockscreen_strings_backup_selection_next_txt">Próxima</string>
     <string name="lockscreen_strings_howtounlock_txt">Pressione %icon p/desbloquear</string>
@@ -1075,7 +1075,7 @@ para a conta %s"</string>
     <string name="action_menu_overflow_description">Mais opções</string>
     <string name="storage_internal">Armazenamento interno</string>
     <string name="storage_sd_card">Cartão SD</string>
-    <string name="storage_usb">Armazenamento USB</string>
+    <string name="storage_usb">Armazenamento USB externo</string>
     <string name="extract_edit_menu_button">Editar...</string>
     <string name="data_usage_warning_title">Aviso sobre uso de dados</string>
     <string name="data_usage_warning_body">Toque para ver uso e configurações</string>
@@ -1131,11 +1131,12 @@ para a conta %s"</string>
     <string name="lockscreen_strings_sim_locked_out_header_txt">Chip bloqueado</string>
     <string name="lockscreen_strings_sim_puk_enter_puk_header_txt">Digite o PUK</string>
     <string name="lockscreen_strings_sim_puk_locked_header_txt">Chip bloqueado</string>
-    <string name="lockscreen_strings_sim_puk_locked_message_txt">Digite o código PUK da sua operadora de rede</string>
-    <string name="lockscreen_strings_sim_puk_locked_out_message_txt">Contate sua operadora</string>
+    <string name="lockscreen_strings_sim_puk_locked_message_txt">Digite o código PUK do seu provedor de serviço</string>
+    <string name="lockscreen_strings_sim_puk_locked_out_message_txt">Contate seu provedor de serviços</string>
     <string name="lockscreen_strings_sim_puk_new_pin_header_txt">Digite o novo PIN</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Repita o novo PIN</string>
     <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">O PUK deve ter 8 dígitos</string>
-    <string name="seport_strings_accessory_not_supported_txt">Acessório incompatível</string>
-    <string name="global_action_sleep">Modo Dormir</string>
+    <string name="seport_strings_accessory_not_supported_txt">Fone de ouvido incompatível. Use outro ou visite o site de suporte da Sony Mobile para mais informações.</string>
+    <string name="global_action_sleep">Modo de repouso</string>
+    <string name="global_action_screenshot_txt">Capturar imagem da tela</string>
 </resources>

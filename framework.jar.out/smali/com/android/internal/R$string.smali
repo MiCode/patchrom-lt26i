@@ -699,6 +699,8 @@
 
 .field public static final global_action_power_off:I = 0x104017f
 
+.field public static final global_action_screenshot_txt:I = 0x104055b
+
 .field public static final global_action_silent_mode_off_status:I = 0x1040182
 
 .field public static final global_action_silent_mode_on_status:I = 0x1040181
@@ -2763,7 +2765,7 @@
     .locals 0
 
     .prologue
-    .line 16313
+    .line 16327
     invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
 
     return-void

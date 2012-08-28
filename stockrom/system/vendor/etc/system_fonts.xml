@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Vendor System Fonts
+-->
+<familyset>
+    <family>
+        <nameset>
+            <name>soma</name>
+            <name>vendor</name>
+        </nameset>
+        <fileset>
+            <file>SoMARegular.ttf</file>
+            <file>SoMABold.ttf</file>
+        </fileset>
+    </family>
+</familyset>

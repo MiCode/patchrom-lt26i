@@ -167,12 +167,12 @@
     <string name="mmcc_authentication_reject">Tarjeta SIM no permitida</string>
     <string name="carrier_invalid_sim_card">Tarjeta SIM no válida</string>
     <string name="unregistered_sim">Tarjeta SIM no registrada</string>
-    <string name="lockscreen_strings_sim_puk_attempts_remaining_txt">Intentos que le quedan:</string>
+    <string name="lockscreen_strings_sim_puk_attempts_remaining_txt">Intentos restantes:</string>
     <string name="lockscreen_strings_backup_selection_header_txt">Desbloquea la pantalla</string>
     <string name="lockscreen_strings_backup_selection_sub_header_txt">Selecciona cómo desbloquear la pantalla si olvidas tu patrón</string>
     <string name="lockscreen_strings_backup_selection_security_question_txt">Responde la pregunta</string>
     <string name="lockscreen_strings_backup_selection_security_question_summary_txt">Desbloq con pregunta seguridad</string>
-    <string name="lockscreen_strings_backup_selection_google_account_txt">Ingresa los detalles de cuenta de Google</string>
+    <string name="lockscreen_strings_backup_selection_google_account_txt">Ingresa detalles cuenta Google</string>
     <string name="lockscreen_strings_backup_selection_google_account_summary_txt">Desbloq con detalles cuenta de Google</string>
     <string name="lockscreen_strings_backup_selection_next_txt">Siguiente</string>
     <string name="lockscreen_strings_howtounlock_txt">Oprima %icon para desbloquear</string>
@@ -730,10 +730,10 @@
     <string name="eventTypeAnniversary">Aniversario</string>
     <string name="eventTypeOther">Otros</string>
     <string name="emailTypeCustom">Personalizado</string>
-    <string name="emailTypeHome">Email: Casa</string>
-    <string name="emailTypeWork">Email: Trabajo</string>
-    <string name="emailTypeOther">Email: Otro</string>
-    <string name="emailTypeMobile">Móvil</string>
+    <string name="emailTypeHome">Correo electrónico: Casa</string>
+    <string name="emailTypeWork">Correo electrónico: Trabajo</string>
+    <string name="emailTypeOther">Correo electrónico: Otro</string>
+    <string name="emailTypeMobile">Correo electrónico: Móvil</string>
     <string name="postalTypeCustom">Personalizado</string>
     <string name="postalTypeHome">Casa</string>
     <string name="postalTypeWork">Trabajo</string>
@@ -809,11 +809,11 @@
     <string name="lockscreen_transport_pause_description">Botón de pausa</string>
     <string name="lockscreen_transport_play_description">Botón de reproducción</string>
     <string name="lockscreen_transport_stop_description">Botón para detener la reproducción</string>
-    <string name="emergency_calls_only">Sólo llamadas de emergencia</string>
+    <string name="emergency_calls_only">Sólo llamadas emergencia</string>
     <string name="lockscreen_network_locked_message">Red bloqueada</string>
     <string name="lockscreen_sim_puk_locked_message">Tarjeta SIM bloqueada con PUK.</string>
     <string name="lockscreen_sim_puk_locked_instructions">Consulta la guía del usuario o comunícate con el servicio de atención al cliente.</string>
-    <string name="lockscreen_sim_locked_message">La tarjeta SIM está bloqueada.</string>
+    <string name="lockscreen_sim_locked_message">SIM bloqueada</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Desbloqueando tarjeta SIM…</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Has extraído incorrectamente tu patrón de desbloqueo %d veces. 
 
@@ -953,7 +953,7 @@ Selecciona Aceptar para continuar o Cancelar para permanecer en la página actua
     <string name="capital_on">SÍ</string>
     <string name="capital_off">NO</string>
     <string name="whichApplication">Completar acción con</string>
-    <string name="alwaysUse">Usar predetermin en esta acción.</string>
+    <string name="alwaysUse">Usar esta acción como predeterminada</string>
     <string name="clearDefaultHintMsg">Borrar predeterminado en Ajustes > Aplicaciones.</string>
     <string name="chooseActivity">Seleccionar una acción</string>
     <string name="chooseUsbActivity">Seleccione una aplicación para el dispositivo USB</string>
@@ -1218,7 +1218,7 @@ para la cuenta %s"</string>
     <string name="action_menu_overflow_description">Más opciones</string>
     <string name="storage_internal">Almacenamiento interno</string>
     <string name="storage_sd_card">Tarjeta SD</string>
-    <string name="storage_usb">Almacenamiento USB</string>
+    <string name="storage_usb">Almacenamiento USB externo</string>
     <string name="extract_edit_menu_button">Editar...</string>
     <string name="data_usage_warning_title">Advertencia de uso de datos</string>
     <string name="data_usage_warning_body">Toca para ver el uso y ajustes</string>
@@ -1280,7 +1280,8 @@ para la cuenta %s"</string>
     <string name="lockscreen_strings_sim_puk_new_pin_header_txt">Ingrese el nuevo PIN</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Repita el nuevo PIN</string>
     <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">El PUK debe tener 8 dígitos</string>
-    <string name="seport_strings_accessory_not_supported_txt">Accesorio no compatible</string>
+    <string name="seport_strings_accessory_not_supported_txt">Audífono no compatible. Utilice otro audífono o visite el sitio de soporte de Sony Mobile para obtener más información.</string>
     <string name="global_action_sleep">Modo descanso</string>
+    <string name="global_action_screenshot_txt">Tome captura de pantalla</string>
     <string name="BaMmi">Bloqueo de llamada</string>
 </resources>

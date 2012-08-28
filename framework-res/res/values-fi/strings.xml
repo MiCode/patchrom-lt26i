@@ -830,7 +830,7 @@ Yritä uudelleen %d sekunnin kuluttua."</string>
     <string name="lockscreen_failed_attempts_almost_at_wipe" formatted="false">Puhelimen lukituksen poisto epäonnistui %d kertaa. Jos teet vielä %d epäonnistunutta yritystä, puhelimeen palautetaan tehdasasetukset ja kaikki käyttäjätiedot häviävät.</string>
     <string name="lockscreen_failed_attempts_now_wiping">Puhelimen lukituksen poisto epäonnistui %d kertaa. Puhelimeen palautetaan nyt tehdasasetukset.</string>
     <string name="lockscreen_too_many_failed_attempts_countdown">Yritä uudelleen %d sekunnin kuluttua.</string>
-    <string name="lockscreen_forgot_pattern_button_text">Oletko unohtanut kuvion?</string>
+    <string name="lockscreen_forgot_pattern_button_text">Unohditko kuvio?</string>
     <string name="lockscreen_glogin_forgot_pattern">Tilin lukituksen poistaminen</string>
     <string name="lockscreen_glogin_too_many_attempts">Liian monta kuvioyritystä!</string>
     <string name="lockscreen_glogin_instructions">Voit avata lukituksen kirjautumalla sisään Google-tilillä</string>
@@ -953,7 +953,7 @@ Valitse OK, jos haluat jatkaa, tai Peruuta, jos haluat pysyä valitulla sivulla.
     <string name="capital_on">|</string>
     <string name="capital_off">〇</string>
     <string name="whichApplication">Viimeistele sovelluksella</string>
-    <string name="alwaysUse">Käytä oletusarvona toimenpiteelle.</string>
+    <string name="alwaysUse">Käytä oletuksena tälle toiminnolle.</string>
     <string name="clearDefaultHintMsg">Tyhjennä oletusasetus kohdassa Asetukset > Sovellukset.</string>
     <string name="chooseActivity">Valitse toimenpide</string>
     <string name="chooseUsbActivity">Valitse sovellus USB-laitteelle</string>
@@ -1218,7 +1218,7 @@ tilille %s"</string>
     <string name="action_menu_overflow_description">Lisää asetuksia</string>
     <string name="storage_internal">Sisäinen tallennustila</string>
     <string name="storage_sd_card">SD-kortti</string>
-    <string name="storage_usb">USB-tallennustila</string>
+    <string name="storage_usb">Ulkoinen USB-muisti</string>
     <string name="extract_edit_menu_button">Muokkaa...</string>
     <string name="data_usage_warning_title">Tiedonsiirtovaroitus</string>
     <string name="data_usage_warning_body">Näytä käyttö ja asetukset koskettamalla</string>
@@ -1279,7 +1279,8 @@ tilille %s"</string>
     <string name="lockscreen_strings_sim_puk_new_pin_header_txt">Anna uusi PIN</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Toista uusi PIN</string>
     <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">PUK-koodin on oltava 8-lukuinen</string>
-    <string name="seport_strings_accessory_not_supported_txt">Lisälaitetta ei tueta</string>
+    <string name="seport_strings_accessory_not_supported_txt">Kuulokkeita ei tueta. Käytä joitakin toisia kuulokkeita tai hae lisätietoja Sony Mobile -tukisivustosta.</string>
     <string name="global_action_sleep">Lepotila</string>
+    <string name="global_action_screenshot_txt">Ota näyttökuva</string>
     <string name="BaMmi">Puhelujen esto</string>
 </resources>

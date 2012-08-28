@@ -3,7 +3,7 @@
 #
 
 # The original zip file, MUST be specified by each product
-local-zip-file     := LT26i_4.0.4_6.1.A.0.452.zip
+local-zip-file     := stockrom.zip
 
 # The output zip file of MIUI rom, the default is porting_miui.zip if not specified
 local-out-zip-file := MIUI_lt26i.zip
@@ -36,7 +36,7 @@ include $(PORT_BUILD)/porting.mk
 # To define any local-target
 local-zip-misc:
 	@echo Replace build.prop
-	cp other/build-6.1.A.0.452.prop $(ZIP_DIR)/system/build.prop
+	cp other/build-6.1.A.1.58.prop $(ZIP_DIR)/system/build.prop
 	rm $(ZIP_DIR)/system/vendor/overlay -rf
 	rm $(ZIP_DIR)/system/etc/customization/content/com/sonyericsson/wallpaperpicker/wallpapers -rf
 	touch $(ZIP_DIR)/system/autorooted

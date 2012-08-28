@@ -170,7 +170,7 @@
     <string name="lockscreen_strings_backup_selection_sub_header_txt">Pilih cara muka konci layar lamun poho ka polana</string>
     <string name="lockscreen_strings_backup_selection_security_question_txt">Jawab pertanyaan</string>
     <string name="lockscreen_strings_backup_selection_security_question_summary_txt">Buka konci ku jwbn kaamanan</string>
-    <string name="lockscreen_strings_backup_selection_google_account_txt">Asupkeun wincikan akun Google</string>
+    <string name="lockscreen_strings_backup_selection_google_account_txt">Asupkeun wi. akun Google</string>
     <string name="lockscreen_strings_backup_selection_google_account_summary_txt">Buka konci layar ku wincikan akun Google</string>
     <string name="lockscreen_strings_backup_selection_next_txt">Salajengna</string>
     <string name="lockscreen_strings_howtounlock_txt">Pencet %icon jang muka konci</string>
@@ -1204,7 +1204,7 @@ Tutup wae?"</string>
     <string name="action_menu_overflow_description">Opsi nu sejen</string>
     <string name="storage_internal">Panyimpenan Internal</string>
     <string name="storage_sd_card">Kartu SD</string>
-    <string name="storage_usb">Panyimpenan USB</string>
+    <string name="storage_usb">Panyimpenan USB eksternal</string>
     <string name="extract_edit_menu_button">Edit...</string>
     <string name="data_usage_warning_title">Titenan pamakean data</string>
     <string name="data_usage_warning_body">Rampa jang nempo pamakean jeung setelan</string>
@@ -1265,6 +1265,7 @@ Tutup wae?"</string>
     <string name="lockscreen_strings_sim_puk_new_pin_header_txt">Asupkeun PIN anyar</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Ulang deui PIN anyar</string>
     <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">PUK kedah 8 angka</string>
-    <string name="seport_strings_accessory_not_supported_txt">Aksesori teu dirojong</string>
+    <string name="seport_strings_accessory_not_supported_txt">Headset teu dirojong. Pake headset nu sejen atawa datangan tempat rojongan Sony Mobile kanggo inpo salengkepna.</string>
     <string name="global_action_sleep">Mode sare</string>
+    <string name="global_action_screenshot_txt">Cokot gambar layar</string>
 </resources>

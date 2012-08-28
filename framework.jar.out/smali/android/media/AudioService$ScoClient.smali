@@ -34,27 +34,27 @@
     .parameter "cb"
 
     .prologue
-    .line 1420
+    .line 1434
     iput-object p1, p0, Landroid/media/AudioService$ScoClient;->this$0:Landroid/media/AudioService;
 
     invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
 
-    .line 1421
+    .line 1435
     iput-object p2, p0, Landroid/media/AudioService$ScoClient;->mCb:Landroid/os/IBinder;
 
-    .line 1422
+    .line 1436
     invoke-static {}, Landroid/os/Binder;->getCallingPid()I
 
     move-result v0
 
     iput v0, p0, Landroid/media/AudioService$ScoClient;->mCreatorPid:I
 
-    .line 1423
+    .line 1437
     const/4 v0, 0x0
 
     iput v0, p0, Landroid/media/AudioService$ScoClient;->mStartcount:I
 
-    .line 1424
+    .line 1438
     return-void
 .end method
 
@@ -71,25 +71,25 @@
 
     const/4 v2, 0x0
 
-    .line 1512
+    .line 1526
     iget-object v0, p0, Landroid/media/AudioService$ScoClient;->this$0:Landroid/media/AudioService;
 
     #calls: Landroid/media/AudioService;->checkScoAudioState()V
     invoke-static {v0}, Landroid/media/AudioService;->access$2100(Landroid/media/AudioService;)V
 
-    .line 1513
+    .line 1527
     invoke-virtual {p0}, Landroid/media/AudioService$ScoClient;->totalCount()I
 
     move-result v0
 
     if-nez v0, :cond_3
 
-    .line 1514
+    .line 1528
     const/16 v0, 0xc
 
     if-ne p1, v0, :cond_8
 
-    .line 1517
+    .line 1531
     iget-object v0, p0, Landroid/media/AudioService$ScoClient;->this$0:Landroid/media/AudioService;
 
     const/4 v1, 0x2
@@ -97,7 +97,7 @@
     #calls: Landroid/media/AudioService;->broadcastScoConnectionState(I)V
     invoke-static {v0, v1}, Landroid/media/AudioService;->access$2200(Landroid/media/AudioService;I)V
 
-    .line 1520
+    .line 1534
     iget-object v0, p0, Landroid/media/AudioService$ScoClient;->this$0:Landroid/media/AudioService;
 
     #getter for: Landroid/media/AudioService;->mSetModeDeathHandlers:Ljava/util/ArrayList;
@@ -107,7 +107,7 @@
 
     monitor-enter v1
 
-    .line 1521
+    .line 1535
     :try_start_0
     iget-object v0, p0, Landroid/media/AudioService$ScoClient;->this$0:Landroid/media/AudioService;
 
@@ -164,7 +164,7 @@
 
     if-ne v0, v4, :cond_7
 
-    .line 1525
+    .line 1539
     :cond_1
     iget-object v0, p0, Landroid/media/AudioService$ScoClient;->this$0:Landroid/media/AudioService;
 
@@ -175,7 +175,7 @@
 
     if-nez v0, :cond_6
 
-    .line 1526
+    .line 1540
     iget-object v0, p0, Landroid/media/AudioService$ScoClient;->this$0:Landroid/media/AudioService;
 
     #getter for: Landroid/media/AudioService;->mBluetoothHeadset:Landroid/bluetooth/BluetoothHeadset;
@@ -194,7 +194,7 @@
 
     if-eqz v0, :cond_5
 
-    .line 1527
+    .line 1541
     iget-object v0, p0, Landroid/media/AudioService$ScoClient;->this$0:Landroid/media/AudioService;
 
     #getter for: Landroid/media/AudioService;->mBluetoothHeadset:Landroid/bluetooth/BluetoothHeadset;
@@ -215,7 +215,7 @@
 
     if-eqz v0, :cond_4
 
-    .line 1529
+    .line 1543
     iget-object v0, p0, Landroid/media/AudioService$ScoClient;->this$0:Landroid/media/AudioService;
 
     const/4 v2, 0x3
@@ -223,17 +223,17 @@
     #setter for: Landroid/media/AudioService;->mScoAudioState:I
     invoke-static {v0, v2}, Landroid/media/AudioService;->access$2302(Landroid/media/AudioService;I)I
 
-    .line 1544
+    .line 1558
     :cond_2
     :goto_0
     monitor-exit v1
 
-    .line 1565
+    .line 1579
     :cond_3
     :goto_1
     return-void
 
-    .line 1531
+    .line 1545
     :cond_4
     iget-object v0, p0, Landroid/media/AudioService$ScoClient;->this$0:Landroid/media/AudioService;
 
@@ -244,7 +244,7 @@
 
     goto :goto_0
 
-    .line 1544
+    .line 1558
     :catchall_0
     move-exception v0
 
@@ -254,7 +254,7 @@
 
     throw v0
 
-    .line 1534
+    .line 1548
     :cond_5
     :try_start_1
     iget-object v0, p0, Landroid/media/AudioService$ScoClient;->this$0:Landroid/media/AudioService;
@@ -266,7 +266,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 1535
+    .line 1549
     iget-object v0, p0, Landroid/media/AudioService$ScoClient;->this$0:Landroid/media/AudioService;
 
     const/4 v2, 0x1
@@ -276,7 +276,7 @@
 
     goto :goto_0
 
-    .line 1538
+    .line 1552
     :cond_6
     iget-object v0, p0, Landroid/media/AudioService$ScoClient;->this$0:Landroid/media/AudioService;
 
@@ -285,7 +285,7 @@
     #setter for: Landroid/media/AudioService;->mScoAudioState:I
     invoke-static {v0, v2}, Landroid/media/AudioService;->access$2302(Landroid/media/AudioService;I)I
 
-    .line 1539
+    .line 1553
     iget-object v0, p0, Landroid/media/AudioService$ScoClient;->this$0:Landroid/media/AudioService;
 
     const/4 v2, 0x1
@@ -295,7 +295,7 @@
 
     goto :goto_0
 
-    .line 1542
+    .line 1556
     :cond_7
     iget-object v0, p0, Landroid/media/AudioService$ScoClient;->this$0:Landroid/media/AudioService;
 
@@ -308,7 +308,7 @@
 
     goto :goto_0
 
-    .line 1545
+    .line 1559
     :cond_8
     const/16 v0, 0xa
 
@@ -332,7 +332,7 @@
 
     if-ne v0, v3, :cond_3
 
-    .line 1548
+    .line 1562
     :cond_9
     iget-object v0, p0, Landroid/media/AudioService$ScoClient;->this$0:Landroid/media/AudioService;
 
@@ -343,7 +343,7 @@
 
     if-ne v0, v1, :cond_b
 
-    .line 1549
+    .line 1563
     iget-object v0, p0, Landroid/media/AudioService$ScoClient;->this$0:Landroid/media/AudioService;
 
     #getter for: Landroid/media/AudioService;->mBluetoothHeadset:Landroid/bluetooth/BluetoothHeadset;
@@ -362,7 +362,7 @@
 
     if-eqz v0, :cond_a
 
-    .line 1550
+    .line 1564
     iget-object v0, p0, Landroid/media/AudioService$ScoClient;->this$0:Landroid/media/AudioService;
 
     #getter for: Landroid/media/AudioService;->mBluetoothHeadset:Landroid/bluetooth/BluetoothHeadset;
@@ -383,13 +383,13 @@
 
     if-nez v0, :cond_3
 
-    .line 1552
+    .line 1566
     iget-object v0, p0, Landroid/media/AudioService$ScoClient;->this$0:Landroid/media/AudioService;
 
     #setter for: Landroid/media/AudioService;->mScoAudioState:I
     invoke-static {v0, v2}, Landroid/media/AudioService;->access$2302(Landroid/media/AudioService;I)I
 
-    .line 1553
+    .line 1567
     iget-object v0, p0, Landroid/media/AudioService$ScoClient;->this$0:Landroid/media/AudioService;
 
     #calls: Landroid/media/AudioService;->broadcastScoConnectionState(I)V
@@ -397,7 +397,7 @@
 
     goto :goto_1
 
-    .line 1556
+    .line 1570
     :cond_a
     iget-object v0, p0, Landroid/media/AudioService$ScoClient;->this$0:Landroid/media/AudioService;
 
@@ -408,7 +408,7 @@
 
     if-eqz v0, :cond_3
 
-    .line 1557
+    .line 1571
     iget-object v0, p0, Landroid/media/AudioService$ScoClient;->this$0:Landroid/media/AudioService;
 
     #setter for: Landroid/media/AudioService;->mScoAudioState:I
@@ -416,14 +416,14 @@
 
     goto/16 :goto_1
 
-    .line 1560
+    .line 1574
     :cond_b
     iget-object v0, p0, Landroid/media/AudioService$ScoClient;->this$0:Landroid/media/AudioService;
 
     #setter for: Landroid/media/AudioService;->mScoAudioState:I
     invoke-static {v0, v2}, Landroid/media/AudioService;->access$2302(Landroid/media/AudioService;I)I
 
-    .line 1561
+    .line 1575
     iget-object v0, p0, Landroid/media/AudioService$ScoClient;->this$0:Landroid/media/AudioService;
 
     #calls: Landroid/media/AudioService;->broadcastScoConnectionState(I)V
@@ -438,7 +438,7 @@
     .locals 4
 
     .prologue
-    .line 1427
+    .line 1441
     iget-object v1, p0, Landroid/media/AudioService$ScoClient;->this$0:Landroid/media/AudioService;
 
     #getter for: Landroid/media/AudioService;->mScoClients:Ljava/util/ArrayList;
@@ -448,7 +448,7 @@
 
     monitor-enter v2
 
-    .line 1428
+    .line 1442
     :try_start_0
     const-string v1, "AudioService"
 
@@ -456,7 +456,7 @@
 
     invoke-static {v1, v3}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 1429
+    .line 1443
     iget-object v1, p0, Landroid/media/AudioService$ScoClient;->this$0:Landroid/media/AudioService;
 
     #getter for: Landroid/media/AudioService;->mScoClients:Ljava/util/ArrayList;
@@ -468,31 +468,31 @@
 
     move-result v0
 
-    .line 1430
+    .line 1444
     .local v0, index:I
     if-gez v0, :cond_0
 
-    .line 1431
+    .line 1445
     const-string v1, "AudioService"
 
     const-string/jumbo v3, "unregistered SCO client died"
 
     invoke-static {v1, v3}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 1436
+    .line 1450
     :goto_0
     monitor-exit v2
 
-    .line 1437
+    .line 1451
     return-void
 
-    .line 1433
+    .line 1447
     :cond_0
     const/4 v1, 0x1
 
     invoke-virtual {p0, v1}, Landroid/media/AudioService$ScoClient;->clearCount(Z)V
 
-    .line 1434
+    .line 1448
     iget-object v1, p0, Landroid/media/AudioService$ScoClient;->this$0:Landroid/media/AudioService;
 
     #getter for: Landroid/media/AudioService;->mScoClients:Ljava/util/ArrayList;
@@ -504,7 +504,7 @@
 
     goto :goto_0
 
-    .line 1436
+    .line 1450
     .end local v0           #index:I
     :catchall_0
     move-exception v1
@@ -521,7 +521,7 @@
     .parameter "stopSco"
 
     .prologue
-    .line 1473
+    .line 1487
     iget-object v1, p0, Landroid/media/AudioService$ScoClient;->this$0:Landroid/media/AudioService;
 
     #getter for: Landroid/media/AudioService;->mScoClients:Ljava/util/ArrayList;
@@ -531,7 +531,7 @@
 
     monitor-enter v2
 
-    .line 1474
+    .line 1488
     :try_start_0
     iget v1, p0, Landroid/media/AudioService$ScoClient;->mStartcount:I
     :try_end_0
@@ -539,7 +539,7 @@
 
     if-eqz v1, :cond_0
 
-    .line 1476
+    .line 1490
     :try_start_1
     iget-object v1, p0, Landroid/media/AudioService$ScoClient;->mCb:Landroid/os/IBinder;
 
@@ -550,7 +550,7 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
     .catch Ljava/util/NoSuchElementException; {:try_start_1 .. :try_end_1} :catch_0
 
-    .line 1481
+    .line 1495
     :cond_0
     :goto_0
     const/4 v1, 0x0
@@ -558,26 +558,26 @@
     :try_start_2
     iput v1, p0, Landroid/media/AudioService$ScoClient;->mStartcount:I
 
-    .line 1482
+    .line 1496
     if-eqz p1, :cond_1
 
-    .line 1483
+    .line 1497
     const/16 v1, 0xa
 
     invoke-direct {p0, v1}, Landroid/media/AudioService$ScoClient;->requestScoState(I)V
 
-    .line 1485
+    .line 1499
     :cond_1
     monitor-exit v2
 
-    .line 1486
+    .line 1500
     return-void
 
-    .line 1477
+    .line 1491
     :catch_0
     move-exception v0
 
-    .line 1478
+    .line 1492
     .local v0, e:Ljava/util/NoSuchElementException;
     const-string v1, "AudioService"
 
@@ -611,7 +611,7 @@
 
     goto :goto_0
 
-    .line 1485
+    .line 1499
     .end local v0           #e:Ljava/util/NoSuchElementException;
     :catchall_0
     move-exception v1
@@ -627,7 +627,7 @@
     .locals 4
 
     .prologue
-    .line 1455
+    .line 1469
     iget-object v1, p0, Landroid/media/AudioService$ScoClient;->this$0:Landroid/media/AudioService;
 
     #getter for: Landroid/media/AudioService;->mScoClients:Ljava/util/ArrayList;
@@ -637,27 +637,27 @@
 
     monitor-enter v2
 
-    .line 1456
+    .line 1470
     :try_start_0
     iget v1, p0, Landroid/media/AudioService$ScoClient;->mStartcount:I
 
     if-nez v1, :cond_0
 
-    .line 1457
+    .line 1471
     const-string v1, "AudioService"
 
     const-string v3, "ScoClient.decCount() already 0"
 
     invoke-static {v1, v3}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 1469
+    .line 1483
     :goto_0
     monitor-exit v2
 
-    .line 1470
+    .line 1484
     return-void
 
-    .line 1459
+    .line 1473
     :cond_0
     iget v1, p0, Landroid/media/AudioService$ScoClient;->mStartcount:I
 
@@ -665,14 +665,14 @@
 
     iput v1, p0, Landroid/media/AudioService$ScoClient;->mStartcount:I
 
-    .line 1460
+    .line 1474
     iget v1, p0, Landroid/media/AudioService$ScoClient;->mStartcount:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     if-nez v1, :cond_1
 
-    .line 1462
+    .line 1476
     :try_start_1
     iget-object v1, p0, Landroid/media/AudioService$ScoClient;->mCb:Landroid/os/IBinder;
 
@@ -683,7 +683,7 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
     .catch Ljava/util/NoSuchElementException; {:try_start_1 .. :try_end_1} :catch_0
 
-    .line 1467
+    .line 1481
     :cond_1
     :goto_1
     const/16 v1, 0xa
@@ -693,7 +693,7 @@
 
     goto :goto_0
 
-    .line 1469
+    .line 1483
     :catchall_0
     move-exception v1
 
@@ -703,11 +703,11 @@
 
     throw v1
 
-    .line 1463
+    .line 1477
     :catch_0
     move-exception v0
 
-    .line 1464
+    .line 1478
     .local v0, e:Ljava/util/NoSuchElementException;
     :try_start_3
     const-string v1, "AudioService"
@@ -725,7 +725,7 @@
     .locals 1
 
     .prologue
-    .line 1493
+    .line 1507
     iget-object v0, p0, Landroid/media/AudioService$ScoClient;->mCb:Landroid/os/IBinder;
 
     return-object v0
@@ -735,7 +735,7 @@
     .locals 1
 
     .prologue
-    .line 1489
+    .line 1503
     iget v0, p0, Landroid/media/AudioService$ScoClient;->mStartcount:I
 
     return v0
@@ -745,7 +745,7 @@
     .locals 1
 
     .prologue
-    .line 1497
+    .line 1511
     iget v0, p0, Landroid/media/AudioService$ScoClient;->mCreatorPid:I
 
     return v0
@@ -755,7 +755,7 @@
     .locals 5
 
     .prologue
-    .line 1440
+    .line 1454
     iget-object v1, p0, Landroid/media/AudioService$ScoClient;->this$0:Landroid/media/AudioService;
 
     #getter for: Landroid/media/AudioService;->mScoClients:Ljava/util/ArrayList;
@@ -765,20 +765,20 @@
 
     monitor-enter v2
 
-    .line 1441
+    .line 1455
     const/16 v1, 0xc
 
     :try_start_0
     invoke-direct {p0, v1}, Landroid/media/AudioService$ScoClient;->requestScoState(I)V
 
-    .line 1442
+    .line 1456
     iget v1, p0, Landroid/media/AudioService$ScoClient;->mStartcount:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     if-nez v1, :cond_0
 
-    .line 1444
+    .line 1458
     :try_start_1
     iget-object v1, p0, Landroid/media/AudioService$ScoClient;->mCb:Landroid/os/IBinder;
 
@@ -789,7 +789,7 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
     .catch Landroid/os/RemoteException; {:try_start_1 .. :try_end_1} :catch_0
 
-    .line 1450
+    .line 1464
     :cond_0
     :goto_0
     :try_start_2
@@ -799,17 +799,17 @@
 
     iput v1, p0, Landroid/media/AudioService$ScoClient;->mStartcount:I
 
-    .line 1451
+    .line 1465
     monitor-exit v2
 
-    .line 1452
+    .line 1466
     return-void
 
-    .line 1445
+    .line 1459
     :catch_0
     move-exception v0
 
-    .line 1447
+    .line 1461
     .local v0, e:Landroid/os/RemoteException;
     const-string v1, "AudioService"
 
@@ -843,7 +843,7 @@
 
     goto :goto_0
 
-    .line 1451
+    .line 1465
     .end local v0           #e:Landroid/os/RemoteException;
     :catchall_0
     move-exception v1
@@ -859,7 +859,7 @@
     .locals 5
 
     .prologue
-    .line 1501
+    .line 1515
     iget-object v3, p0, Landroid/media/AudioService$ScoClient;->this$0:Landroid/media/AudioService;
 
     #getter for: Landroid/media/AudioService;->mScoClients:Ljava/util/ArrayList;
@@ -869,10 +869,10 @@
 
     monitor-enter v4
 
-    .line 1502
+    .line 1516
     const/4 v0, 0x0
 
-    .line 1503
+    .line 1517
     .local v0, count:I
     :try_start_0
     iget-object v3, p0, Landroid/media/AudioService$ScoClient;->this$0:Landroid/media/AudioService;
@@ -886,7 +886,7 @@
 
     move-result v2
 
-    .line 1504
+    .line 1518
     .local v2, size:I
     const/4 v1, 0x0
 
@@ -894,7 +894,7 @@
     :goto_0
     if-ge v1, v2, :cond_0
 
-    .line 1505
+    .line 1519
     iget-object v3, p0, Landroid/media/AudioService$ScoClient;->this$0:Landroid/media/AudioService;
 
     #getter for: Landroid/media/AudioService;->mScoClients:Ljava/util/ArrayList;
@@ -914,18 +914,18 @@
 
     add-int/2addr v0, v3
 
-    .line 1504
+    .line 1518
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_0
 
-    .line 1507
+    .line 1521
     :cond_0
     monitor-exit v4
 
     return v0
 
-    .line 1508
+    .line 1522
     .end local v1           #i:I
     .end local v2           #size:I
     :catchall_0

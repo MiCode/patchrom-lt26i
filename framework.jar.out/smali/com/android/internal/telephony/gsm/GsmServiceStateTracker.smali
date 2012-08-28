@@ -1480,7 +1480,7 @@
     iput v9, v6, Landroid/app/Notification;->flags:I
 
     .line 1012
-    const v9, 0x10807e2
+    const v9, 0x10807e6
 
     iput v9, v6, Landroid/app/Notification;->icon:I
 

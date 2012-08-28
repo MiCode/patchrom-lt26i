@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="mmcc_imsi_unknown_in_hlr">SIMカードが提供されていませんMM #2</string>
-    <string name="lockscreen_strings_backup_selection_google_account_summary_txt">Googleｱｶｳﾝﾄ情報を入力し画面ﾛｯｸを解除する</string>
     <string name="lockscreen_strings_backup_new_pattern_question_message_txt">新しいロック解除パターンを記録しますか?</string>
     <string name="mmiError">接続に問題があるか、MMIコードが正しくありません。</string>
     <string name="mmiFdnError">発信番号制限で指定された番号に対してのみ操作できます。</string>

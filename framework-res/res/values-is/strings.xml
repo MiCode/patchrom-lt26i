@@ -170,7 +170,7 @@
     <string name="lockscreen_strings_backup_selection_sub_header_txt">Veldu hvernig þú opnar skjáinn ef þú gleymir mynstrinu þínu</string>
     <string name="lockscreen_strings_backup_selection_security_question_txt">Svara spurningu</string>
     <string name="lockscreen_strings_backup_selection_security_question_summary_txt">Opna skjá með öryggisspurningu</string>
-    <string name="lockscreen_strings_backup_selection_google_account_txt">Slá inn upplýsingar Google-reiknings</string>
+    <string name="lockscreen_strings_backup_selection_google_account_txt">Sláðu inn Google reikningsuppl.</string>
     <string name="lockscreen_strings_backup_selection_google_account_summary_txt">Opnaðu skjáinn með Google-reikningsuppl.</string>
     <string name="lockscreen_strings_backup_selection_next_txt">Næsti</string>
     <string name="lockscreen_strings_howtounlock_txt">Ýttu á %icon til að opna</string>
@@ -1221,7 +1221,7 @@ fyrir pósthólfið %s"</string>
     <string name="action_menu_overflow_description">Fleiri kostir</string>
     <string name="storage_internal">Innri geymsla</string>
     <string name="storage_sd_card">SD-kort</string>
-    <string name="storage_usb">USB-geymsla</string>
+    <string name="storage_usb">Ytri USB-geymsla</string>
     <string name="extract_edit_menu_button">Breyta...</string>
     <string name="data_usage_warning_title">Viðvörun um gagnanotkun</string>
     <string name="data_usage_warning_body">Snertu til að skoða notkun og stillingar</string>
@@ -1282,6 +1282,7 @@ fyrir pósthólfið %s"</string>
     <string name="lockscreen_strings_sim_puk_new_pin_header_txt">Slá inn nýtt PIN-númer</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Endurtaka nýtt PIN-númer</string>
     <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">PUK-númer verður að vera 8 stafir</string>
-    <string name="seport_strings_accessory_not_supported_txt">Þessi aukabúnaður virkar ekki í símanum</string>
+    <string name="seport_strings_accessory_not_supported_txt">Heyrnartól ekki studd. Notaðu önnur heyrnartól eða farðu á þjónustusíðu Sony Mobile fyrir nánari upplýsingar.</string>
     <string name="global_action_sleep">Svefnstilling</string>
+    <string name="global_action_screenshot_txt">Taka skjámynd</string>
 </resources>

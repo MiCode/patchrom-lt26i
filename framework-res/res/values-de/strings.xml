@@ -953,7 +953,7 @@ Wählen Sie \"OK\", um fortzufahren, oder wählen Sie \"Abbrechen\", um auf der 
     <string name="capital_on">AN</string>
     <string name="capital_off">AUS</string>
     <string name="whichApplication">Aktion durchführen mit</string>
-    <string name="alwaysUse">Als Standard für diese Aktion verw.</string>
+    <string name="alwaysUse">Als Standard für diese Aktion verwenden</string>
     <string name="clearDefaultHintMsg">Standardeinstellung unter \"Einstellungen\" > \"Apps\" löschen</string>
     <string name="chooseActivity">Aktion auswählen</string>
     <string name="chooseUsbActivity">Anwendung für das USB-Gerät auswählen</string>
@@ -1218,7 +1218,7 @@ für Konto %s"</string>
     <string name="action_menu_overflow_description">Weitere Optionen</string>
     <string name="storage_internal">Interner Speicher</string>
     <string name="storage_sd_card">SD-Karte</string>
-    <string name="storage_usb">USB-Speicher</string>
+    <string name="storage_usb">Externer USB-Speicher</string>
     <string name="extract_edit_menu_button">Bearbeiten...</string>
     <string name="data_usage_warning_title">Warnung zum Datenverbrauch</string>
     <string name="data_usage_warning_body">Für Nutzung/Einstell. berühren</string>
@@ -1279,7 +1279,8 @@ für Konto %s"</string>
     <string name="lockscreen_strings_sim_puk_new_pin_header_txt">Neue PIN eingeben</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Neue PIN wiederholen</string>
     <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">PUK muss 8 Ziffern enthalten.</string>
-    <string name="seport_strings_accessory_not_supported_txt">Zubehör wird nicht unterstützt</string>
+    <string name="seport_strings_accessory_not_supported_txt">Das Headset wird nicht unterstützt. Verwenden Sie ein anderes Headset oder besuchen Sie die Sony Mobile-Supportwebsite, um weitere Informationen zu erhalten.</string>
     <string name="global_action_sleep">Energiesparmodus</string>
+    <string name="global_action_screenshot_txt">Bildschirmfoto erstellen</string>
     <string name="BaMmi">Anrufsperre</string>
 </resources>

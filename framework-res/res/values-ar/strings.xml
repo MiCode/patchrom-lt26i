@@ -152,11 +152,11 @@
     <string name="same_year_wday1_mdy1_time1_wday2_mdy2_time2">%5$s %1$s، %3$s %2$s %4$s – %10$s %6$s، %8$s %7$s %9$s</string>
     <string name="same_month_wday1_mdy1_time1_wday2_mdy2_time2">%5$s %1$s، %3$s %2$s %4$s – %10$s %6$s، %8$s %7$s %9$s</string>
     <string name="same_month_wday1_mdy1_wday2_mdy2">%1$s، %3$s %2$s %4$s – %6$s، %8$s %7$s %9$s</string>
-    <string name="same_month_md1_md2">%3$s-%8$s %2$s</string>
+    <string name="same_month_md1_md2">%3$s–%8$s %2$s</string>
     <string name="same_month_wday1_md1_wday2_md2">%1$s %3$s %2$s – %6$s %8$s %7$s</string>
-    <string name="same_year_mdy1_mdy2">%3$s %2$s - %8$s %7$s، %9$s</string>
-    <string name="same_month_mdy1_mdy2">%3$s-%8$s %2$s، %9$s</string>
-    <string name="same_year_wday1_mdy1_wday2_mdy2">%1$s، %3$s %2$s - %6$s، %8$s %7$s، %9$s</string>
+    <string name="same_year_mdy1_mdy2">%3$s %2$s – %8$s %7$s، %9$s</string>
+    <string name="same_month_mdy1_mdy2">%3$s–%8$s %2$s، %9$s</string>
+    <string name="same_year_wday1_mdy1_wday2_mdy2">%1$s، %3$s %2$s – %6$s، %8$s %7$s، %9$s</string>
     <string name="short_format_month">%b</string>
     <string name="full_wday_month_day_no_year">E d MMMM</string>
     <string name="abbrev_wday_month_day_no_year">E d MMMM</string>
@@ -172,7 +172,7 @@
     <string name="lockscreen_strings_backup_selection_sub_header_txt">تحديد كيفية إلغاء قفل الشاشة في حالة نسيانك للنمط</string>
     <string name="lockscreen_strings_backup_selection_security_question_txt">الإجابة على السؤال</string>
     <string name="lockscreen_strings_backup_selection_security_question_summary_txt">إلغاء بسؤال الأمان</string>
-    <string name="lockscreen_strings_backup_selection_google_account_txt">أدخل تفاصيل حساب Google الخاص بك</string>
+    <string name="lockscreen_strings_backup_selection_google_account_txt">أدخل تفاصيل حساب Google</string>
     <string name="lockscreen_strings_backup_selection_google_account_summary_txt">إلغاء القفل بتفاصيل حساب Google</string>
     <string name="lockscreen_strings_backup_selection_next_txt">التالي</string>
     <string name="lockscreen_strings_howtounlock_txt">اضغط على %icon لإلغاء القفل</string>
@@ -1215,7 +1215,7 @@
     <string name="action_menu_overflow_description">المزيد من الخيارات</string>
     <string name="storage_internal">مخزن داخلي</string>
     <string name="storage_sd_card">بطاقة SD</string>
-    <string name="storage_usb">مخزن USB</string>
+    <string name="storage_usb">وحدة تخزين USB الخارجية</string>
     <string name="extract_edit_menu_button">تعديل...</string>
     <string name="data_usage_warning_title">تحذير استخدام البيانات</string>
     <string name="data_usage_warning_body">المس لعرض الاستخدام والإعدادات</string>
@@ -1277,7 +1277,8 @@
     <string name="lockscreen_strings_sim_puk_new_pin_header_txt">أدخل رمز PIN الجديد</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">كرر رمز PIN الجديد</string>
     <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">يجب أن يتألف PUK من 8 أرقام</string>
-    <string name="seport_strings_accessory_not_supported_txt">الملحق غير مدعوم</string>
+    <string name="seport_strings_accessory_not_supported_txt">سماعة الرأس غير مدعومة. استخدم سماعة رأس أخرى أو تفضل بزيارة موقع الدعم لشركة Sony Mobile للحصول على مزيد من المعلومات.</string>
     <string name="global_action_sleep">وضع السكون</string>
+    <string name="global_action_screenshot_txt">التقاط لقطة شاشة</string>
     <string name="BaMmi">حظر الاتصال</string>
 </resources>

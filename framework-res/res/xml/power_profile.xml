@@ -48,31 +48,31 @@
     </array>
     <item name="cpu.idle">2.2</item>
     <array name="cpu.active">
-        <value>22.46</value>
-        <value>20.15</value>
-        <value>20.51</value>
-        <value>20.83</value>
-        <value>21.88</value>
-        <value>20.68</value>
-        <value>21.55</value>
-        <value>22.82</value>
-        <value>22.86</value>
-        <value>21.51</value>
-        <value>24</value>
-        <value>21.39</value>
-        <value>24.14</value>
-        <value>22.86</value>
-        <value>22.86</value>
-        <value>22.03</value>
-        <value>24.2</value>
-        <value>24.56</value>
-        <value>23.41</value>
-        <value>26.22</value>
-        <value>26.64</value>
-        <value>26.18</value>
-        <value>26.01</value>
-        <value>26.93</value>
+        <value>45.12</value>
+        <value>44.64</value>
+        <value>47.63</value>
+        <value>47.46</value>
+        <value>48.38</value>
+        <value>48.13</value>
+        <value>57.74</value>
+        <value>57.65</value>
+        <value>58.03</value>
+        <value>59.04</value>
+        <value>59.98</value>
+        <value>59.34</value>
+        <value>60.14</value>
+        <value>60.45</value>
+        <value>60.45</value>
+        <value>61.75</value>
+        <value>62.21</value>
+        <value>79.39</value>
+        <value>80.4</value>
+        <value>81.78</value>
+        <value>81.23</value>
+        <value>83.62</value>
+        <value>84.08</value>
+        <value>86.52</value>
     </array>
-    <item name="cpu.awake">20.15</item>
+    <item name="cpu.awake">44.64</item>
     <item name="battery.capacity">1750</item>
 </device>

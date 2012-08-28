@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="lockscreen_strings_backup_selection_security_question_summary_txt">Debloc. cu întreb. siguranţă</string>
     <string name="BaICMmi">Blocare apeluri sosite</string>
     <string name="BaOCMmi">Blocare apeluri expediate</string>
     <string name="BaOICMmi">Blocare apeluri internaţionale expediate</string>
@@ -12,10 +11,10 @@
     <string name="invalidPin">Tastaţi PIN compus din 4 - 8 cifre.</string>
     <string name="lockscreen_pattern_instructions">Desenaţi modelul pt. deblocare</string>
     <string name="whichApplication">Finalizare acţiune utilizând</string>
-    <string name="alwaysUse">Se util. implicit pt. această acţiune.</string>
     <string name="adb_active_notification_message">Selectaţi pentru a dezactiva depanarea USB.</string>
     <string name="car_mode_disable_notification_message">Selectaţi pentru a ieşi din modul Auto.</string>
     <string name="dialer_keyboard_hint_txt">Utilizaţi tastat. pt. apel.</string>
     <string name="general_dialpad_voicemail_txt">Poştă voc.</string>
     <string name="global_action_sleep">Mod repaus</string>
+    <string name="global_action_screenshot_txt">Efectuare captură ecran</string>
 </resources>

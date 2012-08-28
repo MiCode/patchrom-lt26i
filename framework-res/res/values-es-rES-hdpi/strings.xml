@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="VideoView_error_title">No se puede reprod. vídeo.</string>
-    <string name="lockscreen_strings_backup_selection_security_question_summary_txt">Desbl. pantalla con preg. segur.</string>
     <string name="lockscreen_strings_backup_question_3_txt">¿Cuál es su lugar favorito?</string>
     <string name="inputMethod">Método de entrada de texto</string>
     <string name="car_mode_disable_notification_message">Selecciona para salir del modo coche.</string>

@@ -172,7 +172,7 @@
     <string name="lockscreen_strings_backup_selection_sub_header_txt">Ako ste zaboravili uzorak, odaberite način otključavanja zaslona</string>
     <string name="lockscreen_strings_backup_selection_security_question_txt">Odgovorite na pitanje</string>
     <string name="lockscreen_strings_backup_selection_security_question_summary_txt">Otklj. zasl. odgov. na sigurn. pit.</string>
-    <string name="lockscreen_strings_backup_selection_google_account_txt">Unesite podatke za Google račun</string>
+    <string name="lockscreen_strings_backup_selection_google_account_txt">Unesite pod. za Google račun</string>
     <string name="lockscreen_strings_backup_selection_google_account_summary_txt">Otključ. zaslon unos. pod. za svoj Google rač.</string>
     <string name="lockscreen_strings_backup_selection_next_txt">Dalje</string>
     <string name="lockscreen_strings_howtounlock_txt">Pritisnite %icon za otključavanje</string>
@@ -953,7 +953,7 @@ Odaberite U redu da biste nastavili ili Odustani da biste ostali na trenutnoj st
     <string name="capital_on">|</string>
     <string name="capital_off">〇</string>
     <string name="whichApplication">Dovrši radnju pomoću</string>
-    <string name="alwaysUse">Koristi po zadanom za tu akciju.</string>
+    <string name="alwaysUse">Koristi prema zadanim postavkama za ovu radnju.</string>
     <string name="clearDefaultHintMsg">Izbrišite zadane postavke na izborniku Postavke > Aplikacije.</string>
     <string name="chooseActivity">Odabir radnje</string>
     <string name="chooseUsbActivity">Odaberite program za USB uređaj</string>
@@ -1218,7 +1218,7 @@ za račun %s"</string>
     <string name="action_menu_overflow_description">Više mogućnosti</string>
     <string name="storage_internal">Interna memorija</string>
     <string name="storage_sd_card">SD kartica</string>
-    <string name="storage_usb">USB memorija</string>
+    <string name="storage_usb">Vanjska USB memorija</string>
     <string name="extract_edit_menu_button">Uređivanje...</string>
     <string name="data_usage_warning_title">Upozorenje o korištenju podataka</string>
     <string name="data_usage_warning_body">Dodirnite da biste pogledali upotrebu i postavke</string>
@@ -1279,7 +1279,8 @@ za račun %s"</string>
     <string name="lockscreen_strings_sim_puk_new_pin_header_txt">Unesite novi PIN</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Ponovno unesite novi PIN</string>
     <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">PUK mora imati osam znamenki</string>
-    <string name="seport_strings_accessory_not_supported_txt">Dodatna oprema nije podržana</string>
+    <string name="seport_strings_accessory_not_supported_txt">Slušalice s mikrofonom nisu podržane. Koristite neke druge slušalice s mikrofonom ili potražite dodatne informacije na web-stranicama za podršku tvrtke Sony Mobile.</string>
     <string name="global_action_sleep">Stanje mirovanja</string>
+    <string name="global_action_screenshot_txt">Snimi snimku zaslona</string>
     <string name="BaMmi">Zabrana poziva</string>
 </resources>

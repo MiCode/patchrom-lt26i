@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="7">
+ <apn carrier="Internet"
+ apn="internet"
+ mcc="286"
+ mnc="01"
+ type="default,supl"
+ authtype="0"
+ />
+ <apn carrier="Turkcell MMS"
+ apn="mms"
+ user="mms"
+ password="mms"
+ mmsc="http://mms.turkcell.com.tr/servlets/mms"
+ mmsproxy="212.252.169.217"
+ mmsport="8080"
+ mcc="286"
+ mnc="01"
+ type="mms"
+ authtype="0"
+ />
+</apns>

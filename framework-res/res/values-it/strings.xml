@@ -172,7 +172,7 @@
     <string name="lockscreen_strings_backup_selection_sub_header_txt">Seleziona come sbloccare lo schermo nel caso dimentichi la sequenza</string>
     <string name="lockscreen_strings_backup_selection_security_question_txt">Rispondi alla domanda</string>
     <string name="lockscreen_strings_backup_selection_security_question_summary_txt">Sblocca con la dom. di sicurezza</string>
-    <string name="lockscreen_strings_backup_selection_google_account_txt">"Immetti i dettagli dell'account di Google"</string>
+    <string name="lockscreen_strings_backup_selection_google_account_txt">Immetti dett. account Google</string>
     <string name="lockscreen_strings_backup_selection_google_account_summary_txt">"Sblocca con i dettagli dell'account Google"</string>
     <string name="lockscreen_strings_backup_selection_next_txt">Avanti</string>
     <string name="lockscreen_strings_howtounlock_txt">Premere %icon per sbloccare</string>
@@ -830,7 +830,7 @@ Riprova fra %d secondi."</string>
     <string name="lockscreen_failed_attempts_almost_at_wipe" formatted="false">Hai erroneamente tentato di sbloccare il telefono %d volte. Dopo altri %d tentativi non riusciti, il telefono verrà sottoposto a un ripristino dati di fabbrica e tutti i dati utente andranno persi.</string>
     <string name="lockscreen_failed_attempts_now_wiping">Hai erroneamente tentato di sbloccare il telefono %d volte. Il telefono ora verrà sottoposto a un ripristino dati di fabbrica.</string>
     <string name="lockscreen_too_many_failed_attempts_countdown">Riprova fra %d secondi.</string>
-    <string name="lockscreen_forgot_pattern_button_text">Hai dimenticato la sequenza?</string>
+    <string name="lockscreen_forgot_pattern_button_text">Sequenza dimenticata?</string>
     <string name="lockscreen_glogin_forgot_pattern">Sblocco account</string>
     <string name="lockscreen_glogin_too_many_attempts">Troppi tentativi di inserimento della sequenza.</string>
     <string name="lockscreen_glogin_instructions">Per sbloccare, accedi tramite il tuo account Google</string>
@@ -953,7 +953,7 @@ Seleziona OK per continuare o Annulla per rimanere nella pagina corrente."</stri
     <string name="capital_on">|</string>
     <string name="capital_off">〇</string>
     <string name="whichApplication">"Completa l'azione con"</string>
-    <string name="alwaysUse">"Usa come predefinita per l'azione."</string>
+    <string name="alwaysUse">Usa come predefinita per questa azione.</string>
     <string name="clearDefaultHintMsg">Cancella predefinita in Impostazioni > Applicazioni.</string>
     <string name="chooseActivity">"Seleziona un'azione"</string>
     <string name="chooseUsbActivity">"Selezionare un'applicazione per il dispositivo USB"</string>
@@ -1218,7 +1218,7 @@ per l'account %s"</string>
     <string name="action_menu_overflow_description">Altre opzioni</string>
     <string name="storage_internal">Archivio interno</string>
     <string name="storage_sd_card">Scheda SD</string>
-    <string name="storage_usb">Archivio USB</string>
+    <string name="storage_usb">Memoria USB esterno</string>
     <string name="extract_edit_menu_button">Modifica...</string>
     <string name="data_usage_warning_title">"Avviso sull'utilizzo dei dati"</string>
     <string name="data_usage_warning_body">Mostra utilizzo e impostazioni</string>
@@ -1279,7 +1279,8 @@ per l'account %s"</string>
     <string name="lockscreen_strings_sim_puk_new_pin_header_txt">Immetti il nuovo PIN</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Ripeti il nuovo PIN</string>
     <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">Il PUK deve contenere 8 cifre</string>
-    <string name="seport_strings_accessory_not_supported_txt">Accessorio non supportato</string>
+    <string name="seport_strings_accessory_not_supported_txt">Auricolare non supportato. Utilizzare un altro auricolare o visitare il sito del supporto Sony Mobile per ulteriori informazioni.</string>
     <string name="global_action_sleep">Modalità sospensione</string>
+    <string name="global_action_screenshot_txt">Scatta una screenshot</string>
     <string name="BaMmi">Blocco chiamate</string>
 </resources>

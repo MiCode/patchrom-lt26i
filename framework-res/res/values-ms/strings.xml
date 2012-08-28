@@ -171,7 +171,7 @@
     <string name="lockscreen_strings_backup_selection_sub_header_txt">Pilih cara untuk membuka kunci skrin sekiranya anda terlupa corak anda</string>
     <string name="lockscreen_strings_backup_selection_security_question_txt">Jawab soalan</string>
     <string name="lockscreen_strings_backup_selection_security_question_summary_txt">Bka knci dgn soalan keselamatan</string>
-    <string name="lockscreen_strings_backup_selection_google_account_txt">Masukkan butiran akaun Google anda</string>
+    <string name="lockscreen_strings_backup_selection_google_account_txt">Masukkn butiran akaun Google</string>
     <string name="lockscreen_strings_backup_selection_google_account_summary_txt">Buka kunci dgn butiran akaun Google anda</string>
     <string name="lockscreen_strings_backup_selection_next_txt">Berikutnya</string>
     <string name="lockscreen_strings_howtounlock_txt">Tekan %icon utk buka kunci</string>
@@ -955,7 +955,7 @@ Pilih OK untuk meneruskan, atau Batal untuk kekal di halaman ini."</string>
     <string name="capital_on">|</string>
     <string name="capital_off">〇</string>
     <string name="whichApplication">Selesaikan tindakan dgn</string>
-    <string name="alwaysUse">Gunakn scara lalai utk tindakan ini.</string>
+    <string name="alwaysUse">Gunakannya secara lalai untuk tindakan ini.</string>
     <string name="clearDefaultHintMsg">Padam bersih lalai dalam Tetapan > Aplikasi</string>
     <string name="chooseActivity">Pilih tindakan</string>
     <string name="chooseUsbActivity">Pilih aplikasi untuk peranti USB</string>
@@ -1219,7 +1219,7 @@ menggunakan %s"</string>
     <string name="action_menu_overflow_description">Lagi pilihan</string>
     <string name="storage_internal">Storan Dalaman</string>
     <string name="storage_sd_card">Kad SD</string>
-    <string name="storage_usb">Storan USB</string>
+    <string name="storage_usb">Storan USB luaran</string>
     <string name="extract_edit_menu_button">Sunting...</string>
     <string name="data_usage_warning_title">Amaran penggunaan data</string>
     <string name="data_usage_warning_body">Sentuh untuk melihat penggunaan dan tetapan</string>
@@ -1280,7 +1280,8 @@ menggunakan %s"</string>
     <string name="lockscreen_strings_sim_puk_new_pin_header_txt">Masukkan PIN baru</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Ulangi PIN baru</string>
     <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">PUK mestilah 8 digit</string>
-    <string name="seport_strings_accessory_not_supported_txt">Aksesori tidak disokong</string>
+    <string name="seport_strings_accessory_not_supported_txt">Headset tidak disokong. Gunakan headset lain atau lawati tapak sokongan Sony Mobile untuk mendapatkan maklumat lanjut.</string>
     <string name="global_action_sleep">Mod tidur</string>
+    <string name="global_action_screenshot_txt">Ambil gambar skrin</string>
     <string name="BaMmi">Sekatan panggilan</string>
 </resources>

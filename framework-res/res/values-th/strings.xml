@@ -1375,7 +1375,7 @@
     <string name="action_menu_overflow_description">ตัวเลือกเพิ่มเติม</string>
     <string name="storage_internal">ที่เก็บข้อมูลภายใน</string>
     <string name="storage_sd_card">การ์ด SD</string>
-    <string name="storage_usb">ที่เก็บข้อมูล USB</string>
+    <string name="storage_usb">ที่เก็บข้อมูล USB ภายนอก</string>
     <string name="extract_edit_menu_button">แก้ไข...</string>
     <string name="data_usage_warning_title">คำเตือนการใช้ข้อมูล</string>
     <string name="data_usage_warning_body">สัมผัสพื่อดูการใช้และการตั้งค่า</string>
@@ -1436,7 +1436,8 @@
     <string name="lockscreen_strings_sim_puk_new_pin_header_txt">ป้อน PIN ใหม่</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">ป้อน PIN ใหม่ซ้ำ</string>
     <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">PUK ต้องเป็นตัวเลข 8 ตัว</string>
-    <string name="seport_strings_accessory_not_supported_txt">ไม่สนับสนุนอุปกรณ์เสริม</string>
+    <string name="seport_strings_accessory_not_supported_txt">ไม่สนับสนุนชุดหูฟังนี้ ให้ใช้ชุดหูฟังอื่นหรือ เยี่ยมชมไซต์สนับสนุนของ Sony Mobile สำหรับข้อมูลเพิ่มเติม</string>
     <string name="global_action_sleep">โหมดพักการทำงาน</string>
+    <string name="global_action_screenshot_txt">จับภาพหน้าจอ</string>
     <string name="BaMmi">ระงับการโทร</string>
 </resources>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="VideoView_error_title">Tak dapat memutar video</string>
-    <string name="lockscreen_strings_backup_selection_security_question_summary_txt">Buka kunci dgn pertanyaan</string>
     <string name="lockscreen_strings_backup_question_2_txt">Dimana kota kelahiran Anda?</string>
     <string name="lockscreen_strings_backup_question_3_txt">Dimana tempat favorit Anda?</string>
     <string name="BaICMmi">Panggilan masuk diblokir</string>

@@ -213,5 +213,5 @@ Please try again in %d seconds."</string>
     <string name="init_strings_dialog_battery_low_msg_txt">The battery is not enough to execute initialisation. Try again after charge.</string>
     <string name="lockscreen_strings_sim_puk_locked_message_txt">Enter the PUK code from your operator</string>
     <string name="lockscreen_strings_sim_puk_locked_out_message_txt">Please contact your operator</string>
-    <string name="seport_strings_accessory_not_supported_txt">Accessory not supported</string>
+    <string name="seport_strings_accessory_not_supported_txt">Headset not supported. Use another headset or visit the Sony Mobile support site for more information.</string>
 </resources>

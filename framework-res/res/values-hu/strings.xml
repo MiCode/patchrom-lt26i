@@ -172,7 +172,7 @@
     <string name="lockscreen_strings_backup_selection_sub_header_txt">A képernyőzár-feloldás módjának kiválasztása az alakzat elfelejtése esetén</string>
     <string name="lockscreen_strings_backup_selection_security_question_txt">Kérdés megválaszolása</string>
     <string name="lockscreen_strings_backup_selection_security_question_summary_txt">Bizt. kérdéssel végezzen feloldást</string>
-    <string name="lockscreen_strings_backup_selection_google_account_txt">Google Fiók adatainak megadása</string>
+    <string name="lockscreen_strings_backup_selection_google_account_txt">Google Fiók adatai</string>
     <string name="lockscreen_strings_backup_selection_google_account_summary_txt">Google Fiókja adataival végezze el a feloldást</string>
     <string name="lockscreen_strings_backup_selection_next_txt">Tovább</string>
     <string name="lockscreen_strings_howtounlock_txt">Feloldás a következővel: %icon</string>
@@ -830,7 +830,7 @@ Próbálkozzon újból %d másodperc múlva."</string>
     <string name="lockscreen_failed_attempts_almost_at_wipe" formatted="false">A telefont %d alkalommal próbálta meg sikertelenül feloldani. %d további sikertelen próbálkozás után a rendszer visszaállítja a telefon gyári alapértelmezett beállításait, és minden felhasználói adat elvész.</string>
     <string name="lockscreen_failed_attempts_now_wiping">A telefont %d alkalommal próbálta meg sikertelenül feloldani. A rendszer visszaállítja a telefon gyári alapértelmezett beállításait.</string>
     <string name="lockscreen_too_many_failed_attempts_countdown">Próbálkozzon újból %d másodperc múlva.</string>
-    <string name="lockscreen_forgot_pattern_button_text">Elfelejtette az alakzatot?</string>
+    <string name="lockscreen_forgot_pattern_button_text">Elfelejtette a minta?</string>
     <string name="lockscreen_glogin_forgot_pattern">Fiók zárolásának feloldása</string>
     <string name="lockscreen_glogin_too_many_attempts">Túl sok sikertelen alakzatbevitel!</string>
     <string name="lockscreen_glogin_instructions">A zárolás feloldásához jelentkezzen be Google-fiókjával.</string>
@@ -953,7 +953,7 @@ A folytatáshoz válassza az OK lehetőséget; a Mégse lehetőséget választva
     <string name="capital_on">BE</string>
     <string name="capital_off">KI</string>
     <string name="whichApplication">Használandó alkalmazás:</string>
-    <string name="alwaysUse">Alapért. használandó a művelethez.</string>
+    <string name="alwaysUse">Ez legyen az alapértelmezett program ehhez a művelethez.</string>
     <string name="clearDefaultHintMsg">Az alapértelmezés törlése a Beállítások > Alkalmazások menüpontban</string>
     <string name="chooseActivity">Művelet kijelölése</string>
     <string name="chooseUsbActivity">Alkalmazás választása az USB-eszközhöz</string>
@@ -1218,7 +1218,7 @@ ehhez a fiókhoz: %s"</string>
     <string name="action_menu_overflow_description">További lehetőségek</string>
     <string name="storage_internal">Belső tároló</string>
     <string name="storage_sd_card">SD kártya</string>
-    <string name="storage_usb">USB-tár</string>
+    <string name="storage_usb">Külső USB-tár</string>
     <string name="extract_edit_menu_button">Szerkesztés...</string>
     <string name="data_usage_warning_title">Adathasználati figyelmeztetés</string>
     <string name="data_usage_warning_body">Érintse meg az adatokért</string>
@@ -1279,7 +1279,8 @@ ehhez a fiókhoz: %s"</string>
     <string name="lockscreen_strings_sim_puk_new_pin_header_txt">Új PIN-kód megadása</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Új PIN-kód ismétlése</string>
     <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">A PUK-kód 8 számjegyből áll</string>
-    <string name="seport_strings_accessory_not_supported_txt">A tartozék nem támogatott</string>
+    <string name="seport_strings_accessory_not_supported_txt">A headset nem támogatott. Használjon másik headsetet, vagy további tájékoztatásért keresse fel a Sony Mobile webhelyét.</string>
     <string name="global_action_sleep">Alvó állapot</string>
+    <string name="global_action_screenshot_txt">Képernyőfelvétel készítése</string>
     <string name="BaMmi">Hívásletiltás</string>
 </resources>

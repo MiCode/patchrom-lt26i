@@ -953,7 +953,7 @@ Vyberte OK, chcete-li pokračovat, nebo Zrušit, chcete-li na stránce zůstat."
     <string name="capital_on">|</string>
     <string name="capital_off">〇</string>
     <string name="whichApplication">Dokončit pomocí aplikace</string>
-    <string name="alwaysUse">Použít jako výchozí pro tuto akci.</string>
+    <string name="alwaysUse">Použít jako výchozí nastavení pro tuto činnost.</string>
     <string name="clearDefaultHintMsg">Vymažte výchozí hodnoty v nabídce Nastavení > Aplikace.</string>
     <string name="chooseActivity">Vyberte akci</string>
     <string name="chooseUsbActivity">Vybrat aplikaci pro zařízení USB</string>
@@ -1218,7 +1218,7 @@ pro účet %s"</string>
     <string name="action_menu_overflow_description">Další možnosti</string>
     <string name="storage_internal">Interní úložiště</string>
     <string name="storage_sd_card">Karta SD</string>
-    <string name="storage_usb">Úložiště USB</string>
+    <string name="storage_usb">Externí úložiště USB</string>
     <string name="extract_edit_menu_button">Upravit...</string>
     <string name="data_usage_warning_title">Varování pro využití dat</string>
     <string name="data_usage_warning_body">Dotykem zobraz. využití a nast.</string>
@@ -1279,7 +1279,8 @@ pro účet %s"</string>
     <string name="lockscreen_strings_sim_puk_new_pin_header_txt">Zadejte nový kód PIN.</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Zopakujte nový kód PIN.</string>
     <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">Kód PUK musí mít délku 8 číslic.</string>
-    <string name="seport_strings_accessory_not_supported_txt">Nepodporované příslušenství</string>
+    <string name="seport_strings_accessory_not_supported_txt">Náhlavní souprava není podporována. Použijte jinou náhlavní soupravu nebo vyhledejte další informace na webu podpory společnosti Sony Mobile.</string>
     <string name="global_action_sleep">Režim spánku</string>
+    <string name="global_action_screenshot_txt">Vytvořit snímek obrazovky</string>
     <string name="BaMmi">Blokování hovorů</string>
 </resources>

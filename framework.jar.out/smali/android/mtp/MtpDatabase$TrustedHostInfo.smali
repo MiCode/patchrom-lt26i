@@ -46,7 +46,7 @@
     .parameter
 
     .prologue
-    .line 1819
+    .line 1814
     iput-object p1, p0, Landroid/mtp/MtpDatabase$TrustedHostInfo;->this$0:Landroid/mtp/MtpDatabase;
 
     invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
@@ -60,7 +60,7 @@
     .parameter "x1"
 
     .prologue
-    .line 1819
+    .line 1814
     invoke-direct {p0, p1}, Landroid/mtp/MtpDatabase$TrustedHostInfo;-><init>(Landroid/mtp/MtpDatabase;)V
 
     return-void

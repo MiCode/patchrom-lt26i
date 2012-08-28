@@ -1649,10 +1649,12 @@
     .parameter "recycle"
 
     .prologue
+    .line 434
     if-eqz p7, :cond_1
 
     move-object/from16 v8, p7
 
+    .line 435
     .local v8, entry:Landroid/net/NetworkStatsHistory$Entry;
     :goto_0
     sub-long v17, p3, p1
@@ -2398,14 +2400,18 @@
 
     if-nez v24, :cond_3
 
+    .line 313
     :cond_2
     return-void
 
+    .line 280
     :cond_3
     invoke-direct/range {p0 .. p4}, Landroid/net/NetworkStatsHistory;->ensureBuckets(JJ)V
 
+    .line 283
     sub-long v8, p3, p1
 
+    .line 284
     .local v8, duration:J
     move-object/from16 v0, p0
 

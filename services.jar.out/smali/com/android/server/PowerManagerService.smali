@@ -9297,28 +9297,23 @@
 
     throw v2
 
-    .line 2597
     :cond_1
     invoke-direct {p0, p1}, Lcom/android/server/PowerManagerService;->checkRecovery(Ljava/lang/String;)V
 
     move-object v0, p1
 
-    .line 2598
     .local v0, finalReason:Ljava/lang/String;
     new-instance v1, Lcom/android/server/PowerManagerService$11;
 
     invoke-direct {v1, p0, v0}, Lcom/android/server/PowerManagerService$11;-><init>(Lcom/android/server/PowerManagerService;Ljava/lang/String;)V
 
-    .line 2607
     .local v1, runnable:Ljava/lang/Runnable;
     iget-object v2, p0, Lcom/android/server/PowerManagerService;->mHandler:Landroid/os/Handler;
 
     invoke-virtual {v2, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 2610
     monitor-enter v1
 
-    .line 2613
     :goto_0
     :try_start_0
     invoke-virtual {v1}, Ljava/lang/Object;->wait()V

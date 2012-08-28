@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="VideoView_error_title">無法播放視像</string>
     <string name="BaICMmi">禁止來電</string>
     <string name="BaOCMmi">禁止撥出電話</string>
     <string name="BaOICMmi">禁止撥出國際電話</string>

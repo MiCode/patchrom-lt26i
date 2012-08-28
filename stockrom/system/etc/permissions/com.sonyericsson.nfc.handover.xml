@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <library name="com.sonyericsson.nfc.handover"
+        file="/system/framework/com.sonyericsson.nfc.handover_impl.jar"/>
+</permissions>
+

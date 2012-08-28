@@ -953,7 +953,7 @@
     <string name="capital_on">|</string>
     <string name="capital_off">〇</string>
     <string name="whichApplication">تکمیل فعالیت با استفاده از</string>
-    <string name="alwaysUse">بطور پیش فرض برای این استفاده شود.</string>
+    <string name="alwaysUse">استفاده به صورت پیش فرض برای این عملکرد.</string>
     <string name="clearDefaultHintMsg">پاک کردن موارد پیش فرض در تنظیمات > برنامه ها.</string>
     <string name="chooseActivity">انتخاب کار</string>
     <string name="chooseUsbActivity">انتخاب برنامه برای دستگاه USB</string>
@@ -1217,7 +1217,7 @@
     <string name="action_menu_overflow_description">سایر گزینه ها</string>
     <string name="storage_internal">حافظه داخلی</string>
     <string name="storage_sd_card">کارت SD</string>
-    <string name="storage_usb">حافظه USB</string>
+    <string name="storage_usb">حافظه USB خارجی</string>
     <string name="extract_edit_menu_button">ویرایش...</string>
     <string name="data_usage_warning_title">هشدار میزان استفاده از داده</string>
     <string name="data_usage_warning_body">لمس برای مشاهده مصرف و تنظیمات</string>
@@ -1278,7 +1278,8 @@
     <string name="lockscreen_strings_sim_puk_new_pin_header_txt">پین جدید را وارد کنید</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">پین جدید را تکرار کنید</string>
     <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">PUK باید 8 رقم باشد</string>
-    <string name="seport_strings_accessory_not_supported_txt">لوازم جانبی پشتیبانی نمی شود</string>
+    <string name="seport_strings_accessory_not_supported_txt">هدست پشتیبانی نمی شود. از هدست دیگری استفاده کنید یا برای کسب اطلاعات بیشتر از سایت پشتیبانی Sony Mobile دیدن کنید.</string>
     <string name="global_action_sleep">حالت خواب</string>
+    <string name="global_action_screenshot_txt">گرفتن عکس فوری</string>
     <string name="BaMmi">محدودیت تماس</string>
 </resources>

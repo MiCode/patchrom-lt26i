@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings version="805">
+   <groups type="desktop">
+      <group>
+         <groups type="activities">
+            <group>
+               <setting key="name" runtime="true">com.kokteyl.market.Launcher</setting>
+               <setting key="package-name" runtime="true">com.turkcell.uygulamalar</setting>
+               <setting key="x" runtime="true">0</setting>
+               <setting key="y" runtime="true">1</setting>
+               <setting key="pane" runtime="true">4</setting>
+            </group>
+         </groups>
+         <groups type="activities">
+            <group>
+               <setting key="name" runtime="true">com.tikle.gncplay.SplashActivity</setting>
+               <setting key="package-name" runtime="true">com.turkcell.gncplay</setting>
+               <setting key="x" runtime="true">1</setting>
+               <setting key="y" runtime="true">1</setting>
+               <setting key="pane" runtime="true">4</setting>
+            </group>
+         </groups>
+         <groups type="activities">
+            <group>
+               <setting key="name" runtime="true">com.nimbuzz.InitScreen</setting>
+               <setting key="package-name" runtime="true">com.nimbuzz</setting>
+               <setting key="x" runtime="true">2</setting>
+               <setting key="y" runtime="true">1</setting>
+               <setting key="pane" runtime="true">4</setting>
+            </group>
+         </groups>
+         <groups type="activities">
+            <group>
+               <setting key="name" runtime="true">hr.mireo.dp.common.DpApp</setting>
+               <setting key="package-name" runtime="true">hr.mireo.dp_turkcell</setting>
+               <setting key="x" runtime="true">3</setting>
+               <setting key="y" runtime="true">1</setting>
+               <setting key="pane" runtime="true">4</setting>
+            </group>
+         </groups>
+         <groups type="activities">
+            <group>
+               <setting key="name" runtime="true">com.ttech.android.onlineislem.gui.SplashScreenActivity</setting>
+               <setting key="package-name" runtime="true">com.ttech.android.onlineislem</setting>
+               <setting key="x" runtime="true">0</setting>
+               <setting key="y" runtime="true">2</setting>
+               <setting key="pane" runtime="true">4</setting>
+            </group>
+         </groups>
+         <groups type="activities">
+            <group>
+               <setting key="name" runtime="true">com.ttech.tlife.activities.Splash</setting>
+               <setting key="package-name" runtime="true">com.ttech.activities</setting>
+               <setting key="x" runtime="true">1</setting>
+               <setting key="y" runtime="true">2</setting>
+               <setting key="pane" runtime="true">4</setting>
+            </group>
+         </groups>
+      </group>
+   </groups>
+</settings>

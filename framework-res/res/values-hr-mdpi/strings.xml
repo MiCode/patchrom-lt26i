@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="VideoView_error_title">Nemog. reprod. videozap.</string>
-    <string name="lockscreen_strings_backup_selection_security_question_summary_txt">Otklj. odgovorom na sigur. pit.</string>
     <string name="lockscreen_pattern_instructions">Nacrtajte uzorak da biste otklj.</string>
     <string name="adb_active_notification_message">Odaberite radi onemog. uklanj. pogreš. za USB.</string>
     <string name="car_mode_disable_notification_message">Odaberite da biste izašli iz načina za automob.</string>

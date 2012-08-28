@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/* Copyright (c) 2011 Sony Ericsson Mobile Communications AB.
+ * Copyright (c) 2012 Sony Mobile Communications AB.
+ * All rights, including trade secret rights, reserved.
+ */
+-->
+<settings version="1">
+    <setting key="sw_keyboard_trace" type="boolean">true</setting>
+    <setting key="sw_keyboard_trace_auto_accept" type="boolean">true</setting>
+    <setting key="use_home_key_margin" type="boolean">true</setting>
+</settings>

@@ -50988,6 +50988,7 @@
     goto :goto_0
 
     .line 4214
+    .line 4207
     .end local v0           #r:Lcom/android/server/am/ActivityRecord;
     :catchall_0
     move-exception v1

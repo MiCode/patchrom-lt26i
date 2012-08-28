@@ -1673,7 +1673,7 @@
 
     .line 377
     .local v4, notification:Landroid/app/Notification;
-    const v6, 0x10807df
+    const v6, 0x10807e3
 
     iput v6, v4, Landroid/app/Notification;->icon:I
 

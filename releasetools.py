@@ -9,13 +9,17 @@ def AddAssertions(info):
             return
     return
 
-def PatchBootImage(info):
+def AddWifiLink(info):
+    info.script.AppendExtra('symlink("data/misc/audio/wcd9310_anc.bin","system/etc/firmware/wcd9310/wcd9310_anc.bin");')
+    info.script.AppendExtra('symlink("data/misc/audio/mbhc.bin","system/etc/firmware/wcd9310/wcd9310_mbhc.bin");')
     return 
 
 def FullOTA_InstallEnd(info):
     AddAssertions(info)
+#    AddWifiLink(info)
     return
 
 def IncrementalOTA_InstallEnd(info):
     AddAssertions(info)
+#    AddWifiLink(info)
     return

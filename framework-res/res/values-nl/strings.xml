@@ -172,7 +172,7 @@
     <string name="lockscreen_strings_backup_selection_sub_header_txt">Selecteer ontgrendelmethode voor wanneer u het patroon bent vergeten</string>
     <string name="lockscreen_strings_backup_selection_security_question_txt">Vraag beantwoorden</string>
     <string name="lockscreen_strings_backup_selection_security_question_summary_txt">Scherm ontgr. met beveil.vraag</string>
-    <string name="lockscreen_strings_backup_selection_google_account_txt">Gegevens van Google-account invoeren</string>
+    <string name="lockscreen_strings_backup_selection_google_account_txt">Google-accountgeg. invoeren</string>
     <string name="lockscreen_strings_backup_selection_google_account_summary_txt">Scherm ontgr. met uw Google-account</string>
     <string name="lockscreen_strings_backup_selection_next_txt">Volgende</string>
     <string name="lockscreen_strings_howtounlock_txt">Druk op %icon voor ontgrendelen</string>
@@ -953,7 +953,7 @@ Kies OK om door te gaan of Annuleren om op de huidige pagina te blijven."</strin
     <string name="capital_on">AAN</string>
     <string name="capital_off">UIT</string>
     <string name="whichApplication">Actie voltooien met</string>
-    <string name="alwaysUse">Standaard gebruiken voor actie.</string>
+    <string name="alwaysUse">Standaard gebruiken voor deze actie.</string>
     <string name="clearDefaultHintMsg">Wis standaardinstelling in Instellingen > Apps.</string>
     <string name="chooseActivity">Een actie selecteren</string>
     <string name="chooseUsbActivity">Selecteer een toepassing voor het USB-apparaat</string>
@@ -1218,7 +1218,7 @@ voor account '%s'"</string>
     <string name="action_menu_overflow_description">Meer opties</string>
     <string name="storage_internal">Interne opslag</string>
     <string name="storage_sd_card">SD-kaart</string>
-    <string name="storage_usb">USB-opslag</string>
+    <string name="storage_usb">Externe USB-opslag</string>
     <string name="extract_edit_menu_button">Bewerken...</string>
     <string name="data_usage_warning_title">Waarschuwing datagebruik</string>
     <string name="data_usage_warning_body">Aanraken om gebruik en instellingen te bekijken</string>
@@ -1278,7 +1278,8 @@ voor account '%s'"</string>
     <string name="lockscreen_strings_sim_puk_new_pin_header_txt">Voer nieuwe PIN in</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Herhaal nieuwe PIN</string>
     <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">PUK moet 8 cijfers zijn</string>
-    <string name="seport_strings_accessory_not_supported_txt">Accessoire wordt niet ondersteund</string>
+    <string name="seport_strings_accessory_not_supported_txt">Headset niet ondersteund. Gebruik een andere headset of bezoek de ondersteuningssite van Sony Mobile voor meer informatie.</string>
     <string name="global_action_sleep">Slaapstand</string>
+    <string name="global_action_screenshot_txt">Screenshot maken</string>
     <string name="BaMmi">Oproep blokkeren</string>
 </resources>

@@ -2,7 +2,6 @@
 <resources>
     <string name="VideoView_error_title">Αδύνατη η αναπαρ. βίντεο</string>
     <string name="mmcc_illegal_me">Το κινητό δεν επιτρέπεται MM #6</string>
-    <string name="lockscreen_strings_backup_selection_security_question_summary_txt">Ξεκλειδώστε με ερώτηση ασφαλ.</string>
     <string name="BaICMmi">Φραγή εισερχόμενης κλήσης</string>
     <string name="BaOCMmi">Φραγή εξερχόμενης κλήσης</string>
     <string name="BaOICMmi">Φραγή εξερχόμενης διεθνούς κλήσης</string>
@@ -21,4 +20,5 @@
     <string name="init_strings_init_mode_exit_msg_txt">Πραγματοποιήστε έξοδο για την έναρξη του κινητού σε Κανονική κατάσταση λειτουργίας</string>
     <string name="init_strings_dialog_make_sure_title_txt">Προετοιμασία κινητού</string>
     <string name="general_dialpad_voicemail_txt">Τηλεφωνητής</string>
+    <string name="global_action_screenshot_txt">Λήψη στιγμ. οθόνης</string>
 </resources>

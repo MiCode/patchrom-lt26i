@@ -1485,7 +1485,7 @@
 
     move-result v1
 
-    if-eqz v1, :cond_1
+    if-nez v1, :cond_1
 
     iget-object v1, v0, Landroid/animation/ValueAnimator$AnimationHolder;->mPendingAnimations:Ljava/util/ArrayList;
 

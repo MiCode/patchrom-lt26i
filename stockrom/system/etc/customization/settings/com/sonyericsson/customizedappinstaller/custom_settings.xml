@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings version="805">
+   <groups type="Application">
+      <group>
+         <setting key="app-name" runtime="false">com.adobe.reader.apk</setting>
+         <setting key="deletable" runtime="false">true</setting>
+      </group>
+      <group>
+         <setting key="app-name" runtime="false">com.metago.astro.apk</setting>
+         <setting key="deletable" runtime="false">true</setting>
+      </group>
+      <group>
+         <setting key="app-name" runtime="false">com.sonyericsson.androidapp.foursquare_ext_ts3.apk</setting>
+         <setting key="deletable" runtime="false">true</setting>
+      </group>
+      <group>
+         <setting key="app-name" runtime="false">com.joelapenna.foursquared.apk</setting>
+         <setting key="deletable" runtime="false">true</setting>
+      </group>
+      <group>
+         <setting key="app-name" runtime="false">com.sonyericsson.extras.smarttags.apk</setting>
+         <setting key="deletable" runtime="false">true</setting>
+      </group>
+      <group>
+         <setting key="app-name" runtime="false">com.whatsapp.apk</setting>
+         <setting key="deletable" runtime="false">true</setting>
+      </group>
+      <group>
+         <setting key="app-name" runtime="false">com.ttech.android.onlineislem.apk</setting>
+         <setting key="deletable" runtime="false">true</setting>
+      </group>
+      <group>
+         <setting key="app-name" runtime="false">com.ttech.activities.apk</setting>
+         <setting key="deletable" runtime="false">true</setting>
+      </group>
+      <group>
+         <setting key="app-name" runtime="false">hr.mireo.dp_turkcell.apk</setting>
+         <setting key="deletable" runtime="false">true</setting>
+      </group>
+   </groups>
+</settings>

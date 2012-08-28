@@ -641,12 +641,10 @@
     .end annotation
 
     .prologue
-    .line 364
     const-string v0, "--wipe_cache"
 
     invoke-static {p0, v0}, Landroid/os/RecoverySystem;->bootCommandEx(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 365
     return-void
 .end method
 
@@ -693,15 +691,12 @@
 
     invoke-virtual/range {v0 .. v7}, Landroid/content/Context;->sendOrderedBroadcast(Landroid/content/Intent;Ljava/lang/String;Landroid/content/BroadcastReceiver;Landroid/os/Handler;ILjava/lang/String;Landroid/os/Bundle;)V
 
-    .line 354
     invoke-virtual {v8}, Landroid/os/ConditionVariable;->block()V
 
-    .line 356
     const-string v0, "--wipe_data"
 
     invoke-static {p0, v0}, Landroid/os/RecoverySystem;->bootCommandEx(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 357
     return-void
 .end method
 

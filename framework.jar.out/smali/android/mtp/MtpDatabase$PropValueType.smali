@@ -40,7 +40,7 @@
 
     const/4 v2, 0x0
 
-    .line 942
+    .line 937
     new-instance v0, Landroid/mtp/MtpDatabase$PropValueType;
 
     const-string v1, "VALUE_INT"
@@ -49,7 +49,7 @@
 
     sput-object v0, Landroid/mtp/MtpDatabase$PropValueType;->VALUE_INT:Landroid/mtp/MtpDatabase$PropValueType;
 
-    .line 943
+    .line 938
     new-instance v0, Landroid/mtp/MtpDatabase$PropValueType;
 
     const-string v1, "VALUE_STRING"
@@ -58,7 +58,7 @@
 
     sput-object v0, Landroid/mtp/MtpDatabase$PropValueType;->VALUE_STRING:Landroid/mtp/MtpDatabase$PropValueType;
 
-    .line 941
+    .line 936
     const/4 v0, 0x2
 
     new-array v0, v0, [Landroid/mtp/MtpDatabase$PropValueType;
@@ -87,7 +87,7 @@
     .end annotation
 
     .prologue
-    .line 941
+    .line 936
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -98,7 +98,7 @@
     .parameter "name"
 
     .prologue
-    .line 941
+    .line 936
     const-class v0, Landroid/mtp/MtpDatabase$PropValueType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -114,7 +114,7 @@
     .locals 1
 
     .prologue
-    .line 941
+    .line 936
     sget-object v0, Landroid/mtp/MtpDatabase$PropValueType;->$VALUES:[Landroid/mtp/MtpDatabase$PropValueType;
 
     invoke-virtual {v0}, [Landroid/mtp/MtpDatabase$PropValueType;->clone()Ljava/lang/Object;

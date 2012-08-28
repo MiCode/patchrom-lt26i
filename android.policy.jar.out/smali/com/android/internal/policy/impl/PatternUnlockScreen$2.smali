@@ -42,7 +42,7 @@
     .parameter "v"
 
     .prologue
-    .line 99
+    .line 98
     iget-object v0, p0, Lcom/android/internal/policy/impl/PatternUnlockScreen$2;->this$0:Lcom/android/internal/policy/impl/PatternUnlockScreen;
 
     #getter for: Lcom/android/internal/policy/impl/PatternUnlockScreen;->mCallback:Lcom/android/internal/policy/impl/KeyguardScreenCallback;

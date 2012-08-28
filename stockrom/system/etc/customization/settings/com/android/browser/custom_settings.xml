@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings version="805">
+   <groups type="bookmark">
+      <group id="1">
+         <setting key="title" runtime="true">Turkcell</setting>
+         <setting key="url" runtime="true">http://www.turkcell.com.tr</setting>
+      </group>
+      <group id="2">
+         <setting key="title" runtime="true">Online İşlemler</setting>
+         <setting key="url" runtime="true">http://wap.onlineislemler.turkcell.com.tr</setting>
+      </group>
+      <group id="3">
+         <setting key="title" runtime="true">Turkcell T-Market</setting>
+         <setting key="url" runtime="true">http://m.t-market.com</setting>
+      </group>
+      <group id="4">
+         <setting key="title" runtime="true">Gezenzi</setting>
+         <setting key="url" runtime="true">http://www.gezenzi.com</setting>
+      </group>
+      <group id="100">
+         <setting key="title" runtime="true">Google</setting>
+         <setting key="url" runtime="true">http://www.google.com/m?client=ms-android-sonyericsson&amp;channel=bm</setting>
+      </group>
+      <group id="101">
+         <setting key="title" runtime="true">GreenHeart info</setting>
+         <setting key="url" runtime="true">http://bm.sonymobile.com/greenheart</setting>
+      </group>
+      <group id="102">
+         <setting key="title" runtime="true">Recycle phone</setting>
+         <setting key="url" runtime="true">http://bm.sonymobile.com/recycle</setting>
+      </group>
+      <group id="103">
+         <setting key="title" runtime="true">Sony Mobile</setting>
+         <setting key="url" runtime="true">http://touch.sonymobile.com</setting>
+      </group>
+   </groups>
+</settings>

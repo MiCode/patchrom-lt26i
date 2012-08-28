@@ -172,7 +172,7 @@
     <string name="lockscreen_strings_backup_selection_sub_header_txt">Piliin kung paano i-unlock ang screen kung nakalimutan mo ang iyong pattern</string>
     <string name="lockscreen_strings_backup_selection_security_question_txt">Sagutin ang tanong</string>
     <string name="lockscreen_strings_backup_selection_security_question_summary_txt">I-unlock panseguridad na tanong</string>
-    <string name="lockscreen_strings_backup_selection_google_account_txt">Ilagay ang mga detalye sa Google account</string>
+    <string name="lockscreen_strings_backup_selection_google_account_txt">Ilagay detalye Google account</string>
     <string name="lockscreen_strings_backup_selection_google_account_summary_txt">I-unlock sa mga detalye ng Google account</string>
     <string name="lockscreen_strings_backup_selection_next_txt">Susunod</string>
     <string name="lockscreen_strings_howtounlock_txt">Pindutin %icon upang i-unlock</string>
@@ -830,7 +830,7 @@ Pakisubukang muli sa loob ng %d (na) segundo."</string>
     <string name="lockscreen_failed_attempts_almost_at_wipe" formatted="false">Mali mong tinangkang ma-unlock ang telepono nang %d (na) beses. Pagkatapos ng %d pang mga hindi matagumpay na pagtatangka, mare-reset ang telepono sa factory default at mawawala ang lahat ng data ng user.</string>
     <string name="lockscreen_failed_attempts_now_wiping">Mali mong tinangkang ma-unlock ang telepono nang %d (na) beses. Mare-reset na ang telepono sa factory default.</string>
     <string name="lockscreen_too_many_failed_attempts_countdown">Subukang muli pagkalipas ng %d (na) segundo.</string>
-    <string name="lockscreen_forgot_pattern_button_text">Nakalimutan ang pattern?</string>
+    <string name="lockscreen_forgot_pattern_button_text">Nakalimutan pattern?</string>
     <string name="lockscreen_glogin_forgot_pattern">Naka-unlock ang account</string>
     <string name="lockscreen_glogin_too_many_attempts">Masyadong maraming mga pagsubok sa pattern!</string>
     <string name="lockscreen_glogin_instructions">Upang mag-unlock, mag-sign in sa iyong Google account</string>
@@ -949,7 +949,7 @@ Bisitahin ang "<b>google.com/accounts/recovery</b></string>
     <string name="capital_on">|</string>
     <string name="capital_off">〇</string>
     <string name="whichApplication">Kumpleto pagkilos gamit</string>
-    <string name="alwaysUse">Gamitin na default pagkilos na ito.</string>
+    <string name="alwaysUse">Gamitin bilang default para sa pagkilos na ito.</string>
     <string name="clearDefaultHintMsg">I-clear ang default sa Mga Setting > Apps.</string>
     <string name="chooseActivity">Pumili ng pagkilos</string>
     <string name="chooseUsbActivity">Pumili ng application para sa aparatong USB</string>
@@ -1214,7 +1214,7 @@ para sa account na %s"</string>
     <string name="action_menu_overflow_description">Higit pang mga pagpipilian</string>
     <string name="storage_internal">Panloob na Imbakan</string>
     <string name="storage_sd_card">SD Card</string>
-    <string name="storage_usb">Imbakan na USB</string>
+    <string name="storage_usb">Panlabas na USB storage</string>
     <string name="extract_edit_menu_button">I-edit...</string>
     <string name="data_usage_warning_title">Babala sa paggamit ng data</string>
     <string name="data_usage_warning_body">Pndutin pra tngnn pggmt at sttng</string>
@@ -1274,6 +1274,7 @@ para sa account na %s"</string>
     <string name="lockscreen_strings_sim_puk_new_pin_header_txt">Ipasok ang bagong PIN</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Ulitin ang bagong PIN</string>
     <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">Dapat na 8 digit ang PUK</string>
-    <string name="seport_strings_accessory_not_supported_txt">Hindi suportado ang aksesorya</string>
+    <string name="seport_strings_accessory_not_supported_txt">Hindi sinusuportahan ang headset. Gumamit ng isa pang headset o bisitahin ang site ng suporta ng Sony Mobile para sa higit pang impormasyon.</string>
+    <string name="global_action_screenshot_txt">Kumuha ng screenshot</string>
     <string name="BaMmi">Pag-bar ng tawag</string>
 </resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings version="805">
+   <setting key="idd-upload-enabled" runtime="true">false</setting>
+   <setting key="idd-upload-available" runtime="false">false</setting>
+</settings>

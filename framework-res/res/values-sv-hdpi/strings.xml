@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="mmcc_imsi_unknown_in_hlr">SIM tillhandahålls inte MM #2</string>
     <string name="lockscreen_strings_sim_puk_attempts_remaining_txt">Återstående försök</string>
-    <string name="lockscreen_strings_backup_selection_sub_header_txt">Välj hur skärmen ska låsas upp om du glömmer ditt mönster</string>
-    <string name="lockscreen_strings_backup_selection_security_question_summary_txt">Lås upp med en säkerhetsfråga</string>
-    <string name="lockscreen_strings_backup_selection_google_account_summary_txt">Lås upp med Google-kontouppgifter</string>
     <string name="lockscreen_strings_locked_out_wrong_answer_title_txt">Felaktigt svar</string>
     <string name="lockscreen_strings_backup_question_answer_hint_txt">Svara</string>
     <string name="BaAllMmi">All samtalsblockering</string>

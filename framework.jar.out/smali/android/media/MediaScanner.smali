@@ -1544,12 +1544,12 @@
     .parameter "index"
 
     .prologue
-    .line 1505
+    .line 1506
     invoke-virtual/range {p1 .. p1}, Ljava/lang/String;->length()I
 
     move-result v15
 
-    .line 1506
+    .line 1507
     .local v15, entryLength:I
     :goto_0
     if-lez v15, :cond_0
@@ -1572,7 +1572,7 @@
 
     goto :goto_0
 
-    .line 1509
+    .line 1510
     :cond_0
     const/4 v3, 0x3
 
@@ -1580,11 +1580,11 @@
 
     const/4 v3, 0x0
 
-    .line 1576
+    .line 1577
     :goto_1
     return v3
 
-    .line 1510
+    .line 1511
     :cond_1
     invoke-virtual/range {p1 .. p1}, Ljava/lang/String;->length()I
 
@@ -1600,7 +1600,7 @@
 
     move-result-object p1
 
-    .line 1514
+    .line 1515
     :cond_2
     const/4 v3, 0x0
 
@@ -1610,7 +1610,7 @@
 
     move-result v13
 
-    .line 1515
+    .line 1516
     .local v13, ch1:C
     const/16 v3, 0x2f
 
@@ -1649,12 +1649,12 @@
     :cond_3
     const/16 v16, 0x1
 
-    .line 1518
+    .line 1519
     .local v16, fullPath:Z
     :goto_2
     if-nez v16, :cond_4
 
-    .line 1519
+    .line 1520
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -1675,15 +1675,15 @@
 
     move-result-object p1
 
-    .line 1524
+    .line 1525
     :cond_4
     const/4 v9, 0x0
 
-    .line 1527
+    .line 1528
     .local v9, bestMatch:Landroid/media/MediaScanner$FileCacheEntry;
     const/4 v10, 0x0
 
-    .line 1529
+    .line 1530
     .local v10, bestMatchLength:I
     move-object/from16 v0, p0
 
@@ -1697,7 +1697,7 @@
 
     move-result-object v17
 
-    .line 1530
+    .line 1531
     .local v17, iterator:Ljava/util/Iterator;,"Ljava/util/Iterator<Landroid/media/MediaScanner$FileCacheEntry;>;"
     :cond_5
     :goto_3
@@ -1707,20 +1707,20 @@
 
     if-eqz v3, :cond_6
 
-    .line 1531
+    .line 1532
     invoke-interface/range {v17 .. v17}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v12
 
     check-cast v12, Landroid/media/MediaScanner$FileCacheEntry;
 
-    .line 1532
+    .line 1533
     .local v12, cacheEntry:Landroid/media/MediaScanner$FileCacheEntry;
     iget-object v0, v12, Landroid/media/MediaScanner$FileCacheEntry;->mPath:Ljava/lang/String;
 
     move-object/from16 v19, v0
 
-    .line 1534
+    .line 1535
     .local v19, path:Ljava/lang/String;
     move-object/from16 v0, v19
 
@@ -1732,21 +1732,21 @@
 
     if-eqz v3, :cond_8
 
-    .line 1535
+    .line 1536
     move-object v9, v12
 
-    .line 1546
+    .line 1547
     .end local v12           #cacheEntry:Landroid/media/MediaScanner$FileCacheEntry;
     .end local v19           #path:Ljava/lang/String;
     :cond_6
     if-nez v9, :cond_9
 
-    .line 1547
+    .line 1548
     const/4 v3, 0x0
 
     goto :goto_1
 
-    .line 1515
+    .line 1516
     .end local v9           #bestMatch:Landroid/media/MediaScanner$FileCacheEntry;
     .end local v10           #bestMatchLength:I
     .end local v16           #fullPath:Z
@@ -1756,7 +1756,7 @@
 
     goto :goto_2
 
-    .line 1539
+    .line 1540
     .restart local v9       #bestMatch:Landroid/media/MediaScanner$FileCacheEntry;
     .restart local v10       #bestMatchLength:I
     .restart local v12       #cacheEntry:Landroid/media/MediaScanner$FileCacheEntry;
@@ -1774,21 +1774,21 @@
 
     move-result v18
 
-    .line 1540
+    .line 1541
     .local v18, matchLength:I
     move/from16 v0, v18
 
     if-le v0, v10, :cond_5
 
-    .line 1541
+    .line 1542
     move-object v9, v12
 
-    .line 1542
+    .line 1543
     move/from16 v10, v18
 
     goto :goto_3
 
-    .line 1552
+    .line 1553
     .end local v12           #cacheEntry:Landroid/media/MediaScanner$FileCacheEntry;
     .end local v18           #matchLength:I
     .end local v19           #path:Ljava/lang/String;
@@ -1802,7 +1802,7 @@
 
     if-nez v3, :cond_c
 
-    .line 1553
+    .line 1554
     move-object/from16 v0, p0
 
     iget-object v3, v0, Landroid/media/MediaScanner;->mMediaProvider:Landroid/content/IContentProvider;
@@ -1833,18 +1833,18 @@
 
     move-result-object v11
 
-    .line 1556
+    .line 1557
     .local v11, c:Landroid/database/Cursor;
     if-eqz v11, :cond_b
 
-    .line 1557
+    .line 1558
     invoke-interface {v11}, Landroid/database/Cursor;->moveToNext()Z
 
     move-result v3
 
     if-eqz v3, :cond_a
 
-    .line 1558
+    .line 1559
     const/4 v3, 0x0
 
     invoke-interface {v11, v3}, Landroid/database/Cursor;->getLong(I)J
@@ -1853,11 +1853,11 @@
 
     iput-wide v3, v9, Landroid/media/MediaScanner$FileCacheEntry;->mRowId:J
 
-    .line 1560
+    .line 1561
     :cond_a
     invoke-interface {v11}, Landroid/database/Cursor;->close()V
 
-    .line 1562
+    .line 1563
     :cond_b
     iget-wide v3, v9, Landroid/media/MediaScanner$FileCacheEntry;->mRowId:J
 
@@ -1867,17 +1867,17 @@
 
     if-nez v3, :cond_c
 
-    .line 1563
+    .line 1564
     const/4 v3, 0x0
 
     goto/16 :goto_1
 
-    .line 1567
+    .line 1568
     .end local v11           #c:Landroid/database/Cursor;
     :cond_c
     invoke-virtual/range {p4 .. p4}, Landroid/content/ContentValues;->clear()V
 
-    .line 1568
+    .line 1569
     const-string/jumbo v3, "play_order"
 
     invoke-static/range {p5 .. p5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1888,7 +1888,7 @@
 
     invoke-virtual {v0, v3, v4}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Integer;)V
 
-    .line 1569
+    .line 1570
     const-string v3, "audio_id"
 
     iget-wide v4, v9, Landroid/media/MediaScanner$FileCacheEntry;->mRowId:J
@@ -1901,7 +1901,7 @@
 
     invoke-virtual {v0, v3, v4}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Long;)V
 
-    .line 1570
+    .line 1571
     move-object/from16 v0, p0
 
     iget-object v3, v0, Landroid/media/MediaScanner;->mMediaProvider:Landroid/content/IContentProvider;
@@ -1914,16 +1914,16 @@
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 1576
+    .line 1577
     const/4 v3, 0x1
 
     goto/16 :goto_1
 
-    .line 1571
+    .line 1572
     :catch_0
     move-exception v14
 
-    .line 1572
+    .line 1573
     .local v14, e:Landroid/os/RemoteException;
     const-string v3, "MediaScanner"
 
@@ -1931,7 +1931,7 @@
 
     invoke-static {v3, v4, v14}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 1573
+    .line 1574
     const/4 v3, 0x0
 
     goto/16 :goto_1
@@ -2451,29 +2451,29 @@
     .parameter "path2"
 
     .prologue
-    .line 1476
+    .line 1477
     const/4 v10, 0x0
 
-    .line 1477
+    .line 1478
     .local v10, result:I
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v8
 
-    .line 1478
+    .line 1479
     .local v8, end1:I
     invoke-virtual {p2}, Ljava/lang/String;->length()I
 
     move-result v9
 
-    .line 1480
+    .line 1481
     .local v9, end2:I
     :goto_0
     if-lez v8, :cond_0
 
     if-lez v9, :cond_0
 
-    .line 1481
+    .line 1482
     const/16 v0, 0x2f
 
     add-int/lit8 v1, v8, -0x1
@@ -2482,7 +2482,7 @@
 
     move-result v11
 
-    .line 1482
+    .line 1483
     .local v11, slash1:I
     const/16 v0, 0x2f
 
@@ -2492,7 +2492,7 @@
 
     move-result v12
 
-    .line 1483
+    .line 1484
     .local v12, slash2:I
     const/16 v0, 0x5c
 
@@ -2502,7 +2502,7 @@
 
     move-result v6
 
-    .line 1484
+    .line 1485
     .local v6, backSlash1:I
     const/16 v0, 0x5c
 
@@ -2512,43 +2512,43 @@
 
     move-result v7
 
-    .line 1485
+    .line 1486
     .local v7, backSlash2:I
     if-le v11, v6, :cond_1
 
     move v2, v11
 
-    .line 1486
+    .line 1487
     .local v2, start1:I
     :goto_1
     if-le v12, v7, :cond_2
 
     move v4, v12
 
-    .line 1487
+    .line 1488
     .local v4, start2:I
     :goto_2
     if-gez v2, :cond_3
 
     const/4 v2, 0x0
 
-    .line 1488
+    .line 1489
     :goto_3
     if-gez v4, :cond_4
 
     const/4 v4, 0x0
 
-    .line 1489
+    .line 1490
     :goto_4
     sub-int v5, v8, v2
 
-    .line 1490
+    .line 1491
     .local v5, length:I
     sub-int v0, v9, v4
 
     if-eq v0, v5, :cond_5
 
-    .line 1498
+    .line 1499
     .end local v2           #start1:I
     .end local v4           #start2:I
     .end local v5           #length:I
@@ -2566,30 +2566,30 @@
     :cond_1
     move v2, v6
 
-    .line 1485
+    .line 1486
     goto :goto_1
 
     .restart local v2       #start1:I
     :cond_2
     move v4, v7
 
-    .line 1486
+    .line 1487
     goto :goto_2
 
-    .line 1487
+    .line 1488
     .restart local v4       #start2:I
     :cond_3
     add-int/lit8 v2, v2, 0x1
 
     goto :goto_3
 
-    .line 1488
+    .line 1489
     :cond_4
     add-int/lit8 v4, v4, 0x1
 
     goto :goto_4
 
-    .line 1491
+    .line 1492
     .restart local v5       #length:I
     :cond_5
     const/4 v1, 0x1
@@ -2604,16 +2604,16 @@
 
     if-eqz v0, :cond_0
 
-    .line 1492
+    .line 1493
     add-int/lit8 v10, v10, 0x1
 
-    .line 1493
+    .line 1494
     add-int/lit8 v8, v2, -0x1
 
-    .line 1494
+    .line 1495
     add-int/lit8 v9, v4, -0x1
 
-    .line 1496
+    .line 1497
     goto :goto_0
 .end method
 
@@ -3547,17 +3547,17 @@
     .parameter "values"
 
     .prologue
-    .line 1580
+    .line 1581
     const/4 v8, 0x0
 
-    .line 1582
+    .line 1583
     .local v8, reader:Ljava/io/BufferedReader;
     :try_start_0
     new-instance v7, Ljava/io/File;
 
     invoke-direct {v7, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 1583
+    .line 1584
     .local v7, f:Ljava/io/File;
     invoke-virtual {v7}, Ljava/io/File;->exists()Z
 
@@ -3565,7 +3565,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 1584
+    .line 1585
     new-instance v9, Ljava/io/BufferedReader;
 
     new-instance v0, Ljava/io/InputStreamReader;
@@ -3583,7 +3583,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_1
 
-    .line 1586
+    .line 1587
     .end local v8           #reader:Ljava/io/BufferedReader;
     .local v9, reader:Ljava/io/BufferedReader;
     :try_start_1
@@ -3591,16 +3591,16 @@
 
     move-result-object v1
 
-    .line 1587
+    .line 1588
     .local v1, line:Ljava/lang/String;
     const/4 v5, 0x0
 
-    .line 1588
+    .line 1589
     .local v5, index:I
     :goto_0
     if-eqz v1, :cond_1
 
-    .line 1590
+    .line 1591
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -3617,7 +3617,7 @@
 
     if-eq v0, v2, :cond_0
 
-    .line 1591
+    .line 1592
     invoke-virtual {p4}, Landroid/content/ContentValues;->clear()V
 
     move-object v0, p0
@@ -3628,17 +3628,17 @@
 
     move-object v4, p4
 
-    .line 1592
+    .line 1593
     invoke-direct/range {v0 .. v5}, Landroid/media/MediaScanner;->addPlayListEntry(Ljava/lang/String;Ljava/lang/String;Landroid/net/Uri;Landroid/content/ContentValues;I)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 1593
+    .line 1594
     add-int/lit8 v5, v5, 0x1
 
-    .line 1595
+    .line 1596
     :cond_0
     invoke-virtual {v9}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
     :try_end_1
@@ -3652,7 +3652,7 @@
     :cond_1
     move-object v8, v9
 
-    .line 1602
+    .line 1603
     .end local v1           #line:Ljava/lang/String;
     .end local v5           #index:I
     .end local v9           #reader:Ljava/io/BufferedReader;
@@ -3660,24 +3660,24 @@
     :cond_2
     if-eqz v8, :cond_3
 
-    .line 1603
+    .line 1604
     :try_start_2
     invoke-virtual {v8}, Ljava/io/BufferedReader;->close()V
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_0
 
-    .line 1608
+    .line 1609
     .end local v7           #f:Ljava/io/File;
     :cond_3
     :goto_1
     return-void
 
-    .line 1604
+    .line 1605
     .restart local v7       #f:Ljava/io/File;
     :catch_0
     move-exception v6
 
-    .line 1605
+    .line 1606
     .local v6, e:Ljava/io/IOException;
     const-string v0, "MediaScanner"
 
@@ -3687,13 +3687,13 @@
 
     goto :goto_1
 
-    .line 1598
+    .line 1599
     .end local v6           #e:Ljava/io/IOException;
     .end local v7           #f:Ljava/io/File;
     :catch_1
     move-exception v6
 
-    .line 1599
+    .line 1600
     .restart local v6       #e:Ljava/io/IOException;
     :goto_2
     :try_start_3
@@ -3705,10 +3705,10 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
-    .line 1602
+    .line 1603
     if-eqz v8, :cond_3
 
-    .line 1603
+    .line 1604
     :try_start_4
     invoke-virtual {v8}, Ljava/io/BufferedReader;->close()V
     :try_end_4
@@ -3716,11 +3716,11 @@
 
     goto :goto_1
 
-    .line 1604
+    .line 1605
     :catch_2
     move-exception v6
 
-    .line 1605
+    .line 1606
     const-string v0, "MediaScanner"
 
     const-string v2, "IOException in MediaScanner.processM3uPlayList()"
@@ -3729,31 +3729,31 @@
 
     goto :goto_1
 
-    .line 1601
+    .line 1602
     .end local v6           #e:Ljava/io/IOException;
     :catchall_0
     move-exception v0
 
-    .line 1602
+    .line 1603
     :goto_3
     if-eqz v8, :cond_4
 
-    .line 1603
+    .line 1604
     :try_start_5
     invoke-virtual {v8}, Ljava/io/BufferedReader;->close()V
     :try_end_5
     .catch Ljava/io/IOException; {:try_start_5 .. :try_end_5} :catch_3
 
-    .line 1606
+    .line 1607
     :cond_4
     :goto_4
     throw v0
 
-    .line 1604
+    .line 1605
     :catch_3
     move-exception v6
 
-    .line 1605
+    .line 1606
     .restart local v6       #e:Ljava/io/IOException;
     const-string v2, "MediaScanner"
 
@@ -3763,7 +3763,7 @@
 
     goto :goto_4
 
-    .line 1601
+    .line 1602
     .end local v6           #e:Ljava/io/IOException;
     .end local v8           #reader:Ljava/io/BufferedReader;
     .restart local v7       #f:Ljava/io/File;
@@ -3777,7 +3777,7 @@
     .restart local v8       #reader:Ljava/io/BufferedReader;
     goto :goto_3
 
-    .line 1598
+    .line 1599
     .end local v8           #reader:Ljava/io/BufferedReader;
     .restart local v9       #reader:Ljava/io/BufferedReader;
     :catch_4
@@ -3800,18 +3800,18 @@
     .end annotation
 
     .prologue
-    .line 1707
+    .line 1708
     move-object/from16 v0, p1
 
     iget-object v7, v0, Landroid/media/MediaScanner$FileCacheEntry;->mPath:Ljava/lang/String;
 
-    .line 1708
+    .line 1709
     .local v7, path:Ljava/lang/String;
     new-instance v12, Landroid/content/ContentValues;
 
     invoke-direct {v12}, Landroid/content/ContentValues;-><init>()V
 
-    .line 1709
+    .line 1710
     .local v12, values:Landroid/content/ContentValues;
     const/16 v13, 0x2f
 
@@ -3819,7 +3819,7 @@
 
     move-result v3
 
-    .line 1710
+    .line 1711
     .local v3, lastSlash:I
     if-gez v3, :cond_0
 
@@ -3847,13 +3847,13 @@
 
     throw v13
 
-    .line 1712
+    .line 1713
     :cond_0
     move-object/from16 v0, p1
 
     iget-wide v9, v0, Landroid/media/MediaScanner$FileCacheEntry;->mRowId:J
 
-    .line 1715
+    .line 1716
     .local v9, rowId:J
     const-string/jumbo v13, "name"
 
@@ -3861,28 +3861,28 @@
 
     move-result-object v6
 
-    .line 1716
+    .line 1717
     .local v6, name:Ljava/lang/String;
     if-nez v6, :cond_1
 
-    .line 1717
+    .line 1718
     const-string/jumbo v13, "title"
 
     invoke-virtual {v12, v13}, Landroid/content/ContentValues;->getAsString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v6
 
-    .line 1718
+    .line 1719
     if-nez v6, :cond_1
 
-    .line 1720
+    .line 1721
     const/16 v13, 0x2e
 
     invoke-virtual {v7, v13}, Ljava/lang/String;->lastIndexOf(I)I
 
     move-result v2
 
-    .line 1721
+    .line 1722
     .local v2, lastDot:I
     if-gez v2, :cond_3
 
@@ -3892,7 +3892,7 @@
 
     move-result-object v6
 
-    .line 1726
+    .line 1727
     .end local v2           #lastDot:I
     :cond_1
     :goto_0
@@ -3900,7 +3900,7 @@
 
     invoke-virtual {v12, v13, v6}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 1727
+    .line 1728
     const-string v13, "date_modified"
 
     move-object/from16 v0, p1
@@ -3913,19 +3913,19 @@
 
     invoke-virtual {v12, v13, v14}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Long;)V
 
-    .line 1729
+    .line 1730
     const-wide/16 v13, 0x0
 
     cmp-long v13, v9, v13
 
     if-nez v13, :cond_4
 
-    .line 1730
+    .line 1731
     const-string v13, "_data"
 
     invoke-virtual {v12, v13, v7}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 1731
+    .line 1732
     move-object/from16 v0, p0
 
     iget-object v13, v0, Landroid/media/MediaScanner;->mMediaProvider:Landroid/content/IContentProvider;
@@ -3938,20 +3938,20 @@
 
     move-result-object v11
 
-    .line 1732
+    .line 1733
     .local v11, uri:Landroid/net/Uri;
     invoke-static {v11}, Landroid/content/ContentUris;->parseId(Landroid/net/Uri;)J
 
     move-result-wide v9
 
-    .line 1733
+    .line 1734
     const-string/jumbo v13, "members"
 
     invoke-static {v11, v13}, Landroid/net/Uri;->withAppendedPath(Landroid/net/Uri;Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v5
 
-    .line 1743
+    .line 1744
     .local v5, membersUri:Landroid/net/Uri;
     :goto_1
     const/4 v13, 0x0
@@ -3962,36 +3962,36 @@
 
     move-result-object v8
 
-    .line 1744
+    .line 1745
     .local v8, playListDirectory:Ljava/lang/String;
     invoke-static {v7}, Landroid/media/MediaFile;->getFileType(Ljava/lang/String;)Landroid/media/MediaFile$MediaFileType;
 
     move-result-object v4
 
-    .line 1745
+    .line 1746
     .local v4, mediaFileType:Landroid/media/MediaFile$MediaFileType;
     if-nez v4, :cond_5
 
     const/4 v1, 0x0
 
-    .line 1747
+    .line 1748
     .local v1, fileType:I
     :goto_2
     const/16 v13, 0x29
 
     if-ne v1, v13, :cond_6
 
-    .line 1748
+    .line 1749
     move-object/from16 v0, p0
 
     invoke-direct {v0, v7, v8, v5, v12}, Landroid/media/MediaScanner;->processM3uPlayList(Ljava/lang/String;Ljava/lang/String;Landroid/net/Uri;Landroid/content/ContentValues;)V
 
-    .line 1754
+    .line 1755
     :cond_2
     :goto_3
     return-void
 
-    .line 1721
+    .line 1722
     .end local v1           #fileType:I
     .end local v4           #mediaFileType:Landroid/media/MediaFile$MediaFileType;
     .end local v5           #membersUri:Landroid/net/Uri;
@@ -4007,7 +4007,7 @@
 
     goto :goto_0
 
-    .line 1735
+    .line 1736
     .end local v2           #lastDot:I
     :cond_4
     move-object/from16 v0, p0
@@ -4018,7 +4018,7 @@
 
     move-result-object v11
 
-    .line 1736
+    .line 1737
     .restart local v11       #uri:Landroid/net/Uri;
     move-object/from16 v0, p0
 
@@ -4030,14 +4030,14 @@
 
     invoke-interface {v13, v11, v12, v14, v15}, Landroid/content/IContentProvider;->update(Landroid/net/Uri;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
 
-    .line 1739
+    .line 1740
     const-string/jumbo v13, "members"
 
     invoke-static {v11, v13}, Landroid/net/Uri;->withAppendedPath(Landroid/net/Uri;Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v5
 
-    .line 1740
+    .line 1741
     .restart local v5       #membersUri:Landroid/net/Uri;
     move-object/from16 v0, p0
 
@@ -4051,7 +4051,7 @@
 
     goto :goto_1
 
-    .line 1745
+    .line 1746
     .restart local v4       #mediaFileType:Landroid/media/MediaFile$MediaFileType;
     .restart local v8       #playListDirectory:Ljava/lang/String;
     :cond_5
@@ -4059,27 +4059,27 @@
 
     goto :goto_2
 
-    .line 1749
+    .line 1750
     .restart local v1       #fileType:I
     :cond_6
     const/16 v13, 0x2a
 
     if-ne v1, v13, :cond_7
 
-    .line 1750
+    .line 1751
     move-object/from16 v0, p0
 
     invoke-direct {v0, v7, v8, v5, v12}, Landroid/media/MediaScanner;->processPlsPlayList(Ljava/lang/String;Ljava/lang/String;Landroid/net/Uri;Landroid/content/ContentValues;)V
 
     goto :goto_3
 
-    .line 1751
+    .line 1752
     :cond_7
     const/16 v13, 0x2b
 
     if-ne v1, v13, :cond_2
 
-    .line 1752
+    .line 1753
     move-object/from16 v0, p0
 
     invoke-direct {v0, v7, v8, v5}, Landroid/media/MediaScanner;->processWplPlayList(Ljava/lang/String;Ljava/lang/String;Landroid/net/Uri;)V
@@ -4096,14 +4096,14 @@
     .end annotation
 
     .prologue
-    .line 1757
+    .line 1758
     iget-object v2, p0, Landroid/media/MediaScanner;->mPlayLists:Ljava/util/ArrayList;
 
     invoke-virtual {v2}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
-    .line 1758
+    .line 1759
     .local v1, iterator:Ljava/util/Iterator;,"Ljava/util/Iterator<Landroid/media/MediaScanner$FileCacheEntry;>;"
     :cond_0
     :goto_0
@@ -4113,25 +4113,25 @@
 
     if-eqz v2, :cond_1
 
-    .line 1759
+    .line 1760
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Landroid/media/MediaScanner$FileCacheEntry;
 
-    .line 1761
+    .line 1762
     .local v0, entry:Landroid/media/MediaScanner$FileCacheEntry;
     iget-boolean v2, v0, Landroid/media/MediaScanner$FileCacheEntry;->mLastModifiedChanged:Z
 
     if-eqz v2, :cond_0
 
-    .line 1762
+    .line 1763
     invoke-direct {p0, v0}, Landroid/media/MediaScanner;->processPlayList(Landroid/media/MediaScanner$FileCacheEntry;)V
 
     goto :goto_0
 
-    .line 1765
+    .line 1766
     .end local v0           #entry:Landroid/media/MediaScanner$FileCacheEntry;
     :cond_1
     return-void
@@ -4145,17 +4145,17 @@
     .parameter "values"
 
     .prologue
-    .line 1611
+    .line 1612
     const/4 v10, 0x0
 
-    .line 1613
+    .line 1614
     .local v10, reader:Ljava/io/BufferedReader;
     :try_start_0
     new-instance v8, Ljava/io/File;
 
     invoke-direct {v8, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 1614
+    .line 1615
     .local v8, f:Ljava/io/File;
     invoke-virtual {v8}, Ljava/io/File;->exists()Z
 
@@ -4163,7 +4163,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 1615
+    .line 1616
     new-instance v11, Ljava/io/BufferedReader;
 
     new-instance v0, Ljava/io/InputStreamReader;
@@ -4181,7 +4181,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_1
 
-    .line 1617
+    .line 1618
     .end local v10           #reader:Ljava/io/BufferedReader;
     .local v11, reader:Ljava/io/BufferedReader;
     :try_start_1
@@ -4189,16 +4189,16 @@
 
     move-result-object v9
 
-    .line 1618
+    .line 1619
     .local v9, line:Ljava/lang/String;
     const/4 v5, 0x0
 
-    .line 1619
+    .line 1620
     .local v5, index:I
     :goto_0
     if-eqz v9, :cond_1
 
-    .line 1621
+    .line 1622
     const-string v0, "File"
 
     invoke-virtual {v9, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
@@ -4207,21 +4207,21 @@
 
     if-eqz v0, :cond_0
 
-    .line 1622
+    .line 1623
     const/16 v0, 0x3d
 
     invoke-virtual {v9, v0}, Ljava/lang/String;->indexOf(I)I
 
     move-result v7
 
-    .line 1623
+    .line 1624
     .local v7, equals:I
     if-lez v7, :cond_0
 
-    .line 1624
+    .line 1625
     invoke-virtual/range {p4 .. p4}, Landroid/content/ContentValues;->clear()V
 
-    .line 1625
+    .line 1626
     add-int/lit8 v0, v7, 0x1
 
     invoke-virtual {v9, v0}, Ljava/lang/String;->substring(I)Ljava/lang/String;
@@ -4242,10 +4242,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 1626
+    .line 1627
     add-int/lit8 v5, v5, 0x1
 
-    .line 1629
+    .line 1630
     .end local v7           #equals:I
     :cond_0
     invoke-virtual {v11}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
@@ -4260,7 +4260,7 @@
     :cond_1
     move-object v10, v11
 
-    .line 1636
+    .line 1637
     .end local v5           #index:I
     .end local v9           #line:Ljava/lang/String;
     .end local v11           #reader:Ljava/io/BufferedReader;
@@ -4268,24 +4268,24 @@
     :cond_2
     if-eqz v10, :cond_3
 
-    .line 1637
+    .line 1638
     :try_start_2
     invoke-virtual {v10}, Ljava/io/BufferedReader;->close()V
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_0
 
-    .line 1642
+    .line 1643
     .end local v8           #f:Ljava/io/File;
     :cond_3
     :goto_1
     return-void
 
-    .line 1638
+    .line 1639
     .restart local v8       #f:Ljava/io/File;
     :catch_0
     move-exception v6
 
-    .line 1639
+    .line 1640
     .local v6, e:Ljava/io/IOException;
     const-string v0, "MediaScanner"
 
@@ -4295,13 +4295,13 @@
 
     goto :goto_1
 
-    .line 1632
+    .line 1633
     .end local v6           #e:Ljava/io/IOException;
     .end local v8           #f:Ljava/io/File;
     :catch_1
     move-exception v6
 
-    .line 1633
+    .line 1634
     .restart local v6       #e:Ljava/io/IOException;
     :goto_2
     :try_start_3
@@ -4313,10 +4313,10 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
-    .line 1636
+    .line 1637
     if-eqz v10, :cond_3
 
-    .line 1637
+    .line 1638
     :try_start_4
     invoke-virtual {v10}, Ljava/io/BufferedReader;->close()V
     :try_end_4
@@ -4324,11 +4324,11 @@
 
     goto :goto_1
 
-    .line 1638
+    .line 1639
     :catch_2
     move-exception v6
 
-    .line 1639
+    .line 1640
     const-string v0, "MediaScanner"
 
     const-string v1, "IOException in MediaScanner.processPlsPlayList()"
@@ -4337,31 +4337,31 @@
 
     goto :goto_1
 
-    .line 1635
+    .line 1636
     .end local v6           #e:Ljava/io/IOException;
     :catchall_0
     move-exception v0
 
-    .line 1636
+    .line 1637
     :goto_3
     if-eqz v10, :cond_4
 
-    .line 1637
+    .line 1638
     :try_start_5
     invoke-virtual {v10}, Ljava/io/BufferedReader;->close()V
     :try_end_5
     .catch Ljava/io/IOException; {:try_start_5 .. :try_end_5} :catch_3
 
-    .line 1640
+    .line 1641
     :cond_4
     :goto_4
     throw v0
 
-    .line 1638
+    .line 1639
     :catch_3
     move-exception v6
 
-    .line 1639
+    .line 1640
     .restart local v6       #e:Ljava/io/IOException;
     const-string v1, "MediaScanner"
 
@@ -4371,7 +4371,7 @@
 
     goto :goto_4
 
-    .line 1635
+    .line 1636
     .end local v6           #e:Ljava/io/IOException;
     .end local v10           #reader:Ljava/io/BufferedReader;
     .restart local v8       #f:Ljava/io/File;
@@ -4385,7 +4385,7 @@
     .restart local v10       #reader:Ljava/io/BufferedReader;
     goto :goto_3
 
-    .line 1632
+    .line 1633
     .end local v10           #reader:Ljava/io/BufferedReader;
     .restart local v11       #reader:Ljava/io/BufferedReader;
     :catch_4
@@ -4405,17 +4405,17 @@
     .parameter "uri"
 
     .prologue
-    .line 1684
+    .line 1685
     const/4 v2, 0x0
 
-    .line 1686
+    .line 1687
     .local v2, fis:Ljava/io/FileInputStream;
     :try_start_0
     new-instance v1, Ljava/io/File;
 
     invoke-direct {v1, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 1687
+    .line 1688
     .local v1, f:Ljava/io/File;
     invoke-virtual {v1}, Ljava/io/File;->exists()Z
 
@@ -4423,7 +4423,7 @@
 
     if-eqz v4, :cond_0
 
-    .line 1688
+    .line 1689
     new-instance v3, Ljava/io/FileInputStream;
 
     invoke-direct {v3, v1}, Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
@@ -4432,7 +4432,7 @@
     .catch Lorg/xml/sax/SAXException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_3
 
-    .line 1690
+    .line 1691
     .end local v2           #fis:Ljava/io/FileInputStream;
     .local v3, fis:Ljava/io/FileInputStream;
     :try_start_1
@@ -4458,30 +4458,30 @@
 
     move-object v2, v3
 
-    .line 1698
+    .line 1699
     .end local v3           #fis:Ljava/io/FileInputStream;
     .restart local v2       #fis:Ljava/io/FileInputStream;
     :cond_0
     if-eqz v2, :cond_1
 
-    .line 1699
+    .line 1700
     :try_start_2
     invoke-virtual {v2}, Ljava/io/FileInputStream;->close()V
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_0
 
-    .line 1704
+    .line 1705
     .end local v1           #f:Ljava/io/File;
     :cond_1
     :goto_0
     return-void
 
-    .line 1700
+    .line 1701
     .restart local v1       #f:Ljava/io/File;
     :catch_0
     move-exception v0
 
-    .line 1701
+    .line 1702
     .local v0, e:Ljava/io/IOException;
     const-string v4, "MediaScanner"
 
@@ -4491,13 +4491,13 @@
 
     goto :goto_0
 
-    .line 1692
+    .line 1693
     .end local v0           #e:Ljava/io/IOException;
     .end local v1           #f:Ljava/io/File;
     :catch_1
     move-exception v0
 
-    .line 1693
+    .line 1694
     .local v0, e:Lorg/xml/sax/SAXException;
     :goto_1
     :try_start_3
@@ -4505,10 +4505,10 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
-    .line 1698
+    .line 1699
     if-eqz v2, :cond_1
 
-    .line 1699
+    .line 1700
     :try_start_4
     invoke-virtual {v2}, Ljava/io/FileInputStream;->close()V
     :try_end_4
@@ -4516,11 +4516,11 @@
 
     goto :goto_0
 
-    .line 1700
+    .line 1701
     :catch_2
     move-exception v0
 
-    .line 1701
+    .line 1702
     .local v0, e:Ljava/io/IOException;
     const-string v4, "MediaScanner"
 
@@ -4530,12 +4530,12 @@
 
     goto :goto_0
 
-    .line 1694
+    .line 1695
     .end local v0           #e:Ljava/io/IOException;
     :catch_3
     move-exception v0
 
-    .line 1695
+    .line 1696
     .restart local v0       #e:Ljava/io/IOException;
     :goto_2
     :try_start_5
@@ -4543,10 +4543,10 @@
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_0
 
-    .line 1698
+    .line 1699
     if-eqz v2, :cond_1
 
-    .line 1699
+    .line 1700
     :try_start_6
     invoke-virtual {v2}, Ljava/io/FileInputStream;->close()V
     :try_end_6
@@ -4554,11 +4554,11 @@
 
     goto :goto_0
 
-    .line 1700
+    .line 1701
     :catch_4
     move-exception v0
 
-    .line 1701
+    .line 1702
     const-string v4, "MediaScanner"
 
     const-string v5, "IOException in MediaScanner.processWplPlayList()"
@@ -4567,31 +4567,31 @@
 
     goto :goto_0
 
-    .line 1697
+    .line 1698
     .end local v0           #e:Ljava/io/IOException;
     :catchall_0
     move-exception v4
 
-    .line 1698
+    .line 1699
     :goto_3
     if-eqz v2, :cond_2
 
-    .line 1699
+    .line 1700
     :try_start_7
     invoke-virtual {v2}, Ljava/io/FileInputStream;->close()V
     :try_end_7
     .catch Ljava/io/IOException; {:try_start_7 .. :try_end_7} :catch_5
 
-    .line 1702
+    .line 1703
     :cond_2
     :goto_4
     throw v4
 
-    .line 1700
+    .line 1701
     :catch_5
     move-exception v0
 
-    .line 1701
+    .line 1702
     .restart local v0       #e:Ljava/io/IOException;
     const-string v5, "MediaScanner"
 
@@ -4601,7 +4601,7 @@
 
     goto :goto_4
 
-    .line 1697
+    .line 1698
     .end local v0           #e:Ljava/io/IOException;
     .end local v2           #fis:Ljava/io/FileInputStream;
     .restart local v1       #f:Ljava/io/File;
@@ -4615,7 +4615,7 @@
     .restart local v2       #fis:Ljava/io/FileInputStream;
     goto :goto_3
 
-    .line 1694
+    .line 1695
     .end local v2           #fis:Ljava/io/FileInputStream;
     .restart local v3       #fis:Ljava/io/FileInputStream;
     :catch_6
@@ -4627,7 +4627,7 @@
     .restart local v2       #fis:Ljava/io/FileInputStream;
     goto :goto_2
 
-    .line 1692
+    .line 1693
     .end local v2           #fis:Ljava/io/FileInputStream;
     .restart local v3       #fis:Ljava/io/FileInputStream;
     :catch_7
@@ -4931,7 +4931,7 @@
     .locals 2
 
     .prologue
-    .line 1790
+    .line 1791
     iget-object v0, p0, Landroid/media/MediaScanner;->mContext:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
@@ -4942,10 +4942,10 @@
 
     invoke-virtual {v0, v1}, Landroid/content/ContentResolver;->releaseProvider(Landroid/content/IContentProvider;)Z
 
-    .line 1791
+    .line 1792
     invoke-direct {p0}, Landroid/media/MediaScanner;->native_finalize()V
 
-    .line 1792
+    .line 1793
     return-void
 .end method
 
@@ -4953,15 +4953,15 @@
     .locals 1
 
     .prologue
-    .line 1784
+    .line 1785
     const/4 v0, 0x0
 
     iput-object v0, p0, Landroid/media/MediaScanner;->mDrmManagerClient:Landroid/drm/DrmManagerClient;
 
-    .line 1785
+    .line 1786
     invoke-direct {p0}, Landroid/media/MediaScanner;->native_finalize()V
 
-    .line 1786
+    .line 1787
     return-void
 .end method
 
@@ -5206,12 +5206,18 @@
 
     if-nez v2, :cond_1
 
-    .line 1432
+    invoke-static {v15}, Landroid/media/MediaFile;->isDrmFileType(I)Z
+
+    move-result v2
+
+    if-nez v2, :cond_1
+
+    .line 1433
     new-instance v18, Landroid/content/ContentValues;
 
     invoke-direct/range {v18 .. v18}, Landroid/content/ContentValues;-><init>()V
 
-    .line 1433
+    .line 1434
     .local v18, values:Landroid/content/ContentValues;
     const-string v2, "_size"
 
@@ -5227,7 +5233,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Long;)V
 
-    .line 1434
+    .line 1435
     const-string v2, "date_modified"
 
     invoke-static {v5, v6}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -5238,7 +5244,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Long;)V
 
-    .line 1436
+    .line 1437
     const/4 v2, 0x1
 
     :try_start_0
@@ -5254,7 +5260,7 @@
 
     aput-object v3, v19, v2
 
-    .line 1437
+    .line 1438
     .local v19, whereArgs:[Ljava/lang/String;
     move-object/from16 v0, p0
 
@@ -5274,7 +5280,7 @@
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 1472
+    .line 1473
     .end local v18           #values:Landroid/content/ContentValues;
     .end local v19           #whereArgs:[Ljava/lang/String;
     :goto_1
@@ -5291,7 +5297,7 @@
 
     goto :goto_0
 
-    .line 1439
+    .line 1440
     .restart local v5       #lastModifiedSeconds:J
     .restart local v14       #file:Ljava/io/File;
     .restart local v15       #fileType:I
@@ -5299,7 +5305,7 @@
     :catch_0
     move-exception v12
 
-    .line 1440
+    .line 1441
     .local v12, e:Landroid/os/RemoteException;
     const-string v2, "MediaScanner"
 
@@ -5309,7 +5315,7 @@
 
     goto :goto_1
 
-    .line 1445
+    .line 1446
     .end local v12           #e:Landroid/os/RemoteException;
     .end local v18           #values:Landroid/content/ContentValues;
     :cond_1
@@ -5319,7 +5325,7 @@
 
     iput v0, v1, Landroid/media/MediaScanner;->mMtpObjectHandle:I
 
-    .line 1447
+    .line 1448
     :try_start_1
     invoke-static {v15}, Landroid/media/MediaFile;->isPlayListFileType(I)Z
 
@@ -5327,7 +5333,7 @@
 
     if-eqz v2, :cond_4
 
-    .line 1449
+    .line 1450
     const/4 v2, 0x0
 
     const/4 v3, 0x1
@@ -5336,10 +5342,10 @@
 
     invoke-direct {v0, v2, v3}, Landroid/media/MediaScanner;->prescan(Ljava/lang/String;Z)V
 
-    .line 1451
+    .line 1452
     move-object/from16 v16, p1
 
-    .line 1452
+    .line 1453
     .local v16, key:Ljava/lang/String;
     move-object/from16 v0, p0
 
@@ -5347,12 +5353,12 @@
 
     if-eqz v2, :cond_2
 
-    .line 1453
+    .line 1454
     invoke-virtual/range {p1 .. p1}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
     move-result-object v16
 
-    .line 1455
+    .line 1456
     :cond_2
     move-object/from16 v0, p0
 
@@ -5366,11 +5372,11 @@
 
     check-cast v13, Landroid/media/MediaScanner$FileCacheEntry;
 
-    .line 1456
+    .line 1457
     .local v13, entry:Landroid/media/MediaScanner$FileCacheEntry;
     if-eqz v13, :cond_3
 
-    .line 1457
+    .line 1458
     move-object/from16 v0, p0
 
     invoke-direct {v0, v13}, Landroid/media/MediaScanner;->processPlayList(Landroid/media/MediaScanner$FileCacheEntry;)V
@@ -5378,7 +5384,7 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
     .catch Landroid/os/RemoteException; {:try_start_1 .. :try_end_1} :catch_1
 
-    .line 1470
+    .line 1471
     .end local v13           #entry:Landroid/media/MediaScanner$FileCacheEntry;
     .end local v16           #key:Ljava/lang/String;
     :cond_3
@@ -5391,7 +5397,7 @@
 
     goto :goto_1
 
-    .line 1461
+    .line 1462
     :cond_4
     const/4 v2, 0x0
 
@@ -5402,7 +5408,7 @@
 
     invoke-direct {v0, v1, v2}, Landroid/media/MediaScanner;->prescan(Ljava/lang/String;Z)V
 
-    .line 1464
+    .line 1465
     move-object/from16 v0, p0
 
     iget-object v2, v0, Landroid/media/MediaScanner;->mClient:Landroid/media/MediaScanner$MyMediaScannerClient;
@@ -5439,11 +5445,11 @@
 
     goto :goto_2
 
-    .line 1467
+    .line 1468
     :catch_1
     move-exception v12
 
-    .line 1468
+    .line 1469
     .restart local v12       #e:Landroid/os/RemoteException;
     :try_start_3
     const-string v2, "MediaScanner"
@@ -5454,7 +5460,7 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
-    .line 1470
+    .line 1471
     const/4 v2, 0x0
 
     move-object/from16 v0, p0
@@ -5463,14 +5469,14 @@
 
     goto :goto_1
 
-    .line 1464
+    .line 1465
     .end local v12           #e:Landroid/os/RemoteException;
     :cond_5
     const/4 v9, 0x0
 
     goto :goto_3
 
-    .line 1470
+    .line 1471
     :catchall_0
     move-exception v2
 
