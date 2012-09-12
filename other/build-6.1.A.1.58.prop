@@ -220,3 +220,7 @@ ro.drm.active.1=playready,1
 ro.drm.active.2=dtla,1
 ro.drm.active.3=marlin_import,1
 ro.hwui.texture_cache_size=48
+
+persist.sys.haptic.down.weak=0,30,5,-5,5
+persist.sys.haptic.down.normal=0,80,5,-5,5
+persist.sys.haptic.down.strong=0,120,10,-5,5
