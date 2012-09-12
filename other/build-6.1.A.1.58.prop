@@ -219,3 +219,4 @@ ro.drm.active.0=marlin,1
 ro.drm.active.1=playready,1
 ro.drm.active.2=dtla,1
 ro.drm.active.3=marlin_import,1
+ro.hwui.texture_cache_size=48
