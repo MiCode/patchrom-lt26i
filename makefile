@@ -1,6 +1,7 @@
 #
 # Makefile for lt26i 
 #
+local-previous-target-dir := ~/workspace/ota_base/lt26i
 
 # The original zip file, MUST be specified by each product
 local-zip-file     := stockrom.zip
