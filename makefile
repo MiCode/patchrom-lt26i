@@ -10,7 +10,7 @@ local-zip-file     := stockrom.zip
 local-out-zip-file := MIUI_lt26i.zip
 
 # All apps from original ZIP, but has smali files chanded
-local-modified-apps := CustomizedSettings 
+local-modified-apps := CustomizedSettings MediaProvider
 
 local-modified-jars := 
 
