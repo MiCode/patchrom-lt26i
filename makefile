@@ -45,7 +45,7 @@ local-zip-misc:
 	touch $(ZIP_DIR)/system/app/Superuser.apk
 	#cp other/ics11.elf $(ZIP_DIR)/boot.img
 	cp other/Lt26iSettings.apk $(ZIP_DIR)/system/app/Lt26iSettings.apk
-	cp other/SvrKiller_lt26i.apk $(ZIP_DIR)/system/app/
+	cp other/SrvKiller_lt26i.apk $(ZIP_DIR)/system/app/
 	rm $(ZIP_DIR)/system/etc/product/applications/ -rf
 
 	@echo update bootanimation
