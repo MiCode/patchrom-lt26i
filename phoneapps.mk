@@ -40,6 +40,5 @@ local-phone-apps = AccessoryKeyDispatcher \
                    usbotg \
                    UsbTransportService \
                    UserDictionaryProvider \
-                   VpnDialogs \
                    WapiCustomization \
                    WapPush 
