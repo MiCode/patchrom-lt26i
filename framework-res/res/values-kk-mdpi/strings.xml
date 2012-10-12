@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="VideoView_error_title">Бейне ойнатылмайды</string>
+    <string name="lockscreen_strings_timeout_dialog_header_txt">Қате үлгі</string>
+    <string name="lockscreen_strings_locked_out_header_txt">Қате үлгі</string>
+    <string name="lockscreen_strings_locked_out_message_txt">Үлгіні 20 рет қате сыздыңыз. Қауіпсіздік сұрағы арқылы құлыпты ашыңыз.</string>
+    <string name="lockscreen_strings_backup_new_pattern_question_message_txt">Жаңа құлыпты ашу үлгісін жазу керек пе?</string>
+    <string name="BaICMmi">Кіріс қоңырауды блоктау</string>
+    <string name="BaOCMmi">Шығыс қоңырауды блоктау</string>
+    <string name="BaOICMmi">Шығыс халықаралық қоңырауды блоктау</string>
+    <string name="BaOICxHMmi">Шығыс халықаралық қоңырауды блоктау (еліңізден басқасы)</string>
+    <string name="BaICrMmi">Роуминг кезінде кіріс қоңырауды блоктау</string>
+    <string name="BaAllMmi">Қоңыраулардың барлығын блоктау</string>
+    <string name="BaMOMmi">Шығыс қоңыраулардың барлығын блоктау</string>
+    <string name="BaMTMmi">Кіріс қоңыраулардың барлығын блоктау</string>
+    <string name="badPuk">Енгізілген PUK коды дұрыс емес.</string>
+    <string name="emergency_call_dialog_number_for_display">Төтенше қызм. нөм.</string>
+    <string name="lockscreen_pattern_instructions">Құлпын ашу үшін үлгіні сал-ыз</string>
+    <string name="inputMethod">Енгізу әдісі</string>
+    <string name="adb_active_notification_message">USB арқылы жөндеудің ажыратылуын таң-з.</string>
+    <string name="init_strings_dialog_battery_low_msg_txt">Бастапқы күйге келтіру үшін батарея жеткіліксіз. Өзгерістен кейін әрекетіңізді қайталаңыз.</string>
+    <string name="dialer_keyboard_hint_txt">Теру үшін пернет. пайд.</string>
+    <string name="general_dialpad_voicemail_txt">Дау. пошт.</string>
+    <string name="global_action_sleep">Күту режимі</string>
+</resources>

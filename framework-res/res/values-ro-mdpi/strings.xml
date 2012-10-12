@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="BaICMmi">Blocare apeluri sosite</string>
+    <string name="BaOCMmi">Blocare apeluri expediate</string>
+    <string name="BaOICMmi">Blocare apeluri internaţionale expediate</string>
+    <string name="BaOICxHMmi">Blocare apeluri internaţionale expediate (exceptând ţara de reşedinţă)</string>
+    <string name="BaICrMmi">Blocare apeluri sosite la roaming</string>
+    <string name="BaAllMmi">Blocare toate apelurile</string>
+    <string name="BaMOMmi">Blocare toate apelurile expediate</string>
+    <string name="BaMTMmi">Blocare toate apelurile sosite</string>
+    <string name="invalidPin">Tastaţi PIN compus din 4 - 8 cifre.</string>
+    <string name="lockscreen_pattern_instructions">Desenaţi modelul pt. deblocare</string>
+    <string name="whichApplication">Finalizare acţiune utilizând</string>
+    <string name="adb_active_notification_message">Selectaţi pentru a dezactiva depanarea USB.</string>
+    <string name="car_mode_disable_notification_message">Selectaţi pentru a ieşi din modul Auto.</string>
+    <string name="dialer_keyboard_hint_txt">Utilizaţi tastat. pt. apel.</string>
+    <string name="general_dialpad_voicemail_txt">Poştă voc.</string>
+    <string name="global_action_sleep">Mod repaus</string>
+    <string name="global_action_screenshot_txt">Efectuare captură ecran</string>
+</resources>

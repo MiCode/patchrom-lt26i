@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="adb_active_notification_message">Auswählen, um USB-Debugging zu deaktiv.</string>
+    <string name="dialer_keyboard_hint_txt">Über Tastatur wählen</string>
+    <string name="general_dialpad_voicemail_txt">Spr.nachr.</string>
+    <string name="gui_cancel_txt">Abbrech.</string>
+    <string name="global_action_sleep">Schlafmodus</string>
+</resources>

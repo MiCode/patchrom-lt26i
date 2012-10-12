@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="BaICMmi">Ienākošo zvanu bloķēšana</string>
+    <string name="BaOCMmi">Izejošo zvanu bloķēšana</string>
+    <string name="BaOICMmi">Izejošo starptautisko zvanu bloķēšana</string>
+    <string name="BaOICxHMmi">Izejošo starptautisko zvanu bloķēšana (izņemot mītnes valsti)</string>
+    <string name="BaICrMmi">Ienākošo zvanu bloķēšana viesabonēšanas laikā</string>
+    <string name="BaAllMmi">Visu zvanu bloķēšana</string>
+    <string name="BaMOMmi">Visu izejošo zvanu bloķēšana</string>
+    <string name="BaMTMmi">Visu ienākošo zvanu bloķēšana</string>
+    <string name="whichApplication">Darb. pabeigš., izmantojot</string>
+    <string name="adb_active_notification_message">Izvēlieties, lai deaktivizētu USB atkļūdošanu.</string>
+    <string name="dialer_keyboard_hint_txt">Sastādiet nr. ar tastatūru</string>
+</resources>

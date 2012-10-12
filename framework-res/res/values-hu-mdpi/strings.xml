@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mmcc_imsi_unknown_in_hlr">A SIM-kártya nincs regisztrálva - MM #2</string>
+    <string name="mmcc_illegal_ms">A SIM-kártya nincs engedélyezve - MM #3</string>
+    <string name="mmcc_authentication_reject">A SIM-kártya nincs engedélyezve</string>
+    <string name="carrier_invalid_sim_card">Érvénytelen SIM-kártya</string>
+    <string name="unregistered_sim">Nem regisztrált SIM-kártya</string>
+    <string name="car_mode_disable_notification_message">Válassza a kilépéshez az autós üzemmódból.</string>
+    <string name="lockscreen_strings_sim_locked_out_header_txt">A SIM-kártya le van tiltva</string>
+    <string name="lockscreen_strings_sim_puk_locked_header_txt">A SIM-kártya zárolva van</string>
+    <string name="global_action_sleep">Alvó mód</string>
+    <string name="global_action_screenshot_txt">Képernyőfelv. készítése</string>
+</resources>

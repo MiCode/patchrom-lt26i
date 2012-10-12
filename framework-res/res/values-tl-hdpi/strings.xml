@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="VideoView_error_title">Hindi mai-play ang video</string>
+    <string name="lockscreen_pattern_instructions">Ipasok ang pattern upang i-unlock</string>
+    <string name="adb_active_notification_message">Piliin para huwag paganahin pag-debug ng USB.</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="BaICMmi">Ienākošo zvanu liegumi</string>
+    <string name="BaOCMmi">Izejošo zvanu liegumi</string>
+    <string name="BaOICMmi">Izejošo starptautisko zvanu liegumi</string>
+    <string name="BaOICxHMmi">Izejošo starptautisko zvanu liegumi (izņemot mītnes valsti)</string>
+    <string name="BaICrMmi">Ienākošo zvanu liegumi viesabonēšanas laikā</string>
+    <string name="BaAllMmi">Visu zvanu liegumi</string>
+    <string name="BaMOMmi">Visu izejošo zvanu liegumi</string>
+    <string name="BaMTMmi">Visu ienākošo zvanu liegumi</string>
+    <string name="whichApplication">Darb. pabeigšana, izm.</string>
+    <string name="adb_active_notification_message">Atlasiet, lai atspējotu USB atkļūdošanu.</string>
+    <string name="dialer_keyboard_hint_txt">Sastādiet nr. ar pilno tast.</string>
+</resources>

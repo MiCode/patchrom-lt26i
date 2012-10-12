@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mmcc_illegal_me">ফোনর এতে অনুমতি নেই MM #6</string>
+    <string name="lockscreen_strings_timeout_dialog_header_txt">ভুল বিন্যাস</string>
+    <string name="lockscreen_strings_locked_out_header_txt">ভুল বিন্যাস</string>
+    <string name="lockscreen_strings_locked_out_message_txt">আপনি 20 বার ভুলভাবে বিন্যাস এঁকেছেন। সুরক্ষা প্রশ্নের মাধ্যমে আনলক করুন।</string>
+    <string name="lockscreen_strings_backup_question_answer_hint_txt">উত্তর</string>
+    <string name="lockscreen_strings_backup_new_pattern_question_message_txt">একটি নতুন আনলক করার বিন্যাস রেকর্ড করতে চান?</string>
+    <string name="BaICMmi">আগত কল অবরোধ</string>
+    <string name="BaOCMmi">বহির্গামী কল অবরোধ</string>
+    <string name="BaOICMmi">বহির্গামী আন্তর্জাতিক কল অবরোধ</string>
+    <string name="BaOICxHMmi">বহির্গামী আন্তর্জাতিক কল অবরোধ (নিজের দেশ ব্যতীত)</string>
+    <string name="BaICrMmi">রোমিঙয়ের সময় আগত কল অবরোধ</string>
+    <string name="BaAllMmi">সমস্ত কল অবরোধ</string>
+    <string name="BaMOMmi">সমস্ত বহির্গামী কল অবরোধ</string>
+    <string name="BaMTMmi">সমস্ত আগত কল অবরোধ</string>
+    <string name="emergency_call_dialog_number_for_display">জরুরী নাম্বার</string>
+    <string name="init_strings_init_mode_title_summary_txt">ফোনটিকে তার প্রাথমিক প্রস্তুতাবস্থায় রিসেট করুন</string>
+    <string name="init_strings_init_mode_reset_msg_txt">ফোনর সকল তথ্য বিলোপ করে। এটি SD কার্ডে সংরক্ষিত কোন ছবি, গান অথবা অন্যান্য তথ্য বিলোপ করে না।</string>
+    <string name="init_strings_init_mode_reset_btn_txt">ফোন রিসেট করুন</string>
+    <string name="init_strings_dialog_battery_low_msg_txt">ফোন সম্পাদন করা যথেষ্ট ব্যাটারী নেই। চার্জ দেওয়ার পর পুনরায় চেষ্টা করুন।</string>
+    <string name="dialer_keyboard_hint_txt">ডায়ালের জন্য কীবোর্ড ব্যবহার</string>
+    <string name="lockscreen_strings_locked_out_wrong_answer_txt">ভুল উত্তর</string>
+    <string name="lockscreen_strings_sim_puk_locked_message_txt">আপনার প্রদানকারী দ্বারা প্রদত্ত PUK কোড প্রবিষ্ট করুন</string>
+    <string name="lockscreen_strings_sim_puk_locked_out_message_txt">অনুগ্রহ করে আপনার প্রদানকারী সাথে যোগাযোগ করুন</string>
+</resources>

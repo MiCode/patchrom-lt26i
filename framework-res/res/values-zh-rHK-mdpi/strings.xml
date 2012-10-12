@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="VideoView_error_title">無法播放影片</string>
+    <string name="BaICMmi">封鎖來電</string>
+    <string name="BaOCMmi">封鎖撥出電話</string>
+    <string name="BaOICMmi">封鎖撥出國際電話</string>
+    <string name="BaOICxHMmi">封鎖撥出國際電話(自己的國家除外)</string>
+    <string name="BaICrMmi">漫遊時將封鎖來電</string>
+    <string name="BaAllMmi">封鎖所有通話</string>
+    <string name="BaMOMmi">封鎖所有撥出的電話</string>
+    <string name="BaMTMmi">封鎖所有來電</string>
+</resources>

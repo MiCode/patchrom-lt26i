@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="VideoView_error_title">Nie można odtworz. filmu</string>
+    <string name="lockscreen_strings_backup_new_pattern_question_message_txt">Zapisać nowy wzór odblokowywania?</string>
+    <string name="dialer_keyboard_hint_txt">Wybierz nr na klawiat.</string>
+    <string name="general_dialpad_voicemail_txt">Poczta głos.</string>
+</resources>

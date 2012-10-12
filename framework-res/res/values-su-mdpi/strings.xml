@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="carrier_invalid_sim_card">Kartu SIM teu soheh</string>
+    <string name="BaICMmi">Blokir telepon asup</string>
+    <string name="BaOCMmi">Blokir telepon kaluar</string>
+    <string name="BaOICMmi">Blokir telepon mancanagara kaluar</string>
+    <string name="BaOICxHMmi">Blokir telepon mancanagara kaluar (ihwal ti nagara asal)</string>
+    <string name="BaICrMmi">Blokir telepon asup lamun keur roaming</string>
+    <string name="BaAllMmi">Kabeh blokir telepon</string>
+    <string name="BaMOMmi">Kabeh blokir telepon kaluar</string>
+    <string name="BaMTMmi">Kabeh blokir telepon asup</string>
+    <string name="whichApplication">Rengsekeun aksi nganggo</string>
+    <string name="dialer_keyboard_hint_txt">Make kibor jang mencet</string>
+    <string name="gui_ok_txt">OKEH</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="selectAll">Seleccionar tudo</string>
+    <string name="lockscreen_strings_timeout_dialog_header_txt">Trajeto incorreto</string>
+    <string name="lockscreen_strings_locked_out_header_txt">Trajeto incorreto</string>
+    <string name="lockscreen_strings_locked_out_message_txt">Desenhou o trajeto incorretamente 20 vezes. Desbloqueie através da pergunta de segurança.</string>
+    <string name="lockscreen_strings_backup_new_pattern_question_message_txt">Gravar novo trajeto de desbloqueio?</string>
+    <string name="BaICMmi">Bloqueio de chamada recebida</string>
+    <string name="BaOCMmi">Bloqueio de todas as chamadas efetuadas</string>
+    <string name="BaOICMmi">Bloqueio de todas as chamadas internacionais efetuadas</string>
+    <string name="BaOICxHMmi">Bloqueio de chamadas internacionais efetuadas (exceto país de origem)</string>
+    <string name="BaICrMmi">Bloqueio de chamada recebida em roaming</string>
+    <string name="BaAllMmi">Bloqueio de todas as chamadas</string>
+    <string name="BaMOMmi">Bloqueio de todas as chamadas efetuadas</string>
+    <string name="BaMTMmi">Bloqueio de todas as chamadas recebidas</string>
+    <string name="badPuk">O PUK introd. não está correcto.</string>
+    <string name="invalidPin">Introd um PIN com 4 a 8 núm.</string>
+    <string name="global_action_silent_mode_on_status">Som desactivado</string>
+    <string name="global_action_silent_mode_off_status">O som está activado</string>
+    <string name="global_actions_airplane_mode_on_status">O modo de voo está activado</string>
+    <string name="global_actions_airplane_mode_off_status">O modo de voo está desactivado</string>
+    <string name="lockscreen_pattern_instructions">Desenhar padrão para desbloquear</string>
+    <string name="volume_music_hint_silent_ringtone_selected">Toque silencioso seleccionado</string>
+    <string name="adb_active_notification_message">Seleccione para desactivar depuração USB.</string>
+    <string name="car_mode_disable_notification_title">Modo automóvel activado</string>
+    <string name="car_mode_disable_notification_message">Seleccionar para sair do modo automóvel.</string>
+    <string name="init_strings_init_mode_reset_btn_txt">Repor o telefone</string>
+    <string name="dialer_keyboard_hint_txt">Utilize o teclado p/ marcar</string>
+    <string name="general_dialpad_voicemail_txt">Correio de voz</string>
+    <string name="lockscreen_strings_sim_puk_locked_message_txt">Introduza cód. PUK fornecido pelo forn. de serv.</string>
+    <string name="global_action_sleep">Modo de suspensão</string>
+</resources>

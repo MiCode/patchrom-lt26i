@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="BaICMmi">Saapuvien puhelujen esto</string>
+    <string name="BaOCMmi">Lähtevien puhelujen esto</string>
+    <string name="BaOICMmi">Lähtevien ulkomaanpuhelujen esto</string>
+    <string name="BaOICxHMmi">Lähtevien ulkomaanpuhelujen esto (ei kotimaahan suuntautuvat puhelut)</string>
+    <string name="BaICrMmi">Saapuvien puhelujen esto verkkovierailussa</string>
+    <string name="BaAllMmi">Kaikkien puhelujen esto</string>
+    <string name="BaMOMmi">Kaikkien lähtevien puhelujen esto</string>
+    <string name="BaMTMmi">Kaikkien saapuvien puhelujen esto</string>
+    <string name="adb_active_notification_message">Valinta poistaa USB-virh.korjauksen käytöstä.</string>
+</resources>

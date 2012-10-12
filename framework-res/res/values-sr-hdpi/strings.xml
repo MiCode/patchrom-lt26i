@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="global_action_power_off">Isključi</string>
+    <string name="global_actions_airplane_mode_on_status">Režim letenja avionom UKLJUČEN</string>
+    <string name="global_actions_airplane_mode_off_status">Režim letenja avionom ISKLJUČEN</string>
+    <string name="adb_active_notification_message">Izaberite da biste onemog. USB otklanj. grešaka.</string>
+    <string name="car_mode_disable_notification_message">Izaberite da napustite režim rada u automobilu.</string>
+    <string name="dialer_keyboard_hint_txt">Koristi tastaturu za biranje</string>
+    <string name="general_dialpad_voicemail_txt">Govorna pošta</string>
+    <string name="lockscreen_strings_sim_puk_locked_out_message_txt">Kontaktirajte dobavljača usluge</string>
+</resources>

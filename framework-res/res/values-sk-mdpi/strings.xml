@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="VideoView_error_title">Video nie je možné prehr.</string>
+    <string name="lockscreen_strings_backup_new_pattern_question_message_txt">Nahrať nový bezpečnostný vzor?</string>
+    <string name="invalidPin">Zadajte kód PIN s 4 až 8 číslicami.</string>
+    <string name="lockscreen_pattern_instructions">Na odom. obraz. nakr. bezp. vzor.</string>
+    <string name="whichApplication">Vykon. akcie pomoc. aplik.</string>
+    <string name="dialer_keyboard_hint_txt">Vytoč. pomocou kláves.</string>
+    <string name="general_dialpad_voicemail_txt">Hlas. spr.</string>
+    <string name="lockscreen_strings_sim_puk_locked_message_txt">Zadajte kód PUK od mobilného operátora</string>
+    <string name="lockscreen_strings_sim_puk_locked_out_message_txt">Kontaktujte svojho operátora</string>
+</resources>

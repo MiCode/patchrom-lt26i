@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lockscreen_strings_backup_new_pattern_question_message_txt">Enregistrer un nouveau schéma de déverrouill.?</string>
+    <string name="BaICMmi">"Blocage d'appels entrants"</string>
+    <string name="BaICrMmi">"Blocage d'appels en itinérance"</string>
+    <string name="lockscreen_pattern_instructions">Dessinez le schéma de déverrouill.</string>
+    <string name="general_dialpad_voicemail_txt">Mesgerie vocale</string>
+    <string name="lockscreen_strings_sim_puk_locked_message_txt">Entrez la CPD fournie par votre fournisseur</string>
+    <string name="lockscreen_strings_sim_puk_locked_out_message_txt">Veuillez communiquer avec votre fournisseur</string>
+    <string name="global_action_sleep">Mode sommeil</string>
+</resources>

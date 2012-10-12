@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="carrier_invalid_sim_card">Neispravna SIM kartica</string>
+    <string name="global_actions_airplane_mode_on_status">Režim letenja avionom je UKLJUČEN</string>
+    <string name="emergency_call_dialog_number_for_display">Br. službi za hitne sl.</string>
+    <string name="adb_active_notification_message">Odaberite za onemog. USB ispravljanja pogreš.</string>
+    <string name="car_mode_disable_notification_message">Odaberite za izlazak iz načina rada u automob.</string>
+    <string name="init_strings_init_mode_reset_btn_txt">Vraćanje telefona na početne vrijednosti</string>
+    <string name="dialer_keyboard_hint_txt">Koristi tastat. za biranje</string>
+    <string name="general_dialpad_voicemail_txt">Gov. pošta</string>
+</resources>

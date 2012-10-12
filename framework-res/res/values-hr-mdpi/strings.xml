@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="VideoView_error_title">Nemog. reprod. videozap.</string>
+    <string name="lockscreen_pattern_instructions">Nacrtajte uzorak da biste otklj.</string>
+    <string name="adb_active_notification_message">Odaberite radi onemog. uklanj. pogreš. za USB.</string>
+    <string name="car_mode_disable_notification_message">Odaberite da biste izašli iz načina za automob.</string>
+    <string name="init_strings_init_mode_reset_btn_txt">"Vrati telefon u početno stanje "</string>
+    <string name="dialer_keyboard_hint_txt">Birajte broj tipkovnicom</string>
+    <string name="general_dialpad_voicemail_txt">Gov. pošta</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mmcc_authentication_reject">USIM 카드가 허용되지 않음</string>
+    <string name="unregistered_sim">등록되지 않은 USIM 카드</string>
+    <string name="BaICMmi">수신전화 차단</string>
+    <string name="BaOCMmi">발신전화 차단</string>
+    <string name="BaOICMmi">국제 발신전화 차단</string>
+    <string name="BaOICxHMmi">국제 발신전화 차단(원래 사용 국가 제외)</string>
+    <string name="BaICrMmi">로밍 시 수신전화 차단</string>
+    <string name="BaAllMmi">모든 통화 차단</string>
+    <string name="BaMOMmi">모든 발신전화 차단</string>
+    <string name="BaMTMmi">모든 수신전화 차단</string>
+    <string name="invalidPin">4~8자리 숫자의 PIN을입력하세요.</string>
+    <string name="init_strings_init_mode_reset_msg_txt">시작하면 휴대폰의 모든 정보가 삭제되지만 SD 카드에 저장된 다른 정보, 사진 또는 음악은 삭제되지 않습니다.</string>
+    <string name="dialer_keyboard_hint_txt">키보드를 사용하여 전화걸기</string>
+    <string name="lockscreen_strings_locked_out_wrong_answer_txt">잘못된 답변</string>
+    <string name="lockscreen_strings_sim_locked_out_header_txt">USIM 카드 차단됨</string>
+    <string name="lockscreen_strings_sim_puk_enter_puk_header_txt">PUK 입력</string>
+    <string name="lockscreen_strings_sim_puk_locked_header_txt">USIM 카드 잠금</string>
+    <string name="lockscreen_strings_sim_puk_locked_message_txt">서비스 공급자가 제공한 PUK 입력</string>
+    <string name="lockscreen_strings_sim_puk_new_pin_header_txt">새 PIN 입력</string>
+    <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">새 PIN 다시 입력</string>
+    <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">PUK는 8자리여야 합니다.</string>
+    <string name="seport_strings_accessory_not_supported_txt">지원되지 않는 헤드셋입니다. 다른 헤드셋을 사용하거나 Sony Mobile 지원 사이트를 방문하여 자세한 내용을 확인하세요.</string>
+</resources>

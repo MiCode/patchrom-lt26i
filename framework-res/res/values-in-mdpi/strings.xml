@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="VideoView_error_title">Tak dapat memutar video</string>
+    <string name="lockscreen_strings_backup_question_2_txt">Dimana kota kelahiran Anda?</string>
+    <string name="lockscreen_strings_backup_question_3_txt">Dimana tempat favorit Anda?</string>
+    <string name="BaICMmi">Panggilan masuk diblokir</string>
+    <string name="BaOCMmi">Panggilan keluar diblokir</string>
+    <string name="BaOICMmi">Panggilan keluar internasional diblokir</string>
+    <string name="BaOICxHMmi">Panggilan keluar internasional diblokir (kecuali negara asal)</string>
+    <string name="BaICrMmi">Panggilan masuk diblokir saat jelajah</string>
+    <string name="BaAllMmi">Semua panggilan diblokir</string>
+    <string name="BaMOMmi">Semua panggilan keluar diblokir</string>
+    <string name="BaMTMmi">Semua panggilan masuk diblokir</string>
+    <string name="lockscreen_pattern_instructions">Gambar pola untuk buka kunci</string>
+    <string name="inputMethod">Cara Input</string>
+    <string name="dialer_keyboard_hint_txt">Pggil dengan papan ketik</string>
+</resources>

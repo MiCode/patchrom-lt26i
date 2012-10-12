@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="BaICMmi">Opkaldsspærring af indgående opkald</string>
+    <string name="BaOCMmi">Opkaldsspærring af udgående opkald</string>
+    <string name="BaOICMmi">Opkaldsspærring af udgående internationalt opkald</string>
+    <string name="BaOICxHMmi">Opkaldsspærring af udgående internationalt opkald (undtaget hjemland)</string>
+    <string name="BaICrMmi">Opkaldsspærring af indgående opkald ved roaming</string>
+    <string name="BaAllMmi">Opkaldsspærring af alle opkald</string>
+    <string name="BaMOMmi">Opkaldsspærring af alle udgående opkald</string>
+    <string name="BaMTMmi">Opkaldesspærring af alle indgående opkald</string>
+    <string name="dialer_keyboard_hint_txt">Brug tastaturet til at ringe</string>
+    <string name="general_dialpad_voicemail_txt">Talemeddelelse</string>
+    <string name="global_action_sleep">Slumretilstand</string>
+</resources>

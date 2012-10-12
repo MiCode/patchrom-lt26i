@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mmcc_imsi_unknown_in_hlr">SIMカードが提供されていませんMM #2</string>
+    <string name="lockscreen_strings_backup_new_pattern_question_message_txt">新しいロック解除パターンを記録しますか?</string>
+    <string name="mmiError">接続に問題があるか、MMIコードが正しくありません。</string>
+    <string name="mmiFdnError">発信番号制限で指定された番号に対してのみ操作できます。</string>
+    <string name="invalidPin">"4～8桁のPIN番号を入力します。 "</string>
+    <string name="global_action_silent_mode_on_status">サウンドOFF</string>
+    <string name="global_action_silent_mode_off_status">サウンドON</string>
+    <string name="global_actions_airplane_mode_on_status">機内モードON</string>
+    <string name="global_actions_airplane_mode_off_status">機内モードOFF</string>
+    <string name="double_tap_toast">ヒント: ダブルタップで拡大/縮小できます。</string>
+    <string name="dialer_keyboard_hint_txt">キーボードでダイヤル</string>
+    <string name="general_dialpad_voicemail_txt">ボイスメール</string>
+    <string name="gui_cancel_txt">キャンセル</string>
+</resources>

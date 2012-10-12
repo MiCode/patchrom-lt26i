@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="BaICMmi">Saapuvien puhelujen soitonesto</string>
+    <string name="BaOCMmi">Lähtevien puhelujen soitonesto</string>
+    <string name="BaOICMmi">Lähtevien ulkomaanpuhelujen soitonesto</string>
+    <string name="BaOICxHMmi">Lähtevien ulkomaanpuhelujen soitonesto (ei kotimaahan suuntautuvat puhelut)</string>
+    <string name="BaICrMmi">Saapuvien puhelujen soitonesto verkkovierailussa</string>
+    <string name="BaAllMmi">Kaikkien soitonesto</string>
+    <string name="BaMOMmi">Kaikkien lähtevien puhelujen soitonesto</string>
+    <string name="BaMTMmi">Kaikkien saapuvien puhelujen soitonesto</string>
+    <string name="adb_active_notification_message">Valitse, jos haluat poistaa USB-virheenkorj. käyt.</string>
+</resources>

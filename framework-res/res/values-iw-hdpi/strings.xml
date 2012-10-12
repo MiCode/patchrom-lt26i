@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="invalidPin">"הקלד קוד PIN שכולל 4 עד 8 ספר'."</string>
+    <string name="adb_active_notification_title">איתור תקלות באמצעות USB מופעל</string>
+    <string name="adb_active_notification_message">בחר להפסיק איתור תקלות באמצעות USB</string>
+    <string name="dialer_keyboard_hint_txt">השתמש במקלדת כדי לחייג</string>
+</resources>

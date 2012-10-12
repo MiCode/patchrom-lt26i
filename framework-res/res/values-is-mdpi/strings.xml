@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="unregistered_sim">Óskráð SIM kort</string>
+    <string name="BaICMmi">Útilokun símtala sem berast</string>
+    <string name="BaOCMmi">Útilokun hringdra símtala</string>
+    <string name="BaOICMmi">Útilokun hringdra millilandasímtala</string>
+    <string name="BaOICxHMmi">Útilokun hringdra millilandasímtala (nema til heimalands)</string>
+    <string name="BaICrMmi">Útilokun símtala sem berast í reiki</string>
+    <string name="BaAllMmi">Útilokun allra símtala</string>
+    <string name="BaMOMmi">Útilokun allra hringdra símtala</string>
+    <string name="BaMTMmi">Útilokun allra símtala sem berast</string>
+    <string name="dialer_keyboard_hint_txt">Notaðu takka t. a. hringja</string>
+</resources>

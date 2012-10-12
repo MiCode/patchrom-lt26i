@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="VideoView_error_title">Αδύνατη η αναπαρ. βίντεο</string>
+    <string name="mmcc_illegal_me">Το κινητό δεν επιτρέπεται MM #6</string>
+    <string name="BaICMmi">Φραγή εισερχόμενης κλήσης</string>
+    <string name="BaOCMmi">Φραγή εξερχόμενης κλήσης</string>
+    <string name="BaOICMmi">Φραγή εξερχόμενης διεθνούς κλήσης</string>
+    <string name="BaOICxHMmi">Φραγή εξερχόμενης διεθνούς κλήσης (εκτός από τη χώρα σας)</string>
+    <string name="BaICrMmi">Φραγή εισερχόμενης κλήσης κατά την περιαγωγή</string>
+    <string name="BaAllMmi">Όλες οι φραγές κλήσεων</string>
+    <string name="BaMOMmi">Φραγή όλων των εξερχόμενων κλήσεων</string>
+    <string name="BaMTMmi">Φραγή όλων των εισερχόμενων κλήσεων</string>
+    <string name="policydesc_passwordRecovery">Χρήση του κωδικού πρόσβασης ανάκτησης για το ξεκλείδωμα του κινητού σας σε περίπτωση που ξεχάσετε τον κωδικό πρόσβασης</string>
+    <string name="global_actions_airplane_mode_off_status">Η λειτ. πτήσης είναι ανενεργή</string>
+    <string name="emergency_call_dialog_number_for_display">Αρ. έκτακ. ανάγκης</string>
+    <string name="adb_active_notification_message">Επιλογή για απενεργ. του εντοπ. σφαλμ.USB.</string>
+    <string name="init_strings_init_mode_title_summary_txt">Επαναφορά του κινητού στις αρχικές εργοστασιακές ρυθμίσεις</string>
+    <string name="init_strings_init_mode_reset_msg_txt">Η διαδικασία προετοιμασίας διαγράφει όλες τις πληροφορίες του κινητού. Δεν διαγράφει τυχόν φωτογραφίες, μουσική ή άλλες πληροφορίες που είναι αποθηκευμένες στην κάρτα SD.</string>
+    <string name="init_strings_init_mode_reset_btn_txt">Επαναφορά κινητού</string>
+    <string name="init_strings_init_mode_exit_msg_txt">Πραγματοποιήστε έξοδο για την έναρξη του κινητού σε Κανονική κατάσταση λειτουργίας</string>
+    <string name="init_strings_dialog_make_sure_title_txt">Προετοιμασία κινητού</string>
+    <string name="general_dialpad_voicemail_txt">Τηλεφωνητής</string>
+    <string name="global_action_screenshot_txt">Λήψη στιγμ. οθόνης</string>
+</resources>

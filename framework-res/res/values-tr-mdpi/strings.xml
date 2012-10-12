@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="BaICMmi">Gelen çağrıları engelleme</string>
+    <string name="BaOCMmi">Yapılan çağrıyı engelleme</string>
+    <string name="BaOICMmi">Yapılan uluslararası çağrıyı engelleme</string>
+    <string name="BaOICxHMmi">Yapılan uluslararası çağrıyı engelleme (kendi ülkeniz dışında)</string>
+    <string name="BaICrMmi">Serbest dolaşım sırasında gelen çağrıları engelleme</string>
+    <string name="BaAllMmi">Tüm çağrıları engelleme</string>
+    <string name="BaMOMmi">Tüm yapılan çağrıları engelleme</string>
+    <string name="BaMTMmi">Tüm gelen çağrıları engelleme</string>
+    <string name="emergency_call_dialog_number_for_display">Acil durum numarası</string>
+    <string name="adb_active_notification_message">USB hata ayıklamasını kapatmak için seçin.</string>
+    <string name="dialer_keyboard_hint_txt">Aramak için klavy. kullan</string>
+</resources>

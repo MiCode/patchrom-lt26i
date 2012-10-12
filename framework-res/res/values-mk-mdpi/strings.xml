@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="carrier_invalid_sim_card">Невалидна SIM-картичка</string>
+    <string name="lockscreen_strings_timeout_dialog_header_txt">Неисправен шаблон</string>
+    <string name="lockscreen_strings_locked_out_header_txt">Неисправен шаблон</string>
+    <string name="lockscreen_strings_locked_out_message_txt">Неисправно го нацртавте шаблонот 20 пати. Отклучете со безбедносно прашање.</string>
+    <string name="lockscreen_strings_backup_new_pattern_question_message_txt">Сними нов шаблон за отклучување?</string>
+    <string name="invalidPin">Напишете PIN што има 4 до 8 бр.</string>
+    <string name="dialer_keyboard_hint_txt">Бирајте со тастурата</string>
+    <string name="general_dialpad_voicemail_txt">Гов. пошта</string>
+    <string name="global_action_sleep">Режим на исклучув.</string>
+</resources>

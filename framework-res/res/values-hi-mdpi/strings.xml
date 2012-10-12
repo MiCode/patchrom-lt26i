@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="BaICMmi">इनकमिंग कॉल रोधित करना</string>
+    <string name="BaOCMmi">आउटगोइंग कॉल रोधित करना</string>
+    <string name="BaOICMmi">आउटगोइंग अंतर्राष्ट्रीय कॉल रोधित करना</string>
+    <string name="BaOICxHMmi">आउटगोइंग अंतर्राष्ट्रीय कॉल रोधित करना (स्वदेश को छोड़कर)</string>
+    <string name="BaICrMmi">रोमिंग में होने पर इनकमिंग कॉल रोधित करना</string>
+    <string name="BaAllMmi">सभी कॉल रोधित करना</string>
+    <string name="BaMOMmi">सभी आउटगोइंग कॉल रोधित करना</string>
+    <string name="BaMTMmi">सभी इनकमिंग कॉल रोधित करना</string>
+    <string name="emergency_call_dialog_number_for_display">आपात. नंबर</string>
+    <string name="lockscreen_strings_sim_puk_enter_puk_header_txt">Enter PUK प्रविष्ट करें</string>
+</resources>

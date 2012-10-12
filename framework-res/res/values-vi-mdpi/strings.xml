@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="global_actions_toggle_airplane_mode">Chế độ trên máy bay</string>
+    <string name="global_actions_airplane_mode_on_status">Chế độ trên máy bay BẬT</string>
+    <string name="dialer_keyboard_hint_txt">Dùng b.phím để quay số</string>
+</resources>

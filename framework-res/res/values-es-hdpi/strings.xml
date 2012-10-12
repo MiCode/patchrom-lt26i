@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="invalidPin">Escribir PIN con 4 a 8 números.</string>
+    <string name="emergency_call_dialog_number_for_display">Núm. emergencia</string>
+    <string name="dialer_keyboard_hint_txt">Usar teclado para marcar</string>
+    <string name="general_dialpad_voicemail_txt">Mensajería voz</string>
+    <string name="gui_ok_txt">Aceptar</string>
+</resources>

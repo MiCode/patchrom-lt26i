@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mmcc_imsi_unknown_in_hlr">SIM nuk është dhënë MM #2</string>
+    <string name="adb_active_notification_message">Përzgjidhni të çaktivizoni korrigjimin e USB-së.</string>
+    <string name="car_mode_disable_notification_message">Përzgjidheni për të dalë nga mënyra Në makinë.</string>
+    <string name="dialer_keyboard_hint_txt">Përd. tastier. për form. nr.</string>
+    <string name="general_dialpad_voicemail_txt">Posta zanore</string>
+    <string name="global_action_sleep">Regjimi i fjetjes</string>
+</resources>

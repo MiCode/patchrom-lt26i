@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="unregistered_sim">Óskráð SIM-kort</string>
+    <string name="BaICMmi">Lokun fyrir móttekin símtöl</string>
+    <string name="BaOCMmi">Lokun fyrir hringd símtöl</string>
+    <string name="BaOICMmi">Lokun fyrir hringd millilandasímtöl</string>
+    <string name="BaOICxHMmi">Lokun fyrir hringd millilandasímtöl (nema til heimalands)</string>
+    <string name="BaICrMmi">Lokun fyrir móttekin símtöl í reiki</string>
+    <string name="BaAllMmi">Lokun fyrir öll símtöl</string>
+    <string name="BaMOMmi">Lokun fyrir öll hringd símtöl</string>
+    <string name="BaMTMmi">Lokun fyrir öll móttekin símtöl</string>
+    <string name="dialer_keyboard_hint_txt">Notaðu takka til að hringja</string>
+</resources>

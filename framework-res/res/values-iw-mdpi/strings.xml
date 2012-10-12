@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="invalidPin">הקלד PIN שכולל 4 עד 8 ספרות.</string>
+    <string name="adb_active_notification_title">איתור באגים של USB מחובר</string>
+    <string name="adb_active_notification_message">בחר להשבית איתור באגים של USB</string>
+    <string name="dialer_keyboard_hint_txt">"השת' במק' כדי לחייג"</string>
+</resources>

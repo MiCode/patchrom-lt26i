@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="BaICMmi">Penyekatan sekatan panggilan</string>
+    <string name="BaOCMmi">Penyekatan sekatan panggilan</string>
+    <string name="BaOICMmi">Penyekatan sekatan panggilan keluar</string>
+    <string name="BaOICxHMmi">Penyekatan sekatan panggilan keluar (kecuali negara rumah)</string>
+    <string name="BaICrMmi">Penyekatan sekatan panggilan semasa merayau</string>
+    <string name="BaAllMmi">Penyekatan sekatan panggilan</string>
+    <string name="BaMOMmi">Penyekatan sekatan panggilan keluar</string>
+    <string name="BaMTMmi">Penyekatan sekatan panggilan masuk</string>
+    <string name="emergency_call_dialog_number_for_display">No. kecemasan</string>
+    <string name="lockscreen_pattern_instructions">Lukis corak untuk membuka kunci</string>
+    <string name="adb_active_notification_message">Pilih untuk melumpuhkan penyahpepijatan USB.</string>
+    <string name="dialer_keyboard_hint_txt">"Gnakn ppn k'nci utk m'dail"</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lockscreen_strings_backup_question_4_txt">"ภาพยนตร์โปรดของคุณคือ
+เรื่องอะไร?"</string>
+    <string name="BaICMmi">จำกัดการโทรเข้า</string>
+    <string name="BaOCMmi">จำกัดการโทรออก</string>
+    <string name="BaOICMmi">"จำกัดการโทรออกทางไกล
+ต่างประเทศ"</string>
+    <string name="BaOICxHMmi">"จำกัดการโทรออกทางไกล
+ต่างประเทศ (ยกเว้นประเทศบ้านเกิด)"</string>
+    <string name="BaICrMmi">"จำกัดการโทรเข้าเมื่อทำการ
+โรมมิ่ง"</string>
+    <string name="BaAllMmi">จำกัดการโทรทั้งหมด</string>
+    <string name="BaMOMmi">จำกัดการโทรออกทั้งหมด</string>
+    <string name="BaMTMmi">จำกัดการโทรเข้าทั้งหมด</string>
+    <string name="dialer_keyboard_hint_txt">ใช้แป้นพิมพ์เพื่อโทรออก</string>
+    <string name="general_dialpad_voicemail_txt">วอยซ์เมล</string>
+</resources>

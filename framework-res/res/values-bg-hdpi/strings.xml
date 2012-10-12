@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="VideoView_error_title">Възпр. видео неуспешно</string>
+    <string name="badPuk">Въведен. PUK код е неправилен.</string>
+    <string name="invalidPin">Въведете ПИН от 4 до 8 цифри.</string>
+    <string name="adb_active_notification_message">Избер. за забран. на отстран. на USB грешки.</string>
+    <string name="general_dialpad_voicemail_txt">Гласова поща</string>
+    <string name="gui_cancel_txt">Отказ</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="VideoView_error_title">Negalima paleisti vaizdo įr.</string>
+    <string name="lockscreen_pattern_instructions">Kad atrakintumėte, brėžkite komb.</string>
+    <string name="general_dialpad_voicemail_txt">Balso paštas</string>
+    <string name="global_action_screenshot_txt">Daryti moment. ekr. kopiją</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lockscreen_pattern_instructions">Debuxe o patrón para desbloquear</string>
+    <string name="adb_active_notification_message">Seleccione para desactivar a depuración de USB.</string>
+    <string name="init_strings_init_mode_title_summary_txt">Reiniciar o teléfono ao estado de fábrica inicial</string>
+    <string name="init_strings_init_mode_reset_btn_txt">Reiniciar o teléfono</string>
+    <string name="dialer_keyboard_hint_txt">Use o teclado para marcar</string>
+    <string name="general_dialpad_voicemail_txt">Correo de voz</string>
+    <string name="global_action_screenshot_txt">Tomar captura de pantalla</string>
+</resources>

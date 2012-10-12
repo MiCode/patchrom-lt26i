@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="VideoView_error_title">無法播放視像</string>
+    <string name="BaICMmi">禁止來電</string>
+    <string name="BaOCMmi">禁止撥出電話</string>
+    <string name="BaOICMmi">禁止撥出國際電話</string>
+    <string name="BaOICxHMmi">禁止撥出國際電話(自己的國家除外)</string>
+    <string name="BaICrMmi">漫遊時將禁止來電</string>
+    <string name="BaAllMmi">禁止所有通話</string>
+    <string name="BaMOMmi">禁止所有撥出的電話</string>
+    <string name="BaMTMmi">禁止所有來電</string>
+</resources>

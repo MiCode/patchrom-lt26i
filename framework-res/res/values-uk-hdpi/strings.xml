@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lockscreen_pattern_instructions">Створити шаблон розблокування</string>
+    <string name="car_mode_disable_notification_message">Виберіть, щоб вийти з режиму автомобіля.</string>
+    <string name="general_dialpad_voicemail_txt">Голосова пошта</string>
+</resources>
