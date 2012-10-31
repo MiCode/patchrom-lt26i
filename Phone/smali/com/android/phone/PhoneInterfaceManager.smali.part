@@ -1,3 +1,11 @@
+.method static synthetic access$200(Lcom/android/phone/PhoneInterfaceManager;Ljava/lang/String;)V
+    .locals 0
+
+    invoke-direct {p0, p1}, Lcom/android/phone/PhoneInterfaceManager;->log(Ljava/lang/String;)V
+
+    return-void
+.end method
+
 .method public goDataDormant()V
     .locals 1
 
