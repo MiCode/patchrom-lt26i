@@ -25,7 +25,7 @@ fastboot flash system system.img >nul
 :flash_boot
 echo.
 echo Ë¢Èë boot(ics16.ief) ...
-fastboot flash boot ics16.elf >nul
+fastboot flash boot boot.img >nul
 
 :flash_done
 echo.
